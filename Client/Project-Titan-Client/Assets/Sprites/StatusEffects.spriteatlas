@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StatusEffects
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 1
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 1
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: af7d0800692abd945b63cab10996b35b, type: 3}
+    totalSpriteSurfaceArea: 7600
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 5f94af20d4e051c4a927ec6c80098cd7, type: 3}
+  - {fileID: 21300000, guid: 3540a39110d377a42b75fc851a2032a3, type: 3}
+  - {fileID: 21300000, guid: d44b4f4268ee4a345b0246a812865029, type: 3}
+  - {fileID: 21300000, guid: 3721d472a89fb6e45b762df7ea2225e6, type: 3}
+  - {fileID: 21300000, guid: a6c317b4dbc3601488228f44f98ba99c, type: 3}
+  - {fileID: 21300000, guid: f5bfa735cbc6e49449f2071f32ed1bb6, type: 3}
+  - {fileID: 21300000, guid: 58fbbe65eb3b5654f8e0d92201e09e40, type: 3}
+  - {fileID: 21300000, guid: 332835f710e9bba43a1b0d42913acfeb, type: 3}
+  - {fileID: 21300000, guid: 4d8828392249b4743b570b18c36d7d95, type: 3}
+  - {fileID: 21300000, guid: 36bd06ba74d268146af402807f78c22b, type: 3}
+  - {fileID: 21300000, guid: 4866acea502a4ef478fac7bc127e300d, type: 3}
+  - {fileID: 21300000, guid: 49f9829bc470594418d16edda661d937, type: 3}
+  - {fileID: 21300000, guid: e6e01debde9d10d4ea9e0ce434161613, type: 3}
+  - {fileID: 21300000, guid: 16f20bdd03054474b9e11a438c07572d, type: 3}
+  - {fileID: 21300000, guid: ddc5532e90e799e46a1e575c42891289, type: 3}
+  - {fileID: 21300000, guid: 8111446edb068ff4f9027a99c474661e, type: 3}
+  - {fileID: 21300000, guid: 7585c49ecdeca7142b81d07c455e1c00, type: 3}
+  - {fileID: 21300000, guid: 2b24c60f9baa60a4984609cd3b0428d3, type: 3}
+  - {fileID: 21300000, guid: ac2b96df12d578c4d9e7e13455e80b24, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Speedy
+  - Damaging
+  - InactiveDownvote
+  - Dashing
+  - Invulnerable
+  - Sick
+  - Slowed
+  - Fervent
+  - SpeedBonus
+  - Mundane
+  - Healing
+  - Grounded
+  - InactiveUpvote
+  - DefenseBonus
+  - Reach
+  - AttackBonus
+  - Fortified
+  - Charmed
+  - VigorBonus
+  m_Tag: StatusEffects
+  m_IsVariant: 0

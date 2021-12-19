@@ -1,0 +1,501 @@
+﻿<Objects>
+  <Object id="0x1" name="Ranger">
+    <Type>Character</Type>
+
+    <Slots>Bow, LightArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x140</DefaultItems>
+
+    <Description>The Ranger is a far range class that uses a bow and medium armor as her equipment. When the Ranger activates his ability she calls down a rain of arrows in the area targeted.</Description>
+    
+    <Texture>
+      <Type>Character</Type>
+      <Set>Ranger</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>60</Base>
+      <Max>500</Max>
+      <Increase>20,20,30,30,30,30,30,30,30,30,30,30</Increase>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,3,2,3,2,2,3,2,2,3,2,2</Increase>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>25</Max>
+      <Increase>0,1,0,0,1,0,0,1,0,0,1,0</Increase>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,2,3,2,2,3,2,2,3,2,2,3</Increase>
+    </Stat>
+    
+    <Sfx type="shoot">bow-1</Sfx>
+  </Object>
+  
+  <Object id="0x2" name="Warrior">
+    <Type>Character</Type>
+
+    <Slots>Sword, HeavyArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x100</DefaultItems>
+    
+    <Description>The Warrior is a close range class that uses a sword and heavy armor as his equipment. When the Warrior activates his ability his attacks allow him to heal himself and players near him.</Description>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Warrior</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>60</Base>
+      <Max>550</Max>
+      <Increase>30,30,30,30,30,30,30,30,40,40,30,40</Increase>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>30</Max>
+      <Increase>0,1,0,0,1,0,0,1,0,0,1,0</Increase>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,2,3,3,2,3,3,2,2,2,2,2</Increase>
+    </Stat>
+
+    <Sfx type="shoot">sword-1</Sfx>
+  </Object>
+
+  <Object id="0x3" name="Commander">
+    <Type>Character</Type>
+
+    <Slots>Claymore, HeavyArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x120</DefaultItems>
+
+    <Description>The Commander is a very close range class that uses a claymore and heavy armor as his equipment. When the Commander activates his ability he'll gain Fortitude, Reach and also give players near him Reach which increases the range weapons have.</Description>
+
+    <ClassRequirement class="Warrior">1</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Commander</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>60</Base>
+      <Max>600</Max>
+      <Increase>40,30,40,40,30,40,40,30,40,40,30,40</Increase>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>30</Max>
+      <Increase>0,1,0,0,1,0,0,1,0,0,1,0</Increase>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+
+    <Sfx type="shoot">claymore-1</Sfx>
+  </Object>
+
+  <Object id="0x4" name="Lancer">
+    <Type>Character</Type>
+
+    <Slots>Spear, LightArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x160</DefaultItems>
+
+    <Description>The Lancer is a medium range class that uses a lance and medium armor as his equipment. When the Lancer holds down his ability he will rapidly fire out low range lances in any direction he choses that will damage and pierce targets.</Description>
+
+    <ClassRequirement class="Ranger">1</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Lancer</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>60</Base>
+      <Max>500</Max>
+      <Increase>20,20,30,30,30,30,30,30,30,30,30,30</Increase>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,3,2,3,2,2,3,2,2,3,2,2</Increase>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>25</Max>
+      <Increase>0,1,0,0,1,0,0,1,0,0,1,0</Increase>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,2,3,2,2,3,2,2,3,2,2,3</Increase>
+    </Stat>
+
+    <Sfx type="shoot">sword-1</Sfx>
+  </Object>
+
+  <Object id="0x5" name="Alchemist">
+    <Type>Character</Type>
+
+    <Slots>Elixir, Robe, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x180</DefaultItems>
+
+    <Description>The Alchemist is a long range class that uses a elixir and light armor as her equipment. When the Alchemist activates her ability she throws a potion in a targeted area that leaves a purple puddle on the floor. Players who stand in puddle gain increased damage, enemies who stand in the puddle will take repeated damage.</Description>
+
+    <ClassRequirement class="Warrior">1</ClassRequirement>
+    <ClassRequirement class="Ranger">1</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Alchemist</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>60</Base>
+      <Max>500</Max>
+      <Increase>20,20,30,30,30,30,30,30,30,30,30,30</Increase>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,3,2,3,2,2,3,2,2,3,2,2</Increase>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,2,3,2,2,3,2,2,3,2,2,3</Increase>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>25</Max>
+      <Increase>0,1,0,0,1,0,0,1,0,0,1,0</Increase>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+
+    <Sfx type="shoot">throw</Sfx>
+  </Object>
+
+  <Object id="0x6" name="Berserker">
+    <Type>Character</Type>
+
+    <Slots>Claymore, HeavyArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x120</DefaultItems>
+
+    <Description>The Berserker is a very close range class that uses a claymore and heavy armor as his equipment. When the Berserker activates his ability he will slow enemies near him and also give himself and players near him Feverent, which is increased attack speed.</Description>
+    
+    <ClassRequirement class="Warrior">2</ClassRequirement>
+    <ClassRequirement class="Commander">1</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Berserker</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>60</Base>
+      <Max>600</Max>
+      <Increase>40,30,40,40,30,40,40,30,40,40,30,40</Increase>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>30</Max>
+      <Increase>0,1,0,0,1,0,0,1,0,0,1,0</Increase>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+
+    <Sfx type="shoot">claymore-1</Sfx>
+  </Object>
+
+  <Object id="0x7" name="Nomad">
+    <Type>Character</Type>
+
+    <Slots>Bow, LightArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x140</DefaultItems>
+
+    <Description>The Nomad is a far range class that uses a bow and medium armor as his equipment. When the Nomad activates his ability he throws a rune in a targeted area. When the Nomad or players walk over the rune they will receive a heal and healing over time effect, that is one use.</Description>
+
+    <ClassRequirement class="Ranger">2</ClassRequirement>
+    <ClassRequirement class="Lancer">1</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Nomad</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>60</Base>
+      <Max>500</Max>
+      <Increase>20,20,30,30,30,30,30,30,30,30,30,30</Increase>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,3,2,3,2,2,3,2,2,3,2,2</Increase>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>25</Max>
+      <Increase>0,1,0,0,1,0,0,1,0,0,1,0</Increase>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,2,3,2,2,3,2,2,3,2,2,3</Increase>
+    </Stat>
+    
+    <Sfx type="shoot">bow-1</Sfx>
+  </Object>
+
+  <Object id="0x8" name="Bladeweaver">
+    <Type>Character</Type>
+
+    <Slots>Sword, Robe, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x100</DefaultItems>
+
+    <Description>The Bladeweaver is a close range class that uses a sword and light armor as his equipment. When the Bladeweaver activates his ability he will dash at the aimed position. During the dash the Bladeweaver is invulnerable.</Description>
+
+    <ClassRequirement class="Warrior">3</ClassRequirement>
+    <ClassRequirement class="Alchemist">2</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Bladeweaver</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>60</Base>
+      <Max>550</Max>
+      <Increase>30,30,30,30,30,30,30,30,40,40,30,40</Increase>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>30</Max>
+      <Increase>0,1,0,0,1,0,0,1,0,0,1,0</Increase>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,2,3,3,2,3,3,2,2,2,2,2</Increase>
+    </Stat>
+
+    <Sfx type="shoot">sword-1</Sfx>
+  </Object>
+
+  <Object id="0x9" name="Minister">
+    <Type>Character</Type>
+
+    <Slots>Spear, Robe, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x160</DefaultItems>
+
+    <Description>The Minister is a medium range class that uses a lancer and light armor as his equipment. When the Minister activates his ability he summons a pylon that will heal any players near it in intervals.</Description>
+
+    <ClassRequirement class="Alchemist">1</ClassRequirement>
+    <ClassRequirement class="Lancer">2</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Minister</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>60</Base>
+      <Max>500</Max>
+      <Increase>20,20,30,30,30,30,30,30,30,30,30,30</Increase>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,3,2,3,2,2,3,2,2,3,2,2</Increase>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>25</Max>
+      <Increase>0,1,0,0,1,0,0,1,0,0,1,0</Increase>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,2,3,2,2,3,2,2,3,2,2,3</Increase>
+    </Stat>
+
+    <Sfx type="shoot">sword-1</Sfx>
+  </Object>
+
+  <Object id="0xa" name="Brewer">
+    <Type>Character</Type>
+
+    <Slots>Elixir, Robe, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x180</DefaultItems>
+
+    <Description>The Brewer is a long range class that uses a elixir and light armor as his equipment. When the Brewer activates his ability he can choose between increased health regen or increased fire rate. He can switch between the abilities by tapping the ability and use it by holding the ability down.</Description>
+
+    <ClassRequirement class="Minister">2</ClassRequirement>
+    <ClassRequirement class="Alchemist">3</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Brewer</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>60</Base>
+      <Max>500</Max>
+      <Increase>20,20,30,30,30,30,30,30,30,30,30,30</Increase>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,3,2,3,2,2,3,2,2,3,2,2</Increase>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,2,3,2,2,3,2,2,3,2,2,3</Increase>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>25</Max>
+      <Increase>0,1,0,0,1,0,0,1,0,0,1,0</Increase>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+
+    <Sfx type="shoot">throw</Sfx>
+  </Object>
+
+  <Object id="0xb" name="Sharpshooter">
+    <Type>Character</Type>
+
+    <Slots>Crossbow, LightArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x260</DefaultItems>
+
+    <Description></Description>
+
+    <ClassRequirement class="Berserker">2</ClassRequirement>
+    <ClassRequirement class="Nomad">2</ClassRequirement>
+
+    <NotPlayable/>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Sharpshooter</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>60</Base>
+      <Max>500</Max>
+      <Increase>20,20,30,30,30,30,30,30,30,30,30,30</Increase>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,3,2,3,2,2,3,2,2,3,2,2</Increase>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>3,2,3,2,2,3,2,2,3,2,2,3</Increase>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>25</Max>
+      <Increase>0,1,0,0,1,0,0,1,0,0,1,0</Increase>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>70</Max>
+      <Increase>2,2,2,2,2,2,2,2,2,2,2,2</Increase>
+    </Stat>
+
+    <Sfx type="shoot">bow-1</Sfx>
+  </Object>
+</Objects>

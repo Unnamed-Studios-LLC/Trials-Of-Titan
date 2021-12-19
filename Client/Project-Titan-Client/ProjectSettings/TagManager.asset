@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GameView
+  - Joysticks
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Oblique
+  - Perspective
+  - Minimap
+  - MapEditorObject
+  - Alert
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Tilemap
+    uniqueID: 3399187851
+    locked: 0
+  - name: Tilemap Blend
+    uniqueID: 3324191667
+    locked: 0
+  - name: GroundObjects
+    uniqueID: 4108308425
+    locked: 0
+  - name: Shadows
+    uniqueID: 1208765993
+    locked: 0
+  - name: GroundText
+    uniqueID: 435318147
+    locked: 0
+  - name: 3D
+    uniqueID: 490754029
+    locked: 0
+  - name: Player
+    uniqueID: 2480086471
+    locked: 0
+  - name: Projectiles
+    uniqueID: 677871271
+    locked: 0
+  - name: StatusEffects
+    uniqueID: 64503215
+    locked: 0
+  - name: Particles
+    uniqueID: 4041908031
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Alerts
+    uniqueID: 4168428355
+    locked: 0

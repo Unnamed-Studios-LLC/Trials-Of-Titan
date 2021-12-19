@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Libraries\Utils.NET\Utils.NET\Utils.NET.csproj" />
+    <ProjectReference Include="..\..\..\Library\TitanCore\TitanCore.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,4611 @@
+﻿<Objects>
+
+  <Object id="0x1000" name="Evil Bat">
+    <Type>Enemy</Type>
+    
+    <Texture>
+      <Type>Entity</Type>
+      <Set>EvilBat</Set>
+    </Texture>
+
+    <HealthMod>1</HealthMod>
+    <SoulMod>1</SoulMod>
+    
+    <Projectile name="Simple Slash">
+      <Speed>8</Speed>
+      <Range>4</Range>
+      <Damage>10</Damage>
+    </Projectile>
+
+    <Hover>0.2</Hover>
+    
+  </Object>
+  
+  <Object id="0x1001" name="Goblin Spearman">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>GoblinSpearman</Set>
+    </Texture>
+
+    <Projectile name="Simple Slash">
+      <Speed>7</Speed>
+      <Range>6</Range>
+      <DamageMod>0.67</DamageMod>
+    </Projectile>
+
+    <HealthMod>0.25</HealthMod>
+    <SoulMod>0.25</SoulMod>
+    <SoulGroup>Grasslands</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>5</Defense>
+
+  </Object>
+
+  <Object id="0x1002" name="Goblin Archer">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>GoblinArcher</Set>
+    </Texture>
+
+    <Projectile name="Bow 1 Arrow">
+      <Speed>9</Speed>
+      <Range>12</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+
+    <HealthMod>0.22</HealthMod>
+    <SoulMod>0.22</SoulMod>
+    <SoulGroup>Grasslands</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>3</Defense>
+
+  </Object>
+
+  <Object id="0x1003" name="Goblin Brute">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>GoblinBrute</Set>
+      <NoFlip/>
+    </Texture>
+
+    <Projectile name="Steel Slash">
+      <Speed>6</Speed>
+      <Range>10</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <HealthMod>1.15</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>Grasslands</SoulGroup>
+    <LootTier>2</LootTier>
+    <Defense>7</Defense>
+
+  </Object>
+
+  <Object id="0x1004" name="Flower Bug">
+    <Type>Enemy</Type>
+
+    <StartTexture>2</StartTexture>
+    
+    <Texture>
+      <Type>Entity</Type>
+      <Set>FlowerBug</Set>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>FlowerBug-ent</Set>
+      <Fps>0.1</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>FlowerBug-ent-1</Sprite>
+    </Texture>
+
+    <Projectile name="Flower Bulb">
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <HealthMod>0.6</HealthMod>
+    <SoulMod>0.5</SoulMod>
+    <SoulGroup>Grasslands</SoulGroup>
+    <LootTier>1</LootTier>
+    <Defense>5</Defense>
+
+  </Object>
+
+  <Object id="0x1005" name="Wood Construct">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>WoodConstruct</Set>
+      <SepWalk/>
+    </Texture>
+
+    <Projectile name="Construct Line">
+      <Speed>4</Speed>
+      <Range>12</Range>
+      <DamageMod>0.55</DamageMod>
+    </Projectile>
+
+    <Size>1.2</Size>
+    <HealthMod>0.9</HealthMod>
+    <SoulMod>0.5</SoulMod>
+    <SoulGroup>Grasslands</SoulGroup>
+    <LootTier>1</LootTier>
+    <Defense>6</Defense>
+
+  </Object>
+
+  <Object id="0x1006" name="Wood Construct Orb">
+    <Type>Enemy</Type>
+
+    <Sprite>WoodConstructOrb</Sprite>
+
+    <Projectile name="Orb Blue Blast">
+      <Speed>9</Speed>
+      <Range>3</Range>
+      <DamageMod>0.6</DamageMod>
+    </Projectile>
+
+    <HealthMod>0.5</HealthMod>
+    <SoulMod>0.35</SoulMod>
+    <SoulGroup>Grasslands</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>4</Defense>
+
+  </Object>
+
+  <Object id="0x1007" name="Wood Construct Inverse Orb">
+    <Type>Enemy</Type>
+
+    <Sprite>WoodConstructInverseOrb</Sprite>
+
+    <Projectile name="Orb Pink Blast">
+      <Speed>8</Speed>
+      <Range>10</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <HealthMod>0.5</HealthMod>
+    <SoulMod>0.35</SoulMod>
+    <SoulGroup>Grasslands</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>4</Defense>
+    
+  </Object>
+
+  <Object id="0x1008" name="Rogue Summoner">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>RogueSummoner</Set>
+    </Texture>
+
+    <Projectile name="Pink Summoner Blast">
+      <Speed>7</Speed>
+      <Range>12</Range>
+      <DamageMod>0.9</DamageMod>
+    </Projectile>
+
+    <HealthMod>0.9</HealthMod>
+    <SoulMod>0.95</SoulMod>
+    <SoulGroup>Grasslands</SoulGroup>
+    <LootTier>2</LootTier>
+    <Defense>4</Defense>
+    
+  </Object>
+  
+  <Object id="0x1009" name="Demon Brute">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>DemonBrute</Set>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>DemonBruteRoll</Set>
+      <Fps>0.15</Fps>
+    </Texture>
+    
+    <Projectile name="Demon Brute Wave">
+      <Speed>6</Speed>
+      <Range>14</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Projectile name="Demon Brute Fire">
+      <Size>1.3</Size>
+      <Speed>7</Speed>
+      <Range>12</Range>
+      <DamageMod>1.1</DamageMod>
+    </Projectile>
+
+    <HealthMod>3.1</HealthMod>
+    <SoulMod>3</SoulMod>
+    <SoulGroup>Grasslands</SoulGroup>
+    <LootTier>3</LootTier>
+    <Defense>9</Defense>
+    <Size>1.2</Size>
+    
+  </Object>
+
+  <Object id="0x100a" name="Dragon">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Dragon</Set>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>DragonFlying</Set>
+      <Fps>0.2</Fps>
+    </Texture>
+
+    <Projectile name="Dragon Light Blast Stage 1">
+      <Speed>12</Speed>
+      <Range>12</Range>
+      <Damage>50</Damage>
+    </Projectile>
+
+    <Projectile name="Dragon Light Blast Stage 2">
+      <Speed>10</Speed>
+      <Range>12</Range>
+      <Damage>100</Damage>
+    </Projectile>
+    
+    <Projectile name="Dragon Light Blast Stage 3">
+      <Speed>10</Speed>
+      <Range>12</Range>
+      <Damage>250</Damage>
+    </Projectile>
+
+  </Object>
+
+  <Object id="0x100b" name="Orange Cat">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Garfield</Set>
+      <NoAttack/>
+    </Texture>
+
+  </Object>
+
+  <Object id="0x100c" name="Forest Wanderer">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>ForestWanderer</Set>
+      <NoAttack/>
+    </Texture>
+    
+    <Texture>
+      <Type>Entity</Type>
+      <Set>ForestWanderer-Agro</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>ForestWanderer-AgroCd</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>ForestWanderer-AgroCharge</Set>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>ForestWanderer-AgroRecharge</Set>
+      <Fps>0.2</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Projectile name="Forest Branch">
+      <Size>1.2</Size>
+      <Speed>6</Speed>
+      <Range>15</Range>
+      <DamageMod>1.2</DamageMod>
+    </Projectile>
+
+    <Projectile name="Forest Growth">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>15</Range>
+      <Spin>1</Spin>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <HealthMod>3</HealthMod>
+    <SoulMod>3</SoulMod>
+    <SoulGroup>Grasslands</SoulGroup>
+    <LootTier>3</LootTier>
+    <Defense>10</Defense>
+
+  </Object>
+
+  <Object id="0x100d" name="Forest Protector">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>ForestProtector</Set>
+      <Fps>0.13</Fps>
+    </Texture>
+    
+    <Projectile name="Forest Protector Bloom">
+      <Speed>8</Speed>
+      <Range>8</Range>
+      <DamageMod>0.534</DamageMod>
+    </Projectile>
+
+    <HealthMod>0.3</HealthMod>
+    <SoulMod>0.25</SoulMod>
+    <SoulGroup>Grasslands</SoulGroup>
+    <Size>0.8</Size>
+    <Defense>3</Defense>
+
+  </Object>
+
+  <Object id="0x100e" name="Dragon 2">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Dragon</Set>
+    </Texture>
+
+  </Object>
+
+  <Object id="0x100f" name="Giant Frog">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>GiantFrog</Set>
+    </Texture>
+
+  </Object>
+
+  <Object id="0x1010" name="Balun">
+    <Type>Enemy</Type>
+    <Title>Balun the Unyielding</Title>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Balun</Set>
+      <SepWalk/>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Balun-Taunt</Set>
+    </Texture>
+
+    <Sprite>Balun-4</Sprite>
+    
+    <Sprite>Balun-5</Sprite>
+
+    <Projectile name="Balun Ball Shock">
+      <Size>2.4</Size>
+      <Speed>3</Speed>
+      <Range>14</Range>
+      <DamageMod>1.9</DamageMod>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Projectile name="Balun Diagonal Shock" type="Boomerang">
+      <Size>1.4</Size>
+      <Speed>8</Speed>
+      <Range>8</Range>
+      <DamageMod>0.6</DamageMod>
+    </Projectile>
+
+    <Projectile name="Balun Hammer Shock">
+      <Size>1.6</Size>
+      <Speed>7</Speed>
+      <Range>16</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Projectile name="Balun Line Shock" type="Sin">
+      <Size>1.1</Size>
+      <Speed>3.2</Speed>
+      <Range>12</Range>
+      <Frequency>2</Frequency>
+      <Amplitude>3.6</Amplitude>
+      <DamageMod>0.7</DamageMod>
+    </Projectile>
+
+    <Projectile name="Balun Prong Shock">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>16</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+
+    <Projectile name="Balun Resistor Shock">
+      <Size>1.3</Size>
+      <Speed>5</Speed>
+      <Range>11.428</Range>
+      <DamageMod>1.3</DamageMod>
+    </Projectile>
+
+    <Projectile name="Balun Hammer" type="Circular">
+      <Size>1.5</Size>
+      <Speed>10</Speed>
+      <Radius>6</Radius>
+      <Arc>360</Arc>
+      <DamageMod>1.3</DamageMod>
+      <Spin>-2.5</Spin>
+    </Projectile>
+
+    <Titan/>
+
+    <HealthMod>38</HealthMod>
+    <SoulMod>10</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+    <LootTier>4</LootTier>
+    <LootTier>5</LootTier>
+    <LootTier>11</LootTier>
+    <LootTier>13</LootTier>
+    <Defense>38</Defense>
+
+    <Size>1.3</Size>
+
+  </Object>
+
+  <Object id="0x1011" name="Balun's Lightning">
+    <Type>Enemy</Type>
+
+    <StartTexture>1</StartTexture>
+
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>BalunLightning-4</Sprite>
+    </Texture>
+
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>BalunLightning-14</Sprite>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>BalunLightning</Set>
+      <Loops>1</Loops>
+      <Fps>0.15</Fps>
+    </Texture>
+
+    <Projectile name="Balun Diagonal Shock">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>6</Range>
+      <DamageMod>0.6</DamageMod>
+    </Projectile>
+
+    <Projectile name="Balun Hammer Shock">
+      <Size>1.4</Size>
+      <Speed>3</Speed>
+      <Range>2</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Size>1.4</Size>
+    <SoulGroup>Dumir</SoulGroup>
+    <GroundObject>0xa9f</GroundObject>
+    <Invincible/>
+    
+  </Object>
+
+  <Object id="0x1014" name="Mannah">
+    <Type>Enemy</Type>
+    <Title>Mannah the Malevolent</Title>
+    
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Mannah</Set>
+      <SepWalk/>
+    </Texture>
+    
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Mannah-Ascended</Set>
+      <SepWalk/>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Mannah-Still</Set>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Mannah-Meditate</Set>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Mannah-PowerUp</Set>
+      <Loops>1</Loops>
+      <Fps>0.18</Fps>
+    </Texture>
+    
+    <Projectile name="Mannah Gold Spiral" type="Parametric">
+      <Size>1</Size>
+      <Radius>6</Radius>
+      <Lifetime>3</Lifetime>
+      <DamageMod>0.8</DamageMod>
+      <Spin>-1.5</Spin>
+    </Projectile>
+    
+    <Projectile name="Mannah Gold Wave">
+      <Size>1.2</Size>
+      <Speed>6</Speed>
+      <Range>18</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Gold Dart" type="Boomerang">
+      <Size>1.2</Size>
+      <Speed>8</Speed>
+      <Range>11</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Gold Spikes">
+      <Size>1.8</Size>
+      <Speed>6</Speed>
+      <Range>15</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Soul Wave 1">
+      <Size>1.1</Size>
+      <Speed>8</Speed>
+      <Range>18</Range>
+      <DamageMod>0.9</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Soul Wave 2">
+      <Size>1.1</Size>
+      <Speed>7</Speed>
+      <Range>10</Range>
+      <DamageMod>1.6</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Soul Construct">
+      <Size>1.3</Size>
+      <Speed>7.5</Speed>
+      <Range>16</Range>
+      <DamageMod>1.4</DamageMod>
+      <Spin>2</Spin>
+    </Projectile>
+    
+    <Projectile name="Mannah Soul Blast">
+      <Size>1</Size>
+      <Speed>9.5</Speed>
+      <Range>12</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Crux Blade">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>14</Range>
+      <DamageMod>0.7</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Mundane Effect">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>20</Range>
+      <DamageMod>0.4</DamageMod>
+      <StatusEffect type="Mundane">5000</StatusEffect>
+      <Spin>2</Spin>
+    </Projectile>
+    
+    <Projectile name="Mannah Sick Effect">
+      <Size>1.1</Size>
+      <Speed>8</Speed>
+      <Range>20</Range>
+      <DamageMod>0.1</DamageMod>
+      <StatusEffect type="Sick">8000</StatusEffect>
+      <Spin>2</Spin>
+    </Projectile>
+    
+    <Projectile name="Mannah Gold Wave" type="Sin">
+      <Size>1.2</Size>
+      <Speed>3</Speed>
+      <Range>8</Range>
+      <Frequency>0.5</Frequency>
+      <Amplitude>2</Amplitude>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Titan/>
+
+    <Size>1.2</Size>
+    <HealthMod>80</HealthMod>
+    <SoulMod>24</SoulMod>
+    <SoulGroup>MannahsFortress</SoulGroup>
+    <LootTier>4</LootTier>
+    <LootTier>5</LootTier>
+    <LootTier>7</LootTier>
+    <LootTier>8</LootTier>
+    <LootTier>9</LootTier>
+    <LootTier>10</LootTier>
+    <LootTier>12</LootTier>
+    <Defense>42</Defense>
+    
+  </Object>
+
+  <Object id="0x1015" name="Valdok">
+    <Type>Enemy</Type>
+    <Title>Valdok the Fierce</Title>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Valdok</Set>
+      <SepWalk/>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Valdok-Trans</Set>
+      <Fps>0.2</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Valdok-Transformed</Set>
+      <SepWalk/>
+    </Texture>
+
+    <Projectile name="Valdok Yellow Effect">
+      <Size>1.2</Size>
+      <Speed>7</Speed>
+      <Range>16</Range>
+      <DamageMod>0.7</DamageMod>
+      <StatusEffect type="Slowed">800</StatusEffect>
+      <Spin>1.5</Spin>
+    </Projectile>
+    
+    <Projectile name="Valdok Red Effect">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>16</Range>
+      <DamageMod>0.7</DamageMod>
+      <StatusEffect type="Grounded">500</StatusEffect>
+      <Spin>1.5</Spin>
+    </Projectile>
+    
+    <Projectile name="Valdok Wave">
+      <Size>1.2</Size>
+      <Speed>6</Speed>
+      <Range>14</Range>
+      <DamageMod>0.9</DamageMod>
+      <StatusEffect type="KnockedBack">500</StatusEffect>
+    </Projectile>
+    
+    <Projectile name="Valdok Sharp Rock" type="Circular">
+      <Speed>5</Speed>
+      <Radius>5</Radius>
+      <Arc>360</Arc>
+      <DamageMod>1</DamageMod>
+      <IgnoreCollision/>
+    </Projectile>
+
+    <Projectile name="Valdok Sharp Rock" type="Circular">
+      <Speed>6</Speed>
+      <Radius>7</Radius>
+      <Arc>360</Arc>
+      <Clockwise/>
+      <DamageMod>1</DamageMod>
+      <IgnoreCollision/>
+    </Projectile>
+
+    <Projectile name="Valdok Flaming Rock" type="Boomerang">
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>1.3</DamageMod>
+      <IgnoreCollision/>
+    </Projectile>
+
+    <Projectile name="Valdok Boulder">
+      <Size>1.6</Size>
+      <Speed>3</Speed>
+      <Range>14</Range>
+      <DamageMod>2</DamageMod>
+      <Spin>1</Spin>
+    </Projectile>
+
+    <Projectile type="aoe">
+      <Radius>4</Radius>
+      <Color>red</Color>
+      <DamageMod>1</DamageMod>
+      <Lifetime>1</Lifetime>
+    </Projectile>
+
+    <Titan/>
+
+    <Size>1.2</Size>
+    <HealthMod>28</HealthMod>
+    <SoulMod>8</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <LootTier>4</LootTier>
+    <LootTier>5</LootTier>
+    <LootTier>7</LootTier>
+    <LootTier>10</LootTier>
+    <Defense>32</Defense>
+
+  </Object>
+
+  <Object id="0x1016" name="Bandit Leader">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BanditLeader</Set>
+      <SepWalk/>
+      <NoAttack/>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>BanditLeader-Shoot</Set>
+      <Loops>1</Loops>
+      <Fps>0.33</Fps>
+    </Texture>
+
+    <Projectile name="Bow 1 Arrow">
+      <Size>1.5</Size>
+      <Speed>6</Speed>
+      <Range>12</Range>
+      <DamageMod>1.25</DamageMod>
+    </Projectile>
+
+    <Size>0.8</Size>
+    <HealthMod>1</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>OceanBeach</SoulGroup>
+    <LootTier>1</LootTier>
+    <Defense>2</Defense>
+
+  </Object>
+
+  <Object id="0x1017" name="Bandit">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Bandit</Set>
+    </Texture>
+    
+    <Projectile name="Simple Slash">
+      <Speed>7</Speed>
+      <Range>6</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+
+    <HealthMod>0.32</HealthMod>
+    <SoulMod>0.33</SoulMod>
+    <SoulGroup>OceanBeach</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>1</Defense>
+
+  </Object>
+
+  <Object id="0x1018" name="Bald Bandit">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BaldBandit</Set>
+    </Texture>
+    
+    <Projectile name="Simple Slash">
+      <Speed>7</Speed>
+      <Range>6</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+
+    <HealthMod>0.37</HealthMod>
+    <SoulMod>0.33</SoulMod>
+    <SoulGroup>OceanBeach</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>1</Defense>
+
+  </Object>
+
+  <Object id="0x1019" name="Pirate Ship">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>PirateShip</Set>
+    </Texture>
+
+    <Projectile name="Cannonball">
+      <Size>1.2</Size>
+      <Speed>7</Speed>
+      <Range>14</Range>
+      <DamageMod>0.75</DamageMod>
+    </Projectile>
+
+    <HealthMod>1.2</HealthMod>
+    <SoulMod>1.2</SoulMod>
+    <SoulGroup>OceanBeach</SoulGroup>
+    <LootTier>1</LootTier>
+    <Defense>2</Defense>
+
+    <Size>1.2</Size>
+    <Floats/>
+
+  </Object>
+
+  <Object id="0x101a" name="Pirate Dinghy">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>PirateDinghy</Set>
+      <NoWalk/>
+    </Texture>
+
+    <Projectile name="Bow 1 Arrow">
+      <Size>1</Size>
+      <Speed>9</Speed>
+      <Range>12</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+
+    <HealthMod>0.4</HealthMod>
+    <SoulMod>0.34</SoulMod>
+    <SoulGroup>OceanBeach</SoulGroup>
+    <LootTier>0</LootTier>
+
+    <Size>0.8</Size>
+    <Floats/>
+
+  </Object>
+
+  <Object id="0x101b" name="Beach Snake">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BeachSnake</Set>
+    </Texture>
+
+    <Projectile name="Beach Snake Strike" type="Sin">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>14</Range>
+      <DamageMod>1.25</DamageMod>
+      <Frequency>1.3</Frequency>
+      <Amplitude>0.8</Amplitude>
+    </Projectile>
+
+    <HealthMod>1.2</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>OceanBeach</SoulGroup>
+    <LootTier>1</LootTier>
+    <Defense>2</Defense>
+
+    <Size>0.9</Size>
+
+  </Object>
+
+  <Object id="0x101c" name="Beach Snake Egg">
+    <Type>Enemy</Type>
+
+    <HealthMod>0.5</HealthMod>
+    <SoulMod>0.1</SoulMod>
+    <SoulGroup>OceanBeach</SoulGroup>
+    <Defense>5</Defense>
+
+  </Object>
+
+  <Object id="0x101d" name="Beach Snake Baby">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BeachSnakeBaby</Set>
+      <NoWalk/>
+    </Texture>
+
+    <Projectile name="Beach Snake Baby Strike">
+      <Size>1</Size>
+      <Speed>9</Speed>
+      <Range>12</Range>
+      <DamageMod>0.4</DamageMod>
+    </Projectile>
+
+    <HealthMod>0.35</HealthMod>
+    <SoulMod>0.2</SoulMod>
+    <SoulGroup>OceanBeach</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>1</Defense>
+
+    <Size>0.8</Size>
+
+  </Object>
+
+  <Object id="0x101e" name="Starfish">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Starfish</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Starfish Star">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>12</Range>
+      <DamageMod>0.77</DamageMod>
+      <Spin>-1</Spin>
+    </Projectile>
+
+    <HealthMod>1</HealthMod>
+    <SoulMod>0.4</SoulMod>
+    <SoulGroup>OceanBeach</SoulGroup>
+    <LootTier>1</LootTier>
+    <Defense>2</Defense>
+
+  </Object>
+
+  <Object id="0x101f" name="Beach Crab">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BeachCrab</Set>
+      <NoAttack/>
+      <SepWalk/>
+    </Texture>
+
+    <Projectile name="Beach Crab Strike" type="Sin">
+      <Size>1.2</Size>
+      <Speed>10</Speed>
+      <Range>6</Range>
+      <DamageMod>1</DamageMod>
+      <Frequency>0.5</Frequency>
+      <Amplitude>2</Amplitude>
+    </Projectile>
+    
+    <Projectile name="Beach Crab Pinch">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>12</Range>
+      <DamageMod>0.4</DamageMod>
+    </Projectile>
+
+    <HealthMod>1.2</HealthMod>
+    <SoulMod>0.9</SoulMod>
+    <SoulGroup>OceanBeach</SoulGroup>
+    <LootTier>1</LootTier>
+    <Defense>3</Defense>
+
+  </Object>
+
+  <Object id="0x1020" name="Beach Snail">
+    <Type>Enemy</Type>
+
+    <StartTexture>2</StartTexture>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BeachSnail</Set>
+      <NoAttack/>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>BeachSnail-Grow</Set>
+      <Fps>0.15</Fps>
+    </Texture>
+
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>BeachSnail-Shell</Sprite>
+    </Texture>
+
+    <Projectile name="Beach Snail Blast">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>12</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <HealthMod>0.8</HealthMod>
+    <SoulMod>0.7</SoulMod>
+    <SoulGroup>OceanBeach</SoulGroup>
+    <LootTier>1</LootTier>
+    <Defense>4</Defense>
+
+  </Object>
+
+  <Object id="0x1021" name="Bhognin">
+    <Type>Enemy</Type>
+
+    <Title>Bho-Gnin the Colossal</Title>
+    <ShortName>Bho-Gnin</ShortName>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Bhognin</Set>
+      <SepWalk/>
+      <NoAttack/>
+      <NoFlip/>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Bhognin-Attack</Set>
+      <Fps>0.25</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Bhognin-Swing</Set>
+      <Fps>0.25</Fps>
+    </Texture>
+
+    <Projectile name="Chain Ball">
+      <Size>1.3</Size>
+      <Speed>7</Speed>
+      <Range>14</Range>
+      <DamageMod>1</DamageMod>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Projectile name="Falling Rock Projectile">
+      <Size>1.1</Size>
+      <Speed>4</Speed>
+      <Range>16</Range>
+      <DamageMod>1</DamageMod>
+      <Spin>1.7</Spin>
+    </Projectile>
+
+    <Titan/>
+
+    <Size>1.2</Size>
+    <HealthMod>10</HealthMod>
+    <SoulMod>10</SoulMod>
+    <SoulGroup>Gorge</SoulGroup>
+    <Defense>12</Defense>
+    <LootTier>3</LootTier>
+    <LootTier>4</LootTier>
+    <LootTier>5</LootTier>
+
+  </Object>
+
+  <Object id="0x1022" name="Bhognin's Chain">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BhogninChain</Set>
+      <NoAttack/>
+      <NoFlip/>
+    </Texture>
+    
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>BhogninChainBall</Sprite>
+    </Texture>
+
+    <Projectile name="Chain Wave">
+      <Size>1</Size>
+      <Speed>10</Speed>
+      <Range>3</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Size>0.8</Size>
+    <HealthMod>4</HealthMod>
+    <SoulMod>0</SoulMod>
+    <SoulGroup>Desert</SoulGroup>
+    <Defense>8</Defense>
+
+  </Object>
+
+  <Object id="0x1023" name="Floating Toxin">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>FloatingToxin</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Toxic Goop" type="Circular">
+      <Size>1</Size>
+      <Speed>5</Speed>
+      <Radius>5</Radius>
+      <Arc>80</Arc>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Toxic Goop" type="Circular">
+      <Size>1.2</Size>
+      <Speed>5</Speed>
+      <Radius>5</Radius>
+      <Arc>80</Arc>
+      <Clockwise/>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>0.9</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>DarkForest</SoulGroup>
+    <LootTier>2</LootTier>
+    <Defense>14</Defense>
+    <Hover>0.2</Hover>
+
+  </Object>
+
+  <Object id="0x1024" name="Toxin Bomb">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>ToxinBomb</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Toxic Virus">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>6</Range>
+      <DamageMod>0.67</DamageMod>
+      <Spin>2</Spin>
+    </Projectile>
+
+    <Size>0.8</Size>
+    <HealthMod>0.3</HealthMod>
+    <SoulMod>0.2</SoulMod>
+    <SoulGroup>DarkForest</SoulGroup>
+    <Defense>10</Defense>
+    <Hover>0.2</Hover>
+
+  </Object>
+
+  <Object id="0x1025" name="Giant Spider">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>GiantSpider</Set>
+    </Texture>
+
+    <Projectile name="Spider Web Spray">
+      <Speed>6</Speed>
+      <Range>12</Range>
+      <DamageMod>0.64</DamageMod>
+    </Projectile>
+
+    <Projectile name="Spider Toxic Shot">
+      <Size>1.2</Size>
+      <Speed>6</Speed>
+      <Range>10</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <HealthMod>1</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>DarkForest</SoulGroup>
+    <LootTier>2</LootTier>
+    <Defense>10</Defense>
+
+  </Object>
+
+  <Object id="0x1026" name="Giant Spider Baby">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>GiantSpiderBaby</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Spider Web Spit">
+      <Speed>7</Speed>
+      <Range>12</Range>
+      <DamageMod>0.62</DamageMod>
+    </Projectile>
+
+    <HealthMod>0.2</HealthMod>
+    <SoulMod>0.2</SoulMod>
+    <SoulGroup>DarkForest</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>10</Defense>
+
+  </Object>
+
+  <Object id="0x1027" name="Guardian Ape">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>GuardianApe</Set>
+      <SepWalk/>
+    </Texture>
+
+    <Projectile name="Boomerang Banana" type="Circular">
+      <Speed>10</Speed>
+      <Radius>4</Radius>
+      <Arc>720</Arc>
+      <DamageMod>0.78</DamageMod>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Projectile name="Boomerang Banana" type="Circular">
+      <Speed>10</Speed>
+      <Radius>4</Radius>
+      <Arc>720</Arc>
+      <Clockwise/>
+      <DamageMod>0.78</DamageMod>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Projectile name="Boomerang Banana">
+      <Speed>8</Speed>
+      <Range>10</Range>
+      <DamageMod>0.78</DamageMod>
+      <Spin>1.5</Spin>
+      <Passive/>
+    </Projectile>
+
+    <Size>0.9</Size>
+    <HealthMod>4</HealthMod>
+    <SoulMod>4</SoulMod>
+    <SoulGroup>DarkForest</SoulGroup>
+    <LootTier>3</LootTier>
+    <Defense>16</Defense>
+
+  </Object>
+
+  <Object id="0x1028" name="Pixie">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Pixie</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Pixie Slow">
+      <Speed>7</Speed>
+      <Range>12</Range>
+      <DamageMod>0.5</DamageMod>
+      <Spin>1.5</Spin>
+      <StatusEffect type="Slowed">1000</StatusEffect>
+    </Projectile>
+
+    <Size>0.9</Size>
+    <HealthMod>0.8</HealthMod>
+    <SoulMod>0.8</SoulMod>
+    <SoulGroup>DarkForest</SoulGroup>
+    <LootTier>1</LootTier>
+    <Defense>12</Defense>
+    
+  </Object>
+
+  <Object id="0x1029" name="Dark Pixie">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>DarkPixie</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Pixie Charm">
+      <Speed>7</Speed>
+      <Range>12</Range>
+      <DamageMod>0.5</DamageMod>
+      <Spin>1.5</Spin>
+      <StatusEffect type="Charmed">1000</StatusEffect>
+    </Projectile>
+
+    <Size>0.8</Size>
+    <HealthMod>0.8</HealthMod>
+    <SoulMod>0.8</SoulMod>
+    <SoulGroup>DarkForest</SoulGroup>
+    <LootTier>1</LootTier>
+    <Defense>12</Defense>
+
+  </Object>
+
+  <Object id="0x102a" name="Forest Droop">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>ForestDroop</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile type="aoe">
+      <Radius>4</Radius>
+      <Color>red</Color>
+      <DamageMod>1</DamageMod>
+      <Lifetime>1.5</Lifetime>
+    </Projectile>
+
+    <Size>0.8</Size>
+    <HealthMod>1.1</HealthMod>
+    <SoulMod>1.1</SoulMod>
+    <SoulGroup>DarkForest</SoulGroup>
+    <LootTier>2</LootTier>
+    <Defense>14</Defense>
+
+  </Object>
+
+  <Object id="0x102b" name="Whispering Ent">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>WisperingEnt</Set>
+      <NoAttack/>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>WisperingEnt-Shrink</Set>
+      <Fps>0.2</Fps>
+      <Loops>1</Loops>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>WisperingEnt-Grow</Set>
+      <Fps>0.2</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Projectile name="Forest Branch">
+      <Size>1.2</Size>
+      <Speed>6</Speed>
+      <Range>15</Range>
+      <DamageMod>1.4</DamageMod>
+      <Spin>-1</Spin>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>4</HealthMod>
+    <SoulMod>4</SoulMod>
+    <SoulGroup>DarkForest</SoulGroup>
+    <LootTier>3</LootTier>
+    <Defense>15</Defense>
+
+  </Object>
+
+  <Object id="0x102c" name="Ent Sapling">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>EntSapling</Set>
+      <Fps>0.15</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>EntSapling-Wither</Set>
+      <Fps>0.15</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Projectile name="Ent Blade">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>12</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>1</HealthMod>
+    <SoulMod>0.1</SoulMod>
+    <SoulGroup>DarkForest</SoulGroup>
+    <Defense>10</Defense>
+
+  </Object>
+
+  <Object id="0x102d" name="Dune Snake">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>DuneSnake</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>DuneSnake-Burrow</Set>
+      <Fps>0.15</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>DuneSnake-Burrow</Set>
+      <Fps>0.15</Fps>
+      <Loops>1</Loops>
+      <Reverse/>
+    </Texture>
+
+    <Projectile name="Dune Snake Bite">
+      <Size>1.2</Size>
+      <Speed>8</Speed>
+      <Range>14</Range>
+      <DamageMod>1.3</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>7</HealthMod>
+    <SoulMod>5</SoulMod>
+    <SoulGroup>Desert</SoulGroup>
+    <LootTier>3</LootTier>
+    <LootTier>4</LootTier>
+    <Defense>20</Defense>
+
+  </Object>
+
+  <Object id="0x102e" name="Dune Snake Body">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>DuneSnakeBody</Sprite>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>DuneSnakeBody-Burrow</Set>
+      <Fps>0.15</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>DuneSnakeBody-Burrow</Set>
+      <Fps>0.15</Fps>
+      <Loops>1</Loops>
+      <Reverse/>
+    </Texture>
+
+    <Projectile name="Desert Wave">
+      <Size>1</Size>
+      <Speed>10</Speed>
+      <Range>8</Range>
+      <DamageMod>0.9</DamageMod>
+      <StatusEffect type="KnockedBack">100</StatusEffect>
+    </Projectile>
+
+    <Size>0.8</Size>
+    <HealthMod>2</HealthMod>
+    <SoulMod>1.3</SoulMod>
+    <SoulGroup>Desert</SoulGroup>
+    <Defense>20</Defense>
+
+  </Object>
+
+  <Object id="0x102f" name="Dust Devil">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>DustDevil</Set>
+      <Fps>0.12</Fps>
+    </Texture>
+
+    <Projectile name="Dust Devil Gust">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>12</Range>
+      <DamageMod>0.8</DamageMod>
+      <StatusEffect type="KnockedBack">300</StatusEffect>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>0.8</HealthMod>
+    <SoulMod>0.9</SoulMod>
+    <SoulGroup>Desert</SoulGroup>
+    <LootTier>2</LootTier>
+    <LootTier>4</LootTier>
+    <Defense>18</Defense>
+
+  </Object>
+
+  <Object id="0x1030" name="Bubra Mule">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BubraMule</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Desert Wave">
+      <Size>1.2</Size>
+      <Speed>6</Speed>
+      <Range>14</Range>
+      <DamageMod>0.4</DamageMod>
+      <StatusEffect type="KnockedBack">200</StatusEffect>
+    </Projectile>
+
+    <Size>1.2</Size>
+    <HealthMod>7</HealthMod>
+    <SoulMod>4</SoulMod>
+    <SoulGroup>Desert</SoulGroup>
+    <LootTier>3</LootTier>
+    <LootTier>4</LootTier>
+    <Defense>20</Defense>
+
+  </Object>
+
+  <Object id="0x1031" name="Bubra Warrior">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BubraWarrior</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Bubra Warrior Jab">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>10</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+
+    <Size>0.9</Size>
+    <HealthMod>0.5</HealthMod>
+    <SoulMod>0.6</SoulMod>
+    <SoulGroup>Desert</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>16</Defense>
+
+  </Object>
+
+  <Object id="0x1032" name="Bubra Skilled Warrior">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BubraSkilledWarrior</Set>
+    </Texture>
+
+    <Projectile name="Bubra Skilled Jab">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Size>0.9</Size>
+    <HealthMod>0.75</HealthMod>
+    <SoulMod>0.8</SoulMod>
+    <SoulGroup>Desert</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>17</Defense>
+
+  </Object>
+
+  <Object id="0x1033" name="Bubra Mounted Warrior">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BubraMountedWarrior</Set>
+    </Texture>
+
+    <Projectile name="Bubra Mounted Slash">
+      <Size>1.1</Size>
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Size>1.0</Size>
+    <HealthMod>2</HealthMod>
+    <SoulMod>1.7</SoulMod>
+    <SoulGroup>Desert</SoulGroup>
+    <LootTier>0</LootTier>
+    <LootTier>4</LootTier>
+    <Defense>20</Defense>
+
+  </Object>
+
+  <Object id="0x1034" name="Scorpion">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Scorpion</Set>
+    </Texture>
+
+    <Projectile name="Scorpion Strike">
+      <Size>1.1</Size>
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Projectile name="Scorpion Poison">
+      <Size>0.9</Size>
+      <Speed>6</Speed>
+      <Range>12</Range>
+      <DamageMod>0.6</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>1</HealthMod>
+    <SoulMod>1.1</SoulMod>
+    <SoulGroup>Desert</SoulGroup>
+    <LootTier>2</LootTier>
+    <LootTier>4</LootTier>
+    <Defense>18</Defense>
+
+  </Object>
+
+  <Object id="0x1035" name="Skeletal Warrior">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>SkeletalWarrior</Set>
+    </Texture>
+
+    <Projectile name="Skeletal Slash">
+      <Size>1.2</Size>
+      <Speed>6.5</Speed>
+      <Range>12</Range>
+      <DamageMod>1.2</DamageMod>
+    </Projectile>
+
+    <Projectile name="Skeletal Slow">
+      <Size>1.2</Size>
+      <Speed>9</Speed>
+      <Range>8</Range>
+      <DamageMod>0.8</DamageMod>
+      <StatusEffect type="Slowed">800</StatusEffect>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>1.3</HealthMod>
+    <SoulMod>1.4</SoulMod>
+    <SoulGroup>Desert</SoulGroup>
+    <LootTier>1</LootTier>
+    <LootTier>4</LootTier>
+    <Defense>18</Defense>
+
+  </Object>
+
+  <Object id="0x1036" name="Skeletal Archer">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>SkeletalArcher</Set>
+    </Texture>
+
+    <Projectile name="Skeletal Arrow">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>14</Range>
+      <DamageMod>0.9</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>0.9</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>Desert</SoulGroup>
+    <LootTier>1</LootTier>
+    <LootTier>4</LootTier>
+    <Defense>16</Defense>
+
+  </Object>
+
+  <Object id="0x1037" name="Stranded Knight">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>StrandedKnight</Set>
+      <NoAttack/>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>StrandedKnight-Attack</Set>
+      <Fps>0.12</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Projectile name="Stranded Knight Slash">
+      <Size>1.3</Size>
+      <Speed>6</Speed>
+      <Range>14</Range>
+      <DamageMod>1.2</DamageMod>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>1.2</HealthMod>
+    <SoulMod>1.1</SoulMod>
+    <SoulGroup>Mountains</SoulGroup>
+    <LootTier>2</LootTier>
+    <LootTier>5</LootTier>
+    <Defense>32</Defense>
+
+  </Object>
+
+  <Object id="0x1038" name="Conjurer of Doom">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>ConjurerOfDoom</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Conjurer Blast">
+      <Size>1.2</Size>
+      <Speed>8</Speed>
+      <Range>14</Range>
+      <DamageMod>1.1</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>1.5</HealthMod>
+    <SoulMod>1.1</SoulMod>
+    <SoulGroup>Mountains</SoulGroup>
+    <LootTier>2</LootTier>
+    <LootTier>5</LootTier>
+    <Defense>24</Defense>
+
+  </Object>
+
+  <Object id="0x1039" name="Conjured Bone Reaper">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>ConjuredBoneReaper</Set>
+    </Texture>
+
+    <Projectile name="Bone Reaper Swipe">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>10</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+
+    <Projectile name="Bone Reaper Bludgeon">
+      <Size>1.2</Size>
+      <Speed>6</Speed>
+      <Range>10</Range>
+      <DamageMod>0.7</DamageMod>
+    </Projectile>
+
+    <Size>0.8</Size>
+    <HealthMod>0.5</HealthMod>
+    <SoulMod>0.4</SoulMod>
+    <SoulGroup>Mountains</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>32</Defense>
+
+  </Object>
+
+  <Object id="0x103a" name="Black Knight">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BlackKnight</Set>
+      <NoAttack/>
+    </Texture>
+    
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>BlackKnight-Prep</Sprite>
+    </Texture>
+    
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>BlackKnight-Lunge</Sprite>
+  </Texture>
+
+    <Projectile name="Black Knight Jab 1">
+      <Size>1.1</Size>
+      <Speed>4</Speed>
+      <Range>4.8</Range>
+      <DamageMod>0.3</DamageMod>
+    </Projectile>
+
+    <Projectile name="Black Knight Jab 2">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>7.2</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+
+    <Projectile name="Black Knight Jab 3">
+      <Size>1.1</Size>
+      <Speed>8</Speed>
+      <Range>9.6</Range>
+      <DamageMod>0.65</DamageMod>
+    </Projectile>
+
+    <Projectile name="Black Knight Jab 4">
+      <Size>1.1</Size>
+      <Speed>10</Speed>
+      <Range>12</Range>
+      <DamageMod>0.85</DamageMod>
+    </Projectile>
+
+    <Size>0.9</Size>
+    <HealthMod>1.2</HealthMod>
+    <SoulMod>1.4</SoulMod>
+    <SoulGroup>Mountains</SoulGroup>
+    <LootTier>2</LootTier>
+    <LootTier>5</LootTier>
+    <Defense>30</Defense>
+
+  </Object>
+
+  <Object id="0x103b" name="Body of the Hydra">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>BodyOfTheHydra</Sprite>
+    </Texture>
+
+    <Projectile name="Hydra Wave">
+      <Size>1.2</Size>
+      <Speed>6</Speed>
+      <Range>14</Range>
+      <DamageMod>0.3</DamageMod>
+      <StatusEffect type="KnockedBack">800</StatusEffect>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>4</HealthMod>
+    <SoulMod>3</SoulMod>
+    <SoulGroup>Lake</SoulGroup>
+    <LootTier>3</LootTier>
+    <LootTier>4</LootTier>
+    <Defense>26</Defense>
+
+  </Object>
+
+  <Object id="0x103c" name="Neck of the Hydra">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>NeckOfTheHydra</Sprite>
+    </Texture>
+
+    <Size>0.8</Size>
+    <HealthMod>4</HealthMod>
+    <SoulMod>0.2</SoulMod>
+    <SoulGroup>Lake</SoulGroup>
+    <Defense>30</Defense>
+    <Floats/>
+    <Hover>0.2</Hover>
+
+  </Object>
+
+  <Object id="0x103d" name="Head of the Hydra">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>HeadOfTheHydra</Set>
+      <NoWalk/>
+    </Texture>
+
+    <Projectile name="Hydra Effect">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>14</Range>
+      <DamageMod>0.5</DamageMod>
+      <StatusEffect type="Grounded">1000</StatusEffect>
+      <Spin>2</Spin>
+    </Projectile>
+
+    <Projectile name="Hydra Large Bubble">
+      <Size>1.1</Size>
+      <Speed>5</Speed>
+      <Range>12</Range>
+      <DamageMod>1.5</DamageMod>
+    </Projectile>
+
+    <Projectile name="Hydra Bubble">
+      <Size>0.9</Size>
+      <Speed>8.5</Speed>
+      <Range>14</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>3</HealthMod>
+    <SoulMod>1.7</SoulMod>
+    <SoulGroup>Lake</SoulGroup>
+    <LootTier>2</LootTier>
+    <LootTier>4</LootTier>
+    <Defense>22</Defense>
+    <Floats/>
+    <Hover>0.4</Hover>
+
+  </Object>
+
+  <Object id="0x103e" name="Warrior Zebt">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>WarriorZebt</Set>
+    </Texture>
+
+    <Projectile name="Zebt Jab">
+      <Size>1.1</Size>
+      <Speed>7</Speed>
+      <Range>12</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>1.1</HealthMod>
+    <SoulMod>1.1</SoulMod>
+    <SoulGroup>Lake</SoulGroup>
+    <LootTier>2</LootTier>
+    <LootTier>5</LootTier>
+    <Defense>22</Defense>
+
+  </Object>
+
+  <Object id="0x103f" name="Zebtling">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Zebtling</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Zebtling Bite" type="Circular">
+      <Size>1</Size>
+      <Speed>9</Speed>
+      <Radius>1</Radius>
+      <Arc>270</Arc>
+      <DamageMod>0.3</DamageMod>
+    </Projectile>
+
+    <Projectile name="Zebtling Bite" type="Circular">
+      <Size>1</Size>
+      <Speed>9</Speed>
+      <Radius>1</Radius>
+      <Arc>270</Arc>
+      <Clockwise/>
+      <DamageMod>0.3</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>0.15</HealthMod>
+    <SoulMod>0.1</SoulMod>
+    <SoulGroup>Lake</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>14</Defense>
+
+  </Object>
+
+  <Object id="0x1040" name="Vicious Zebtling">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>ViciousZebtling</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Vicious Zebtling Bite">
+      <Size>1</Size>
+      <Speed>9</Speed>
+      <Range>6</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+
+    <Projectile name="Vicious Zebtling Bite" type="Circular">
+      <Size>1</Size>
+      <Speed>9</Speed>
+      <Radius>3</Radius>
+      <Arc>270</Arc>
+      <DamageMod>0.3</DamageMod>
+    </Projectile>
+
+    <Projectile name="Vicious Zebtling Bite" type="Circular">
+      <Size>1</Size>
+      <Speed>9</Speed>
+      <Radius>3</Radius>
+      <Arc>270</Arc>
+      <Clockwise/>
+      <DamageMod>0.3</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>0.2</HealthMod>
+    <SoulMod>0.1</SoulMod>
+    <SoulGroup>Lake</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>14</Defense>
+
+  </Object>
+
+  <Object id="0x1041" name="Zebt of Zornan">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>ZebtOfZornan</Set>
+      <NoAttack/>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>ZebtOfZornan-Rise</Set>
+      <Fps>0.2</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>ZebtOfZornan-Rise</Set>
+      <Fps>0.2</Fps>
+      <Loops>1</Loops>
+      <Reverse/>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>ZebtOfZornan-Flash</Set>
+      <Fps>0.15</Fps>
+    </Texture>
+
+    <Projectile name="Vicious Zebtling Bite">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>6</Range>
+      <DamageMod>1.2</DamageMod>
+    </Projectile>
+
+    <Projectile name="Vicious Zebtling Bite" type="Circular">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Radius>3</Radius>
+      <Arc>270</Arc>
+      <DamageMod>1.2</DamageMod>
+    </Projectile>
+
+    <Projectile name="Vicious Zebtling Bite" type="Circular">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Radius>3</Radius>
+      <Arc>270</Arc>
+      <Clockwise/>
+      <DamageMod>1.2</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>0.35</HealthMod>
+    <SoulMod>0.27</SoulMod>
+    <SoulGroup>Lake</SoulGroup>
+    <LootTier>2</LootTier>
+    <LootTier>5</LootTier>
+    <Defense>14</Defense>
+
+  </Object>
+
+  <Object id="0x1042" name="Dumirian Chief">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>DumirianChief</Set>
+    </Texture>
+    
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>DumirianChief-Attack-1</Sprite>
+    </Texture>
+    
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>DumirianChief-Attack-2</Sprite>
+    </Texture>
+
+    <Projectile name="Dumirian Chief Spiral">
+      <Size>1.4</Size>
+      <Speed>8</Speed>
+      <Range>16</Range>
+      <DamageMod>1.5</DamageMod>
+      <Spin>1.6</Spin>
+    </Projectile>
+
+    <Projectile name="Dumirian Chief Jab">
+      <Size>1.1</Size>
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>10</HealthMod>
+    <SoulMod>4</SoulMod>
+    <SoulGroup>Tundra</SoulGroup>
+    <LootTier>3</LootTier>
+    <Defense>34</Defense>
+
+  </Object>
+
+  <Object id="0x1043" name="Dumirian Warrior">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>DumirianWarrior</Set>
+    </Texture>
+
+    <Projectile name="Dumirian Warrior Slash">
+      <Size>1.2</Size>
+      <Speed>7</Speed>
+      <Range>14</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>1</HealthMod>
+    <SoulMod>0.9</SoulMod>
+    <SoulGroup>Tundra</SoulGroup>
+    <LootTier>2</LootTier>
+    <LootTier>4</LootTier>
+    <Defense>26</Defense>
+
+  </Object>
+
+  <Object id="0x1044" name="Dumirian War Mammoth">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>DumirianWarMammoth</Set>
+    </Texture>
+    
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>DumirianWarMammoth-3</Sprite>
+    </Texture>
+    
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>DumirianWarMammoth-4</Sprite>
+    </Texture>
+
+    <Projectile name="Mammoth Tusk">
+      <Size>1.2</Size>
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>0.7</DamageMod>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>1</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>Tundra</SoulGroup>
+    <LootTier>2</LootTier>
+    <LootTier>4</LootTier>
+    <Defense>30</Defense>
+
+  </Object>
+
+  <Object id="0x1045" name="Brittlebone">
+    <Type>Enemy</Type>
+
+    <StartTexture>1</StartTexture>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Brittlebone</Set>
+    </Texture>
+
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>Brittlebone-Rise-1</Sprite>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Brittlebone-Rise</Set>
+      <Fps>0.08</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Projectile name="Brittlebone Shiv">
+      <Size>1</Size>
+      <Speed>10.5</Speed>
+      <Range>11</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+
+    <Size>0.9</Size>
+    <HealthMod>0.5</HealthMod>
+    <SoulMod>0.24</SoulMod>
+    <SoulGroup>Tundra</SoulGroup>
+    <LootTier>1</LootTier>
+    <Defense>20</Defense>
+
+  </Object>
+
+  <Object id="0x1046" name="Frost Leech">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>FrostLeech</Set>
+      <NoWalk/>
+    </Texture>
+
+    <Projectile name="Frost Leech Effect">
+      <Size>1</Size>
+      <Speed>14</Speed>
+      <Range>4</Range>
+      <DamageMod>0.4</DamageMod>
+      <Spin>1.5</Spin>
+      <StatusEffect type="Slowed">1200</StatusEffect>
+    </Projectile>
+
+    <Size>0.9</Size>
+    <HealthMod>0.25</HealthMod>
+    <SoulMod>0.2</SoulMod>
+    <SoulGroup>Tundra</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>15</Defense>
+
+  </Object>
+
+  <Object id="0x1049" name="Orc Bladesman">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>OrcBladesman</Set>
+    </Texture>
+
+    <Projectile name="Orc Bladesman Slash">
+      <Size>1</Size>
+      <Speed>11</Speed>
+      <Range>12</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Size>0.9</Size>
+    <HealthMod>1.35</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <LootTier>0</LootTier>
+    <LootTier>1</LootTier>
+    <Defense>28</Defense>
+
+  </Object>
+
+  <Object id="0x104a" name="Orc Warrior">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>OrcWarrior</Set>
+    </Texture>
+
+    <Projectile name="Orc Warrior Spikes" type="Circular">
+      <Speed>8</Speed>
+      <Radius>4</Radius>
+      <Arc>540</Arc>
+      <DamageMod>1</DamageMod>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Projectile name="Orc Warrior Spikes" type="Circular">
+      <Speed>8</Speed>
+      <Radius>4</Radius>
+      <Arc>540</Arc>
+      <Clockwise/>
+      <DamageMod>1</DamageMod>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Size>0.9</Size>
+    <HealthMod>1.35</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <LootTier>0</LootTier>
+    <LootTier>1</LootTier>
+    <Defense>26</Defense>
+
+  </Object>
+
+  <Object id="0x104b" name="Orc Bruiser">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>OrcBruiser</Set>
+    </Texture>
+    
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>OrcBruiser-3</Sprite>
+    </Texture>
+
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>OrcBruiser-4</Sprite>
+    </Texture>
+
+    <Projectile name="Orc Bruiser Smash">
+      <Size>1.2</Size>
+      <Speed>8</Speed>
+      <Range>16</Range>
+      <DamageMod>1.2</DamageMod>
+      <StatusEffect type="KnockedBack">1200</StatusEffect>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>3</HealthMod>
+    <SoulMod>1.5</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <LootTier>2</LootTier>
+    <Defense>32</Defense>
+
+  </Object>
+
+  <Object id="0x104c" name="Worgle">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Worgle</Set>
+    </Texture>
+
+    <Projectile name="Worgle Bite">
+      <Size>1</Size>
+      <Speed>10</Speed>
+      <Range>6</Range>
+      <DamageMod>0.7</DamageMod>
+    </Projectile>
+
+    <Size>0.9</Size>
+    <HealthMod>1.1</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>24</Defense>
+
+  </Object>
+
+  <Object id="0x104d" name="Worgle Rider">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>WorgleRider</Set>
+    </Texture>
+
+    <Projectile name="Worgle Rider Slash" type="Sin">
+      <Size>1.2</Size>
+      <Speed>10</Speed>
+      <Range>14</Range>
+      <Frequency>0.5</Frequency>
+      <Amplitude>1.6</Amplitude>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Projectile name="Worgle Bite">
+      <Size>1</Size>
+      <Speed>9</Speed>
+      <Range>6</Range>
+      <DamageMod>0.7</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>2.3</HealthMod>
+    <SoulMod>1.8</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <LootTier>2</LootTier>
+    <Defense>24</Defense>
+
+  </Object>
+
+  <Object id="0x104e" name="Orc Beastmaster">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>OrcBeastmaster</Set>
+    </Texture>
+
+    <Projectile name="Orc Beastmaster Whip" type="Boomerang">
+      <Size>1.1</Size>
+      <Speed>10</Speed>
+      <Range>13</Range>
+      <DamageMod>0.9</DamageMod>
+      <Spin>2</Spin>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>1.5</HealthMod>
+    <SoulMod>1.1</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <LootTier>2</LootTier>
+    <Defense>24</Defense>
+
+  </Object>
+
+  <Object id="0x104f" name="Worgle Chain">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BhogninChain</Set>
+      <NoAttack/>
+      <NoFlip/>
+    </Texture>
+
+    <Size>0.8</Size>
+    <HealthMod>4</HealthMod>
+    <SoulMod>0</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+
+    <Invincible/>
+
+  </Object>
+
+  <Object id="0x1050" name="Bothmur">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Bothmur</Set>
+    </Texture>
+
+    <Projectile name="Bothmur Stab" type="Boomerang">
+      <Size>1.2</Size>
+      <Speed>7</Speed>
+      <Range>16</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Projectile name="Bothmur Effect">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>16</Range>
+      <DamageMod>0.6</DamageMod>
+      <StatusEffect type="Slowed">2000</StatusEffect>
+      <Passive/>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Projectile name="Bothmur Large Slash">
+      <Size>1.1</Size>
+      <Speed>8</Speed>
+      <Range>16</Range>
+      <DamageMod>1.2</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Bothmur Slash">
+      <Size>1</Size>
+      <Speed>10</Speed>
+      <Range>16.25</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Projectile name="Bothmur Wave">
+      <Size>1.2</Size>
+      <Speed>7.5</Speed>
+      <Range>12</Range>
+      <DamageMod>0.9</DamageMod>
+      <StatusEffect type="KnockedBack">800</StatusEffect>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>20</HealthMod>
+    <SoulMod>6</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <LootTier>3</LootTier>
+    <LootTier>8</LootTier>
+    <LootTier>9</LootTier>
+    <LootTier>11</LootTier>
+
+  </Object>
+
+  <Object id="0x1051" name="Oda">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Oda</Set>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Oda-UpShoot</Set>
+    </Texture>
+
+    <Projectile name="Oda's Large Arrow">
+      <Size>1.1</Size>
+      <Speed>8</Speed>
+      <Range>14</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Projectile name="Oda's Large Arrow" type="Sin">
+      <Size>1.1</Size>
+      <Speed>8</Speed>
+      <Range>14</Range>
+      <DamageMod>1</DamageMod>
+      <Frequency>0.5</Frequency>
+      <Amplitude>2</Amplitude>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>27</HealthMod>
+    <SoulMod>4</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+    <LootTier>3</LootTier>
+    <LootTier>6</LootTier>
+    <LootTier>7</LootTier>
+    <Defense>32</Defense>
+
+  </Object>
+
+  <Object id="0x1052" name="Beorn">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Beorn</Set>
+    </Texture>
+
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>Beorn-3</Sprite>
+    </Texture>
+
+    <Texture>
+      <Type>Still</Type>
+      <Type>Still</Type>
+      <Sprite>Beorn-4</Sprite>
+    </Texture>
+
+    <Projectile name="Beorn Slash">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>14</Range>
+      <DamageMod>1</DamageMod>
+      <Spin>-1</Spin>
+    </Projectile>
+
+    <Projectile name="Beorn Large Slash">
+      <Size>1.3</Size>
+      <Speed>7</Speed>
+      <Range>16</Range>
+      <DamageMod>1.8</DamageMod>
+      <Spin>-1</Spin>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>27</HealthMod>
+    <SoulMod>4</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+    <LootTier>3</LootTier>
+    <LootTier>6</LootTier>
+    <LootTier>9</LootTier>
+    <Defense>36</Defense>
+
+  </Object>
+
+  <Object id="0x1053" name="Raeg">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Raeg</Set>
+    </Texture>
+
+    <Projectile name="Raeg Slash">
+      <Size>1.2</Size>
+      <Speed>9</Speed>
+      <Range>14</Range>
+      <DamageMod>1.1</DamageMod>
+      <Spin>1.2</Spin>
+    </Projectile>
+
+    <Projectile name="Skeletal Slow">
+      <Size>1.1</Size>
+      <Speed>9</Speed>
+      <Range>8</Range>
+      <DamageMod>0.8</DamageMod>
+      <StatusEffect type="Slowed">800</StatusEffect>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>24</HealthMod>
+    <SoulMod>6</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+    <LootTier>3</LootTier>
+    <LootTier>6</LootTier>
+    <LootTier>8</LootTier>
+    <LootTier>12</LootTier>
+    <Defense>36</Defense>
+
+  </Object>
+
+  <Object id="0x1054" name="Yolma">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Yolma</Set>
+    </Texture>
+
+    <Projectile name="Yolma Blast">
+      <Size>1</Size>
+      <Speed>9</Speed>
+      <Range>8</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Projectile name="Yolma Spikes" type="Sin">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>0.8</DamageMod>
+      <Frequency>0.7</Frequency>
+      <Amplitude>1</Amplitude>
+    </Projectile>
+
+    <Projectile name="Skeletal Slow">
+      <Size>1.1</Size>
+      <Speed>9</Speed>
+      <Range>8</Range>
+      <DamageMod>0.8</DamageMod>
+      <StatusEffect type="Slowed">800</StatusEffect>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>32</HealthMod>
+    <SoulMod>6</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+    <LootTier>3</LootTier>
+    <LootTier>6</LootTier>
+    <LootTier>10</LootTier>
+    <Defense>32</Defense>
+
+  </Object>
+
+  <Object id="0x1055" name="Freagun Axe Thrower">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>FreagunAxeThrower</Set>
+    </Texture>
+
+    <Projectile name="Throwing Axe" type="Boomerang">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>10</Range>
+      <DamageMod>0.9</DamageMod>
+      <Spin>-1</Spin>
+    </Projectile>
+
+    <Size>1.0</Size>
+    <HealthMod>1</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+    <LootTier>0</LootTier>
+    <LootTier>1</LootTier>
+
+  </Object>
+
+  <Object id="0x1056" name="Freagun Bowman">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>FreagunBowman</Set>
+    </Texture>
+
+    <Projectile name="Freagun Arrow">
+      <Size>1</Size>
+      <Speed>10</Speed>
+      <Range>14</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Size>1.0</Size>
+    <HealthMod>1</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+    <SoulGroup>Dumir</SoulGroup>
+    <LootTier>0</LootTier>
+    <LootTier>1</LootTier>
+
+  </Object>
+
+  <Object id="0x1057" name="Bhaling Swordsman">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BhalingSwordsman</Set>
+    </Texture>
+        
+    <Projectile name="Bhaling Slash" type="Sin">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>10</Range>
+      <DamageMod>0.7</DamageMod>
+      <Frequency>0.7</Frequency>
+      <Amplitude>2</Amplitude>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>1</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+    <SoulGroup>Dumir</SoulGroup>
+    <LootTier>0</LootTier>
+    <LootTier>1</LootTier>
+
+  </Object>
+
+  <Object id="0x1058" name="Bhaling Axeman">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BhalingAxeman</Set>
+    </Texture>
+        
+    <Projectile name="Bhaling Axe Slash" type="Circular">
+      <Size>1.05</Size>
+      <Speed>7</Speed>
+      <DamageMod>0.85</DamageMod>
+      <Arc>180</Arc>
+      <Radius>3.5</Radius>
+    </Projectile>
+        
+    <Projectile name="Bhaling Axe Slash" type="Circular">
+      <Size>1.05</Size>
+      <Speed>10</Speed>
+      <DamageMod>0.85</DamageMod>
+      <Arc>180</Arc>
+      <Radius>5</Radius>
+    </Projectile>
+        
+    <Projectile name="Bhaling Axe Slash" type="Circular">
+      <Size>1.05</Size>
+      <Speed>13</Speed>
+      <DamageMod>0.85</DamageMod>
+      <Arc>180</Arc>
+      <Radius>6.5</Radius>
+    </Projectile>
+        
+    <Projectile name="Bhaling Axe Slash" type="Circular">
+      <Size>1.05</Size>
+      <Speed>16</Speed>
+      <DamageMod>0.85</DamageMod>
+      <Arc>180</Arc>
+      <Radius>8</Radius>
+    </Projectile>
+        
+    <Projectile name="Bhaling Axe Slash" type="Circular">
+      <Size>1.05</Size>
+      <Speed>7</Speed>
+      <DamageMod>0.85</DamageMod>
+      <Arc>180</Arc>
+      <Radius>3.5</Radius>
+      <Clockwise/>
+    </Projectile>
+        
+    <Projectile name="Bhaling Axe Slash" type="Circular">
+      <Size>1.05</Size>
+      <Speed>10</Speed>
+      <DamageMod>0.85</DamageMod>
+      <Arc>180</Arc>
+      <Radius>5</Radius>
+      <Clockwise/>
+    </Projectile>
+        
+    <Projectile name="Bhaling Axe Slash" type="Circular">
+      <Size>1.05</Size>
+      <Speed>13</Speed>
+      <DamageMod>0.85</DamageMod>
+      <Arc>180</Arc>
+      <Radius>6.5</Radius>
+      <Clockwise/>
+    </Projectile>
+        
+    <Projectile name="Bhaling Axe Slash" type="Circular">
+      <Size>1.05</Size>
+      <Speed>16</Speed>
+      <DamageMod>0.85</DamageMod>
+      <Arc>180</Arc>
+      <Radius>8</Radius>
+      <Clockwise/>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>1</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+    <SoulGroup>Dumir</SoulGroup>
+    <LootTier>0</LootTier>
+    <LootTier>1</LootTier>
+
+  </Object>
+
+  <Object id="0x1059" name="Yolma's Orb">
+    <Type>Enemy</Type>
+
+    <Projectile name="Yolma's Orb Blast">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>6</Range>
+      <DamageMod>0.7</DamageMod>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>1</HealthMod>
+    <SoulMod>0</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+
+    <Invincible/>
+
+  </Object>
+
+  <Object id="0x105a" name="Jyorgin Mammoth">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>JyorginMammoth</Set>
+    </Texture>
+
+    <Projectile name="Jyorgin Mammoth Knockback">
+      <Size>1.1</Size>
+      <Speed>9</Speed>
+      <Range>10</Range>
+      <DamageMod>1</DamageMod>
+      <StatusEffect type="KnockedBack">800</StatusEffect>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>1.5</HealthMod>
+    <SoulMod>1.1</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+    <SoulGroup>Dumir</SoulGroup>
+    <LootTier>0</LootTier>
+    <LootTier>1</LootTier>
+
+  </Object>
+
+  <Object id="0x105b" name="Jyorgin Warrior">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>JyorginWarrior</Set>
+    </Texture>
+
+    <Projectile name="Jyorgin Warrior Slash">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>8</Range>
+      <DamageMod>0.9</DamageMod>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>1.2</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+    <SoulGroup>Dumir</SoulGroup>
+    <LootTier>0</LootTier>
+    <LootTier>1</LootTier>
+
+  </Object>
+
+  <Object id="0x105c" name="Recluse Dumirian">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>RecluseDumirian</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Recluse Dumirian Punch">
+      <Size>1</Size>
+      <Speed>10</Speed>
+      <Range>10</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>40</HealthMod>
+    <SoulMod>3</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+
+  </Object>
+
+  <Object id="0x105d" name="Fortress Defense System">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>FortressDefenseSystem</Set>
+      <Fps>0.15</Fps>
+    </Texture>
+
+    <Projectile name="Skeletal Slow">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>10</Range>
+      <DamageMod>0.8</DamageMod>
+      <StatusEffect type="Slowed">800</StatusEffect>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>3</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>MannahsFortress</SoulGroup>
+    <LootTier>0</LootTier>
+    <LootTier>2</LootTier>
+    <Defense>40</Defense>
+
+  </Object>
+
+  <Object id="0x105e" name="Fortress Defense Blade">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>FortressDefenseBlade</Set>
+      <Fps>0.12</Fps>
+    </Texture>
+
+    <Projectile name="Fortress Spinning Blade">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>8</Range>
+      <DamageMod>0.4</DamageMod>
+      <Spin>-1</Spin>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>2</HealthMod>
+    <SoulMod>0.3</SoulMod>
+    <SoulGroup>MannahsFortress</SoulGroup>
+    <Defense>30</Defense>
+
+  </Object>
+
+  <Object id="0x105f" name="Royal Scout">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>RoyalScout</Set>
+    </Texture>
+
+    <Projectile name="Royal Scout Jab" type="Sin">
+      <Size>1</Size>
+      <Speed>10</Speed>
+      <Range>7</Range>
+      <Frequency>0.5</Frequency>
+      <Amplitude>0.6</Amplitude>
+      <DamageMod>0.4</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>1.2</HealthMod>
+    <SoulMod>0.5</SoulMod>
+    <SoulGroup>MannahsFortress</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>34</Defense>
+
+  </Object>
+
+  <Object id="0x1060" name="Royal Keeper Left">
+    <Type>Enemy</Type>
+    <Title>Royal Keeper</Title>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>RoyalKeeper</Set>
+    </Texture>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>RoyalKeeper-Empty</Set>
+      <NoAttack/>
+    </Texture>
+    
+    <Projectile name="Royal Keeper Pound 1">
+      <Size>1.2</Size>
+      <Speed>9</Speed>
+      <Range>20</Range>
+      <DamageMod>1.5</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Royal Keeper Pound 2">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>15.5</Range>
+      <DamageMod>1.2</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Royal Keeper Pound 3">
+      <Size>1</Size>
+      <Speed>6</Speed>
+      <Range>13.3</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Size>1.3</Size>
+    <HealthMod>30</HealthMod>
+    <SoulMod>3</SoulMod>
+    <SoulGroup>MannahsFortress</SoulGroup>
+    <LootTier>6</LootTier>
+    <Defense>40</Defense>
+
+  </Object>
+
+  <Object id="0x1061" name="Royal Guard">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>RoyalGuard</Set>
+    </Texture>
+
+    <Projectile name="Royal Guard Slash" type="Sin">
+      <Size>1.2</Size>
+      <Speed>9</Speed>
+      <Range>9</Range>
+      <DamageMod>0.8</DamageMod>
+      <Frequency>0.5</Frequency>
+      <Amplitude>2</Amplitude>
+    </Projectile>
+
+    <Projectile name="Royal Guard Poke">
+      <Size>1.2</Size>
+      <Speed>9</Speed>
+      <Range>9</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+
+    <Size>1.2</Size>
+    <HealthMod>5</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>MannahsFortress</SoulGroup>
+    <LootTier>0</LootTier>
+    <LootTier>2</LootTier>
+    <Defense>38</Defense>
+
+  </Object>
+
+  <Object id="0x1062" name="Royal Keeper Right">
+    <Type>Enemy</Type>
+    <Title>Royal Keeper</Title>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>RoyalKeeper</Set>
+    </Texture>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>RoyalKeeper-Empty</Set>
+      <NoAttack/>
+    </Texture>
+    
+    <Projectile name="Royal Keeper Pound 1">
+      <Size>1.2</Size>
+      <Speed>9</Speed>
+      <Range>20</Range>
+      <DamageMod>1.5</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Royal Keeper Pound 2">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>15.5</Range>
+      <DamageMod>1.2</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Royal Keeper Pound 3">
+      <Size>1</Size>
+      <Speed>6</Speed>
+      <Range>13.3</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Size>1.3</Size>
+    <HealthMod>30</HealthMod>
+    <SoulMod>3</SoulMod>
+    <SoulGroup>MannahsFortress</SoulGroup>
+    <LootTier>6</LootTier>
+    <Defense>40</Defense>
+
+  </Object>
+
+  <Object id="0x1063" name="Royal Keeper Hammer">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>RoyalKeeperHammer</Set>
+      <Fps>0.07</Fps>
+      <NoFlip/>
+    </Texture>
+    
+    <Projectile name="Royal Keeper Pound 2">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>15.5</Range>
+      <DamageMod>1.2</DamageMod>
+    </Projectile>
+
+    <Size>1.2</Size>
+    <HealthMod>1</HealthMod>
+    <SoulMod>0</SoulMod>
+    <SoulGroup>MannahsFortress</SoulGroup>
+    <Invincible/>
+
+  </Object>
+
+  <Object id="0x1064" name="Royal Advisor">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>RoyalAdvisor</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Royal Advisor Shot 1">
+      <Size>1.2</Size>
+      <Speed>7</Speed>
+      <Range>20</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Projectile name="Royal Advisor Shot 2">
+      <Size>1.1</Size>
+      <Speed>9</Speed>
+      <Range>20</Range>
+      <DamageMod>1.3</DamageMod>
+    </Projectile>
+
+    <Projectile name="Royal Advisor Shot 3">
+      <Size>1.1</Size>
+      <Speed>7</Speed>
+      <Range>8</Range>
+      <DamageMod>1.1</DamageMod>
+      <Spin>1.8</Spin>
+    </Projectile>
+
+    <Projectile name="Royal Advisor Shot 4">
+      <Size>1.2</Size>
+      <Speed>9</Speed>
+      <Range>18</Range>
+      <DamageMod>1.5</DamageMod>
+    </Projectile>
+
+    <Projectile name="Royal Advisor Shot 2">
+      <Size>1.1</Size>
+      <Speed>7</Speed>
+      <Range>20</Range>
+      <DamageMod>1.3</DamageMod>
+    </Projectile>
+
+    <Projectile name="Royal Advisor Shot 3">
+      <Size>1.1</Size>
+      <Speed>3</Speed>
+      <Range>8</Range>
+      <DamageMod>1.1</DamageMod>
+      <Spin>1.8</Spin>
+    </Projectile>
+
+    <Size>1.2</Size>
+    <HealthMod>80</HealthMod>
+    <SoulMod>5</SoulMod>
+    <SoulGroup>MannahsFortress</SoulGroup>
+    <LootTier>6</LootTier>
+    <LootTier>11</LootTier>
+    <Defense>30</Defense>
+
+  </Object>
+
+  <Object id="0x1065" name="Royal Advisor Idol">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>RoyalAdvisorIdol</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Royal Idol Slash">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>16</Range>
+      <DamageMod>1.5</DamageMod>
+    </Projectile>
+
+    <Projectile name="Royal Idol Blast">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>0.6</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>18</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>MannahsFortress</SoulGroup>
+    <LootTier>2</LootTier>
+    <Defense>50</Defense>
+
+  </Object>
+
+  <Object id="0x1066" name="Soul Crux">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>MannahsSoulCrux</Set>
+      <Fps>0.18</Fps>
+    </Texture>
+
+    <Projectile name="Mannah Crux Blade">
+      <Size>0.9</Size>
+      <Speed>5</Speed>
+      <Range>20</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Projectile name="Mannah Ascended Crux Blade">
+      <Size>1.2</Size>
+      <Speed>6.4</Speed>
+      <Range>16</Range>
+      <DamageMod>1.4</DamageMod>
+    </Projectile>
+
+    <Size>1.2</Size>
+    <HealthMod>12</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>MannahsFortress</SoulGroup>
+    <LootTier>6</LootTier>
+    <Defense>50</Defense>
+
+  </Object>
+
+  <Object id="0x1067" name="Ascended Soul Crux">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>MannahsSoulCrux-Ascended</Set>
+      <Fps>0.18</Fps>
+    </Texture>
+
+    <Projectile name="Mannah Crux Blade">
+      <Size>0.9</Size>
+      <Speed>5</Speed>
+      <Range>20</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Projectile name="Mannah Ascended Crux Blade">
+      <Size>1.2</Size>
+      <Speed>6.4</Speed>
+      <Range>16</Range>
+      <DamageMod>1.4</DamageMod>
+    </Projectile>
+
+    <Size>1.2</Size>
+    <HealthMod>12</HealthMod>
+    <SoulMod>0</SoulMod>
+    <SoulGroup>MannahsFortress</SoulGroup>
+    <Defense>50</Defense>
+
+    <Invincible/>
+
+  </Object>
+
+  <Object id="0x1068" name="Mysterious Butterfly">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>MysteriousButterfly</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Pixie Charm">
+      <Speed>7</Speed>
+      <Range>12</Range>
+      <DamageMod>0.5</DamageMod>
+      <Spin>1.5</Spin>
+      <StatusEffect type="Charmed">1000</StatusEffect>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>0.8</HealthMod>
+    <SoulMod>0.5</SoulMod>
+    <SoulGroup>RictornsGate</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>12</Defense>
+
+  </Object>
+
+  <Object id="0x1069" name="Scout Tower">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>AcolyteTower</Set>
+      <NoWalk/>
+    </Texture>
+
+    <Projectile name="Acolyte Arrow">
+      <Speed>8</Speed>
+      <Range>14</Range>
+      <DamageMod>0.9</DamageMod>
+      <IgnoreCollision/>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>0.8</HealthMod>
+    <SoulMod>0</SoulMod>
+    <SoulGroup>RictornsGate</SoulGroup>
+    <Defense>12</Defense>
+
+    <Invincible/>
+
+  </Object>
+
+  <Object id="0x106a" name="Mage Tower">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>MageTower</Set>
+      <NoWalk/>
+    </Texture>
+
+    <Projectile name="Rictorn Mage Blast" type="Sin">
+      <Speed>7</Speed>
+      <Range>14</Range>
+      <DamageMod>0.8</DamageMod>
+      <IgnoreCollision/>
+      <Frequency>1</Frequency>
+      <Amplitude>2</Amplitude>
+    </Projectile>
+
+    <Projectile name="Rictorn Mage Nova">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>16</Range>
+      <DamageMod>1.2</DamageMod>
+      <IgnoreCollision/>
+      <Spin>1.8</Spin>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>0.8</HealthMod>
+    <SoulMod>0</SoulMod>
+    <SoulGroup>RictornsGate</SoulGroup>
+    <Defense>12</Defense>
+
+    <Invincible/>
+
+  </Object>
+  
+  <Object id="0x106b" name="Scout of Rictorn">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>ScoutOfRictorn</Set>
+    </Texture>
+
+    <Projectile name="Acolyte Arrow">
+      <Speed>8</Speed>
+      <Range>14</Range>
+      <DamageMod>0.9</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>0.8</HealthMod>
+    <SoulMod>0</SoulMod>
+    <SoulGroup>RictornsGate</SoulGroup>
+    <LootTier>0</LootTier>
+    <LootTier>1</LootTier>
+    <LootTier>4</LootTier>
+    <Defense>12</Defense>
+
+  </Object>
+
+  <Object id="0x106c" name="Mage of Rictorn">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>MageOfRictorn</Set>
+    </Texture>
+
+    <Projectile name="Rictorn Mage Blast" type="Sin">
+      <Speed>7</Speed>
+      <Range>14</Range>
+      <DamageMod>0.8</DamageMod>
+      <Frequency>1</Frequency>
+      <Amplitude>2</Amplitude>
+    </Projectile>
+
+    <Projectile name="Rictorn Mage Nova">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>16</Range>
+      <DamageMod>1.2</DamageMod>
+      <Spin>1.8</Spin>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>1.3</HealthMod>
+    <SoulMod>0</SoulMod>
+    <SoulGroup>RictornsGate</SoulGroup>
+    <LootTier>0</LootTier>
+    <LootTier>1</LootTier>
+    <Defense>10</Defense>
+
+  </Object>
+
+  <Object id="0x106d" name="Rictorn">
+    <Type>Enemy</Type>
+    <Title>Rictorn the Tenebrous</Title>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Rictorn</Set>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Rictorn-Transform</Set>
+      <Loops>1</Loops>
+      <Fps>0.15</Fps>
+    </Texture>
+    
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Rictorn-Transformed</Set>
+    </Texture>
+
+    <Projectile name="Rictorn Dual Blades">
+      <Size>1.4</Size>
+      <Speed>6</Speed>
+      <Range>16</Range>
+      <DamageMod>1.5</DamageMod>
+      <Spin>2</Spin>
+    </Projectile>
+
+    <Projectile name="Rictorn Blade">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Titan/>
+
+    <Size>1.1</Size>
+    <HealthMod>12</HealthMod>
+    <SoulMod>5</SoulMod>
+    <SoulGroup>RictornsGate</SoulGroup>
+    <LootTier>2</LootTier>
+    <LootTier>3</LootTier>
+    <Defense>14</Defense>
+
+  </Object>
+
+  <Object id="0x106e" name="Acolyte of Rictorn">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>AcolyteOfRictorn</Set>
+    </Texture>
+
+    <Projectile name="Rictorn Acolyte Nova">
+      <Size>1.1</Size>
+      <Speed>4</Speed>
+      <Range>16</Range>
+      <DamageMod>1.5</DamageMod>
+      <Spin>1.8</Spin>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>3</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>RictornsGate</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>20</Defense>
+
+  </Object>
+
+  <Object id="0x106f" name="Magus of Rictorn">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>MagusOfRictorn</Set>
+    </Texture>
+
+    <Projectile name="Rictorn Magus Nova">
+      <Size>1.1</Size>
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>1.5</DamageMod>
+      <Spin>1.8</Spin>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>3</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>RictornsGate</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>20</Defense>
+
+  </Object>
+
+  <Object id="0x1070" name="Prophet of Rictorn">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>ProphetOfRictorn</Set>
+    </Texture>
+
+    <Projectile name="Rictorn Prophet Nova" type="Boomerang">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>12</Range>
+      <DamageMod>1.5</DamageMod>
+      <Spin>1.8</Spin>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>3</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>RictornsGate</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>20</Defense>
+
+  </Object>
+
+  <Object id="0x1071" name="Overworld Rictorn">
+    <Type>Enemy</Type>
+    <Title>Rictorn the Tenebrous</Title>
+    <ShortName>Rictorn</ShortName>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Rictorn</Set>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Rictorn-Transform</Set>
+      <Loops>1</Loops>
+      <Fps>0.15</Fps>
+    </Texture>
+    
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Rictorn-Transformed</Set>
+    </Texture>
+
+    <Projectile name="Rictorn Dual Blades">
+      <Size>1.4</Size>
+      <Speed>6</Speed>
+      <Range>16</Range>
+      <DamageMod>1.5</DamageMod>
+      <Spin>2</Spin>
+    </Projectile>
+
+    <Projectile name="Rictorn Blade">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Titan/>
+
+    <Size>1.1</Size>
+    <HealthMod>12</HealthMod>
+    <SoulMod>6</SoulMod>
+    <SoulGroup>RictornsGate</SoulGroup>
+    <Defense>14</Defense>
+
+  </Object>
+    
+  <Object id="0x1072" name="Overworld Bhognin">
+    <Type>Enemy</Type>
+
+    <Title>Bho-Gnin the Colossal</Title>
+    <ShortName>Bho-Gnin</ShortName>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Bhognin</Set>
+      <SepWalk/>
+      <NoAttack/>
+      <NoFlip/>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Bhognin-Attack</Set>
+      <Fps>0.25</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Bhognin-Swing</Set>
+      <Fps>0.25</Fps>
+    </Texture>
+
+    <Projectile name="Chain Ball">
+      <Size>1.3</Size>
+      <Speed>7</Speed>
+      <Range>14</Range>
+      <DamageMod>1</DamageMod>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Titan/>
+
+    <Size>1.2</Size>
+    <HealthMod>14</HealthMod>
+    <SoulMod>8</SoulMod>
+    <SoulGroup>Desert</SoulGroup>
+    <Defense>20</Defense>
+
+  </Object>
+    
+  <Object id="0x1073" name="Overworld Zornan">
+    <Type>Enemy</Type>
+
+    <Title>Zornan the Supreme</Title>
+    <ShortName>Zornan</ShortName>
+
+    <Sprite>Zornan-1</Sprite>
+
+    <Titan/>
+
+    <Size>1.2</Size>
+    <HealthMod>20</HealthMod>
+    <SoulMod>6</SoulMod>
+    <SoulGroup>Lake</SoulGroup>
+    <Defense>30</Defense>
+
+  </Object>
+    
+  <Object id="0x1074" name="Overworld Valdok">
+    <Type>Enemy</Type>
+    <Title>Valdok the Fierce</Title>
+    <ShortName>Valdok</ShortName>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Valdok</Set>
+      <SepWalk/>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Valdok-Trans</Set>
+      <Fps>0.2</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Valdok-Transformed</Set>
+      <SepWalk/>
+    </Texture>
+
+    <Projectile name="Valdok Yellow Effect">
+      <Size>1.2</Size>
+      <Speed>7</Speed>
+      <Range>16</Range>
+      <DamageMod>0.7</DamageMod>
+      <StatusEffect type="Slowed">800</StatusEffect>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Projectile name="Valdok Red Effect">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>16</Range>
+      <DamageMod>0.7</DamageMod>
+      <StatusEffect type="Grounded">500</StatusEffect>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Projectile name="Valdok Wave">
+      <Size>1.2</Size>
+      <Speed>6</Speed>
+      <Range>14</Range>
+      <DamageMod>0.9</DamageMod>
+      <StatusEffect type="KnockedBack">500</StatusEffect>
+    </Projectile>
+
+    <Projectile name="Valdok Sharp Rock" type="Circular">
+      <Speed>5</Speed>
+      <Radius>5</Radius>
+      <Arc>360</Arc>
+      <DamageMod>1</DamageMod>
+      <IgnoreCollision/>
+    </Projectile>
+
+    <Projectile name="Valdok Sharp Rock" type="Circular">
+      <Speed>6</Speed>
+      <Radius>7</Radius>
+      <Arc>360</Arc>
+      <Clockwise/>
+      <DamageMod>1</DamageMod>
+      <IgnoreCollision/>
+    </Projectile>
+
+    <Projectile name="Valdok Flaming Rock" type="Boomerang">
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>1.3</DamageMod>
+      <IgnoreCollision/>
+    </Projectile>
+
+    <Projectile name="Valdok Boulder">
+      <Size>1.6</Size>
+      <Speed>3</Speed>
+      <Range>14</Range>
+      <DamageMod>2</DamageMod>
+      <Spin>1</Spin>
+    </Projectile>
+
+    <Projectile type="aoe">
+      <Radius>4</Radius>
+      <Color>red</Color>
+      <DamageMod>1</DamageMod>
+      <Lifetime>1</Lifetime>
+    </Projectile>
+
+    <Titan/>
+
+    <Size>1.2</Size>
+    <HealthMod>30</HealthMod>
+    <SoulMod>6</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <Defense>32</Defense>
+
+  </Object>
+    
+  <Object id="0x1075" name="Overworld Balun">
+    <Type>Enemy</Type>
+    
+    <Title>Balun the Unyielding</Title>
+    <ShortName>Balun</ShortName>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>FrostGiant</Set>
+      <SepWalk/>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>FrostGiantTaunt</Set>
+    </Texture>
+
+    <Sprite>FrostGiant-4</Sprite>
+    
+    <Sprite>FrostGiant-5</Sprite>
+
+    <Projectile name="Frost Giant Shock 1">
+      <Speed>5</Speed>
+      <Range>6</Range>
+      <DamageMod>0.9</DamageMod>
+      <Passive/>
+    </Projectile>
+
+    <Projectile name="Frost Giant Shock 2">
+      <Speed>8</Speed>
+      <Range>14</Range>
+      <DamageMod>1</DamageMod>
+      <Passive/>
+    </Projectile>
+
+    <Projectile name="Frost Giant Shock 3">
+      <Speed>12</Speed>
+      <Range>12</Range>
+      <DamageMod>1.1</DamageMod>
+      <Passive/>
+    </Projectile>
+
+    <Projectile name="Frost Giant Thunder 1">
+      <Speed>8</Speed>
+      <Range>12</Range>
+      <DamageMod>2</DamageMod>
+    </Projectile>
+
+    <Projectile name="Frost Giant Thunder 2">
+      <Speed>12</Speed>
+      <Range>12</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Titan/>
+
+    <Size>1.3</Size>
+    <HealthMod>30</HealthMod>
+    <SoulMod>6</SoulMod>
+    <SoulGroup>Dumir</SoulGroup>
+    <Defense>38</Defense>
+
+  </Object>
+    
+  <Object id="0x1076" name="Overworld Mannah">
+    <Type>Enemy</Type>
+    <Title>Mannah the Malevolent</Title>
+    <ShortName>Mannah</ShortName>
+    
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Mannah</Set>
+      <SepWalk/>
+    </Texture>
+    
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Mannah-Ascended</Set>
+      <SepWalk/>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Mannah-Still</Set>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Mannah-Meditate</Set>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Mannah-PowerUp</Set>
+      <Fps>0.18</Fps>
+    </Texture>
+    
+    <Projectile name="Mannah Gold Spiral" type="Parametric">
+      <Size>1</Size>
+      <Radius>6</Radius>
+      <Lifetime>3</Lifetime>
+      <DamageMod>0.8</DamageMod>
+      <Spin>-1.5</Spin>
+    </Projectile>
+    
+    <Projectile name="Mannah Gold Wave">
+      <Size>1.2</Size>
+      <Speed>6</Speed>
+      <Range>18</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Gold Dart" type="Boomerang">
+      <Size>1.2</Size>
+      <Speed>8</Speed>
+      <Range>11</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Gold Spikes">
+      <Size>1.8</Size>
+      <Speed>6</Speed>
+      <Range>15</Range>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Soul Wave 1">
+      <Size>1.1</Size>
+      <Speed>8</Speed>
+      <Range>18</Range>
+      <DamageMod>0.9</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Soul Wave 2">
+      <Size>1.1</Size>
+      <Speed>7</Speed>
+      <Range>10</Range>
+      <DamageMod>1.6</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Soul Construct">
+      <Size>1.3</Size>
+      <Speed>7.5</Speed>
+      <Range>16</Range>
+      <DamageMod>1.4</DamageMod>
+      <Spin>2</Spin>
+    </Projectile>
+    
+    <Projectile name="Mannah Soul Blast">
+      <Size>1</Size>
+      <Speed>9.5</Speed>
+      <Range>12</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Crux Blade">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>14</Range>
+      <DamageMod>0.7</DamageMod>
+    </Projectile>
+    
+    <Projectile name="Mannah Mundane Effect">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>20</Range>
+      <DamageMod>0.4</DamageMod>
+      <StatusEffect type="Mundane">5000</StatusEffect>
+      <Spin>2</Spin>
+    </Projectile>
+    
+    <Projectile name="Mannah Sick Effect">
+      <Size>1.1</Size>
+      <Speed>8</Speed>
+      <Range>20</Range>
+      <DamageMod>0.1</DamageMod>
+      <StatusEffect type="Sick">8000</StatusEffect>
+      <Spin>2</Spin>
+    </Projectile>
+    
+    <Projectile name="Mannah Gold Wave" type="Sin">
+      <Size>1.2</Size>
+      <Speed>3</Speed>
+      <Range>8</Range>
+      <Frequency>0.5</Frequency>
+      <Amplitude>2</Amplitude>
+      <DamageMod>0.8</DamageMod>
+    </Projectile>
+
+    <Titan/>
+
+    <Size>1.2</Size>
+    <HealthMod>45</HealthMod>
+    <SoulMod>8</SoulMod>
+    <SoulGroup>MannahsFortress</SoulGroup>
+    <Defense>42</Defense>
+    
+  </Object>
+
+  <Object id="0x1077" name="Grand Lich">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Lich</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Lich-Activated</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Lich Skull Ball">
+      <Size>1.4</Size>
+      <Speed>5</Speed>
+      <Range>16</Range>
+      <DamageMod>2</DamageMod>
+      <Spin>1</Spin>
+    </Projectile>
+
+    <Projectile name="Lich Slash Shot">
+      <Size>1.2</Size>
+      <Speed>3.8</Speed>
+      <Range>12.3</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Projectile name="Lich Slash Shot">
+      <Size>1</Size>
+      <Speed>6.5</Speed>
+      <Range>20.8</Range>
+      <DamageMod>1</DamageMod>
+    </Projectile>
+
+    <Projectile name="Lich Blunt Shot">
+      <Size>1</Size>
+      <Speed>10</Speed>
+      <Range>16</Range>
+      <DamageMod>1.0</DamageMod>
+    </Projectile>
+
+    <Projectile name="Lich Chain Shot">
+      <Size>1.2</Size>
+      <Speed>8</Speed>
+      <Range>20</Range>
+      <DamageMod>0.5</DamageMod>
+    </Projectile>
+
+    <Projectile name="Lich Construct Shot">
+      <Size>1.2</Size>
+      <Speed>4</Speed>
+      <Range>16</Range>
+      <DamageMod>1.2</DamageMod>
+      <Spin>3</Spin>
+    </Projectile>
+
+    <Size>1.3</Size>
+    <HealthMod>20</HealthMod>
+    <SoulMod>6</SoulMod>
+    <SoulGroup>Mountains</SoulGroup>
+    <LootTier>3</LootTier>
+    <LootTier>4</LootTier>
+    <Defense>38</Defense>
+
+  </Object>
+
+  <Object id="0x1078" name="Lich Skull">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>LichSkull</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Lich Skull Shot" type="Boomerang">
+      <Size>1</Size>
+      <Speed>8</Speed>
+      <Range>20</Range>
+      <DamageMod>0.5</DamageMod>
+      <Spin>1.5</Spin>
+    </Projectile>
+
+    <Size>0.9</Size>
+    <HealthMod>1</HealthMod>
+    <SoulMod>0.2</SoulMod>
+    <SoulGroup>Mountains</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>30</Defense>
+
+  </Object>
+
+  <Object id="0x1079" name="Greater Lich Skull">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>GreaterLichSkull</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Greater Skull Shot" type="Sin">
+      <Size>1</Size>
+      <Speed>5</Speed>
+      <Range>20</Range>
+      <DamageMod>0.9</DamageMod>
+      <Frequency>5</Frequency>
+      <Amplitude>0.7</Amplitude>
+    </Projectile>
+
+    <Size>1.3</Size>
+    <HealthMod>2</HealthMod>
+    <SoulMod>0.2</SoulMod>
+    <SoulGroup>Mountains</SoulGroup>
+    <LootTier>0</LootTier>
+    <Defense>30</Defense>
+
+  </Object>
+
+  <Object id="0x107a" name="Forge Gear">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>ForgeGear</Set>
+    </Texture>
+
+    <Size>1.1</Size>
+    <HealthMod>10</HealthMod>
+    <SoulMod>3</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <Defense>30</Defense>
+
+  </Object>
+
+  <Object id="0x107b" name="Forge Bucket">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>ForgeContainer</Set>
+    </Texture>
+
+    <Size>1.1</Size>
+    <HealthMod>10</HealthMod>
+    <SoulMod>3</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <Defense>30</Defense>
+
+  </Object>
+
+  <Object id="0x107c" name="Forge Foundry">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>ForgeFoundry</Set>
+    </Texture>
+
+    <Projectile name="Forge Lava Blast">
+      <Size>1.3</Size>
+      <Speed>6</Speed>
+      <Range>12</Range>
+      <DamageMod>1.1</DamageMod>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>15</HealthMod>
+    <SoulMod>3</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <LootTier>6</LootTier>
+    <Defense>30</Defense>
+
+  </Object>
+
+  <Object id="0x107d" name="Forge Pillar">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>ForgePillar</Set>
+      <NoWalk/>
+    </Texture>
+
+    <Projectile name="Forge Lava Blast">
+      <Size>1</Size>
+      <Speed>5</Speed>
+      <Range>14</Range>
+      <DamageMod>0.6</DamageMod>
+      <IgnoreCollision/>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>10</HealthMod>
+    <SoulMod>0</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <Defense>30</Defense>
+    <Invincible/>
+    
+  </Object>
+
+  <Object id="0x107e" name="Valdok's Rock Bomb">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>ValdokRockBomb</Set>
+      <Fps>0.15</Fps>
+    </Texture>
+
+    <Projectile name="Valdok Wave">
+      <Size>1.2</Size>
+      <Speed>3</Speed>
+      <Range>14</Range>
+      <DamageMod>0.7</DamageMod>
+      <StatusEffect type="KnockedBack">500</StatusEffect>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>10</HealthMod>
+    <SoulMod>0</SoulMod>
+    <SoulGroup>ValdoksForge</SoulGroup>
+    <Defense>30</Defense>
+    <Invincible/>
+
+  </Object>
+
+  <Object id="0x107f" name="Ancient Bone Worm">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>AncientBoneWorm</Set>
+      <NoAttack/>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>AncientBoneWorm-Burrow</Set>
+      <Fps>0.15</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>AncientBoneWorm-Burrow</Set>
+      <Fps>0.15</Fps>
+      <Loops>1</Loops>
+      <Reverse/>
+    </Texture>
+
+    <Projectile name="Ancient Bone Worm Pillar">
+      <Size>1.4</Size>
+      <Speed>4</Speed>
+      <Range>14</Range>
+      <DamageMod>0.7</DamageMod>
+      <IgnoreCollision/>
+      <Passive/>
+    </Projectile>
+
+    <Projectile name="Ancient Bone Worm Wave">
+      <Size>1.1</Size>
+      <Speed>5</Speed>
+      <Range>12</Range>
+      <DamageMod>0.3</DamageMod>
+      <StatusEffect type="KnockedBack">600</StatusEffect>
+      <Passive/>
+    </Projectile>
+
+    <Projectile name="Ancient Bone Worm Blast">
+      <Size>1.1</Size>
+      <Speed>7</Speed>
+      <Range>12</Range>
+      <DamageMod>1</DamageMod>
+      <Passive/>
+    </Projectile>
+
+    <Projectile name="Falling Rock Projectile">
+      <Size>1.1</Size>
+      <Speed>4</Speed>
+      <Range>16</Range>
+      <DamageMod>1</DamageMod>
+      <Spin>1.7</Spin>
+    </Projectile>
+
+    <Size>1.2</Size>
+    <HealthMod>20</HealthMod>
+    <SoulMod>5</SoulMod>
+    <SoulGroup>Gorge</SoulGroup>
+    <Defense>20</Defense>
+    <LootTier>3</LootTier>
+    <LootTier>5</LootTier>
+
+  </Object>
+
+  <Object id="0x1080" name="Ancient Bone Worm Body">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>AncientBoneWormBack</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>AncientBoneWormBack-Burrow</Set>
+      <Fps>0.15</Fps>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>AncientBoneWormBack-Burrow</Set>
+      <Fps>0.15</Fps>
+      <Loops>1</Loops>
+      <Reverse/>
+    </Texture>
+
+    <Projectile name="Ancient Bone Worm Wave">
+      <Size>1.1</Size>
+      <Speed>5</Speed>
+      <Range>6</Range>
+      <DamageMod>0.3</DamageMod>
+      <StatusEffect type="KnockedBack">600</StatusEffect>
+      <Passive/>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>20</HealthMod>
+    <SoulMod>0.6</SoulMod>
+    <SoulGroup>Gorge</SoulGroup>
+    <Defense>24</Defense>
+
+  </Object>
+
+  <Object id="0x1081" name="Falling Rock">
+    <Type>Enemy</Type>
+
+    <Sprite>Falling Rock Entity</Sprite>
+
+    <Projectile name="Falling Rock Projectile">
+      <Size>1.1</Size>
+      <Speed>4</Speed>
+      <Range>16</Range>
+      <DamageMod>1</DamageMod>
+      <Spin>1.7</Spin>
+    </Projectile>
+    
+    <Size>1.2</Size>
+    <HealthMod>10</HealthMod>
+    <SoulMod>0</SoulMod>
+    <SoulGroup>Gorge</SoulGroup>
+    <Defense>24</Defense>
+
+    <Invincible/>
+
+  </Object>
+
+  <Object id="0x1082" name="Barrens Golem">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BarrensGolem</Set>
+    </Texture>
+
+    <Projectile name="Barrens Golem Rock">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>12</Range>
+      <DamageMod>0.7</DamageMod>
+      <Spin>1</Spin>
+    </Projectile>
+
+    <Size>1.2</Size>
+    <HealthMod>1.5</HealthMod>
+    <SoulMod>1.1</SoulMod>
+    <SoulGroup>Gorge</SoulGroup>
+    <Defense>20</Defense>
+
+  </Object>
+
+  <Object id="0x1083" name="Barren Vulture">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BarrenVulture</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Projectile name="Barren Vulture Strike" type="Sin">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>5</Range>
+      <DamageMod>0.8</DamageMod>
+      <Amplitude>1</Amplitude>
+      <Frequency>0.5</Frequency>
+    </Projectile>
+
+    <Size>0.9</Size>
+    <Hover>0.3</Hover>
+    <HealthMod>0.9</HealthMod>
+    <SoulMod>0.8</SoulMod>
+    <SoulGroup>Gorge</SoulGroup>
+    <Defense>18</Defense>
+    <LootTier>2</LootTier>
+
+  </Object>
+
+  <Object id="0x1084" name="Barrens Iron Golem">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BarrensIronGolem</Set>
+    </Texture>
+
+    <Projectile name="Barrens Iron Shot">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>12</Range>
+      <DamageMod>0.6</DamageMod>
+    </Projectile>
+
+    <Size>1.2</Size>
+    <HealthMod>1.3</HealthMod>
+    <SoulMod>1</SoulMod>
+    <SoulGroup>Gorge</SoulGroup>
+    <Defense>20</Defense>
+    <LootTier>2</LootTier>
+
+  </Object>
+
+  <Object id="0x1085" name="Barrens Iron Rock">
+    <Type>Enemy</Type>
+
+    <Projectile name="Barrens Iron Shot" type="Boomerang">
+      <Size>1.1</Size>
+      <Speed>6</Speed>
+      <Range>7</Range>
+      <DamageMod>0.6</DamageMod>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>0.5</HealthMod>
+    <SoulMod>0.2</SoulMod>
+    <SoulGroup>Gorge</SoulGroup>
+    <Defense>26</Defense>
+
+  </Object>
+
+  <Object id="0x1086" name="Barren Tortoise">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BarrenTortoise</Set>
+      <SepWalk/>
+      <NoAttack/>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>BarrenTortoise-Shoot</Set>
+      <Fps>0.25</Fps>
+    </Texture>
+
+    <Projectile name="Barren Tortoise Spike">
+      <Size>1</Size>
+      <Speed>6</Speed>
+      <Range>12</Range>
+      <DamageMod>0.5</DamageMod>
+      <Passive/>
+    </Projectile>
+
+    <Size>1.1</Size>
+    <HealthMod>3</HealthMod>
+    <SoulMod>1.5</SoulMod>
+    <SoulGroup>Gorge</SoulGroup>
+    <Defense>26</Defense>
+    <LootTier>2</LootTier>
+
+  </Object>
+
+  <Object id="0x1087" name="Ravine Raiding Shaman">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>RavineRaidingShaman</Set>
+    </Texture>
+
+    <Projectile name="Raiding Shaman Blast">
+      <Size>1</Size>
+      <Speed>6</Speed>
+      <Range>12</Range>
+      <DamageMod>0.8</DamageMod>
+      <Spin>-1.4</Spin>
+    </Projectile>
+
+    <Projectile name="Raiding Shaman Orb">
+      <Size>1.6</Size>
+      <Speed>4</Speed>
+      <Range>16</Range>
+      <DamageMod>1.2</DamageMod>
+      <Spin>-2</Spin>
+    </Projectile>
+
+    <Projectile name="Raiding Shaman Square" type="Boomerang">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>7</Range>
+      <DamageMod>0.6</DamageMod>
+      <Spin>-3</Spin>
+    </Projectile>
+
+    <Size>1.2</Size>
+    <HealthMod>2</HealthMod>
+    <SoulMod>1.1</SoulMod>
+    <SoulGroup>Gorge</SoulGroup>
+    <Defense>18</Defense>
+    <LootTier>2</LootTier>
+
+  </Object>
+
+  <Object id="0x1088" name="Ravine Raiding Archer">
+    <Type>Enemy</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>RavineRaidingArcher</Set>
+    </Texture>
+
+    <Projectile name="Ravine Archer Arrow">
+      <Size>1</Size>
+      <Speed>7</Speed>
+      <Range>14</Range>
+      <DamageMod>0.6</DamageMod>
+    </Projectile>
+
+    <Size>1</Size>
+    <HealthMod>1</HealthMod>
+    <SoulMod>0.7</SoulMod>
+    <SoulGroup>Gorge</SoulGroup>
+    <Defense>18</Defense>
+
+  </Object>
+  
+</Objects>

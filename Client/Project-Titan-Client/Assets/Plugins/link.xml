@@ -1,0 +1,7 @@
+﻿<linker>
+
+  <assembly fullname="TitanCore" preserve="all"/>
+  
+  <assembly fullname="Utils.NET" preserve="all"/>
+  
+</linker>

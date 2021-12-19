@@ -1,0 +1,60 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TitanCore.Net.Packets
+{
+    public enum TnPacketType : byte
+    {
+        Fragment = 0,
+        Move = 1,
+        Tick = 2,
+        Tiles = 3,
+        Ping = 4,
+        Pong = 5,
+        Hello = 6,
+        MapInfo = 7,
+        StartTick = 8,
+        Shoot = 9,
+        Projectiles = 10,
+        TilesAck = 11,
+        Chat = 12,
+        Chats = 13,
+        ProjectilesAck = 14,
+        Hit = 15,
+        AllyHit = 16,
+        Swap = 17,
+        TradeRequest = 18,
+        TradeStart = 19,
+        TradeUpdate = 20,
+        TradeResult = 21,
+        UseAbility = 22,
+        PlayEffect = 23,
+        Interact = 24,
+        VaultInfo = 25,
+        LevelUp = 26,
+        Death = 27,
+        PurchaseVaultSlot = 28,
+        Drop = 29,
+        DamageTaken = 30,
+        DamageDealt = 31,
+        Quest = 32,
+        QuestDamage = 33,
+        Escape = 34,
+        Goto = 35,
+        GotoAck = 36,
+        Emote = 37,
+        EmoteUnlocked = 38,
+        UseItem = 39,
+        Reconnect = 40,
+        Error = 41,
+        HitWall = 42,
+        ChangeMusic = 43,
+        WorldChange = 44,
+        AscendStat = 45,
+        CreateResponse = 46,
+        SkinUnlocked = 47,
+        EnemyHitWall = 48,
+        HealthUpdate = 49
+    }
+}

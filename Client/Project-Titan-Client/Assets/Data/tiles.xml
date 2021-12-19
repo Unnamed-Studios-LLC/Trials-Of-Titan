@@ -1,0 +1,676 @@
+﻿<Objects>
+  <Object id="0xb00" name="Dirt">
+    <Type>Tile</Type>
+    <Sprite>Dirt-1</Sprite>
+    <Sprite>Dirt-2</Sprite>
+    <Sprite>Dirt-3</Sprite>
+  </Object>
+  
+  <Object id="0xb01" name="Dirt Path">
+    <Type>Tile</Type>
+    <Sprite>DirtPath-1</Sprite>
+    <Sprite>DirtPath-2</Sprite>
+    <Sprite>DirtPath-3</Sprite>
+    <Sprite>DirtPath-4</Sprite>
+  </Object>
+
+  <Object id="0xb02" name="Plain Grass">
+    <Type>Tile</Type>
+    <Sprite>PlainGrass-1</Sprite>
+    <Sprite>PlainGrass-2</Sprite>
+    <Sprite>PlainGrass-3</Sprite>
+    <Blend>20</Blend>
+    <Music>First_Adventure</Music>
+  </Object>
+
+  <Object id="0xb03" name="Ocean Water">
+    <Type>Tile</Type>
+    <Sprite>OceanWater-1</Sprite>
+    <Sink>0.3</Sink>
+    <Speed>0.7</Speed>
+    <Blend>11</Blend>
+    <Liquid/>
+  </Object>
+
+  <Object id="0xb04" name="Beach Sand">
+    <Type>Tile</Type>
+    <Sprite>Sand-1</Sprite>
+    <Blend>10</Blend>
+  </Object>
+
+  <Object id="0xb05" name="Mossy Grass">
+    <Type>Tile</Type>
+    <Sprite>MossyGrass-1</Sprite>
+    <Sprite>MossyGrass-2</Sprite>
+    <Sprite>MossyGrass-3</Sprite>
+    <Sprite>MossyGrass-4</Sprite>
+    <Sprite>MossyGrass-5</Sprite>
+    <Blend>30</Blend>
+    <Music>Solemn_Woods</Music>
+  </Object>
+
+  <Object id="0xb06" name="Mossy Dirt">
+    <Type>Tile</Type>
+    <Sprite>MossyDirt-1</Sprite>
+    <Sprite>MossyDirt-2</Sprite>
+    <Blend>29</Blend>
+  </Object>
+
+  <Object id="0xb07" name="Desert Sand">
+    <Type>Tile</Type>
+    <Sprite>DesertSand-1</Sprite>
+    <Blend>40</Blend>
+    <Music>Forgotten_Sands</Music>
+  </Object>
+
+  <Object id="0xb08" name="Desert Water">
+    <Type>Tile</Type>
+    <Sprite>DesertWater-1</Sprite>
+    <Sprite>DesertWater-2</Sprite>
+    <Blend>39</Blend>
+    <Sink>0.24</Sink>
+    <Speed>0.8</Speed>
+    <Liquid/>
+  </Object>
+
+  <Object id="0xb09" name="Village Wood Floor">
+    <Type>Tile</Type>
+    <Sprite>VillageWoodFloor-1</Sprite>
+    <Sprite>VillageWoodFloor-2</Sprite>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb0a" name="Bank Floor">
+    <Type>Tile</Type>
+    <Sprite>Bank-1</Sprite>
+    <Sprite>Bank-2</Sprite>
+    <Sprite>Bank-3</Sprite>
+    <Sprite>Bank-4</Sprite>
+    <Sprite>Bank-5</Sprite>
+    <NoBlend/>
+  </Object>
+  
+  <Object id="0xb0b" name="Bank Floor Edge">
+    <Type>Tile</Type>
+    <Sprite>BankEmpty-1</Sprite>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb0c" name="Smooth Water">
+    <Type>Tile</Type>
+    <Sprite>SmoothWater-1</Sprite>
+    <Liquid/>
+    <Blend>1</Blend>
+    <Sink>0.3</Sink>
+  </Object>
+
+  <Object id="0xb0d" name="Mountain Rock">
+    <Type>Tile</Type>
+    <Sprite>MountainRock-1</Sprite>
+    <Sprite>MountainRock-2</Sprite>
+    <Sprite>MountainRock-3</Sprite>
+    <Sprite>MountainRock-4</Sprite>
+    <Blend>60</Blend>
+    <Music>Crater</Music>
+  </Object>
+  
+  <Object id="0xb0e" name="Mountain Lava">
+    <Type>Tile</Type>
+    <Sprite>Lava-1</Sprite>
+    <Blend>59</Blend>
+    <Liquid/>
+    <Sink>0.3</Sink>
+    <Damage>40</Damage>
+  </Object>
+
+  <Object id="0xb0f" name="BankRugBottomLeft">
+    <Type>Tile</Type>
+  </Object>
+  
+  <Object id="0xb10" name="BankRugBottomCenter">
+    <Type>Tile</Type>
+  </Object>
+  
+  <Object id="0xb11" name="BankRugBottomRight">
+    <Type>Tile</Type>
+  </Object>
+  
+  <Object id="0xb12" name="BankRugTopLeft">
+    <Type>Tile</Type>
+  </Object>
+  
+  <Object id="0xb13" name="BankRugTopCenter">
+    <Type>Tile</Type>
+  </Object>
+  
+  <Object id="0xb14" name="BankRugTopRight">
+    <Type>Tile</Type>
+  </Object>
+
+  <Object id="0xb15" name="MarketRugBottomLeft">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb16" name="MarketRugBottomCenter">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb17" name="MarketRugBottomRight">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb18" name="MarketRugTopLeft">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb19" name="MarketRugTopCenter">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb1a" name="MarketRugTopRight">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb1b" name="MarketRugMiddleLeft">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb1c" name="MarketRugMiddle">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb1d" name="MarketRugMiddleRight">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb1e" name="Full Snow">
+    <Type>Tile</Type>
+    <Sprite>FullSnow-1</Sprite>
+    <Sprite>FullSnow-2</Sprite>
+    <Sprite>FullSnow-3</Sprite>
+    <Sprite>FullSnow-4</Sprite>
+    <Blend>70</Blend>
+    <Music>Twilight</Music>
+  </Object>
+
+  <Object id="0xb1f" name="Partial Snow">
+    <Type>Tile</Type>
+    <Sprite>PartialSnow-1</Sprite>
+    <Sprite>PartialSnow-2</Sprite>
+    <Sprite>PartialSnow-3</Sprite>
+    <Sprite>PartialSnow-4</Sprite>
+    <Blend>70</Blend>
+  </Object>
+
+  <Object id="0xb20" name="Rock Snow">
+    <Type>Tile</Type>
+    <Sprite>RockSnow-1</Sprite>
+    <Sprite>RockSnow-2</Sprite>
+    <Sprite>RockSnow-3</Sprite>
+    <Sprite>RockSnow-4</Sprite>
+    <Blend>71</Blend>
+  </Object>
+
+  <Object id="0xb21" name="Frozen Lake">
+    <Type>Tile</Type>
+    <Sprite>FrozenLake-1</Sprite>
+    <Sprite>FrozenLake-2</Sprite>
+    <Sprite>FrozenLake-3</Sprite>
+    <Sprite>FrozenLake-4</Sprite>
+    <Blend>70</Blend>
+    <Music>Twilight</Music>
+    
+    <TileChange action="Pressure">
+      <Tile>0xb22</Tile>
+      <Time>0.2</Time>
+    </TileChange>
+  </Object>
+
+  <Object id="0xb22" name="Cracked Lake">
+    <Type>Tile</Type>
+    <Sprite>CrackedLake-1</Sprite>
+    <Blend>70</Blend>
+
+    <TileChange action="Pressure">
+      <Tile>0xb23</Tile>
+      <Time>0.2</Time>
+    </TileChange>
+  </Object>
+
+  <Object id="0xb23" name="Cold Lake">
+    <Type>Tile</Type>
+    <Sprite>ColdLake-1</Sprite>
+    <Blend>69</Blend>
+    <Speed>0.5</Speed>
+    <Sink>0.3</Sink>
+    <Liquid/>
+    
+    <TileChange action="Elapsed">
+      <Tile>0xb21</Tile>
+      <Time>10</Time>
+    </TileChange>
+  </Object>
+
+  <Object id="0xb24" name="Deep Lake">
+    <Type>Tile</Type>
+    <Sprite>DeepWater-1</Sprite>
+    <Sprite>DeepWater-2</Sprite>
+    <Sprite>DeepWater-3</Sprite>
+    <Sprite>DeepWater-4</Sprite>
+    <Blend>49</Blend>
+    <Speed>0.5</Speed>
+    <Sink>0.3</Sink>
+    <Music>Serene_Waters</Music>
+    <Liquid/>
+
+    <Animated fps="0.5" selection="Sequence"/>
+  </Object>
+
+  <Object id="0xb25" name="Lake">
+    <Type>Tile</Type>
+    <Sprite>Lake-1</Sprite>
+    <Sprite>Lake-2</Sprite>
+    <Sprite>Lake-3</Sprite>
+    <Sprite>Lake-4</Sprite>
+    <Blend>50</Blend>
+    <Speed>0.75</Speed>
+    <Sink>0.2</Sink>
+    <Music>Serene_Waters</Music>
+    <Liquid/>
+
+    <Animated fps="0.5" selection="Sequence"/>
+  </Object>
+
+  <Object id="0xb26" name="Shallow Lake">
+    <Type>Tile</Type>
+    <Sprite>ShallowLake-1</Sprite>
+    <Sprite>ShallowLake-2</Sprite>
+    <Sprite>ShallowLake-3</Sprite>
+    <Sprite>ShallowLake-4</Sprite>
+    <Blend>51</Blend>
+    <Speed>0.9</Speed>
+    <Sink>0.1</Sink>
+    <Music>Serene_Waters</Music>
+    <Liquid/>
+
+    <Animated fps="0.5" selection="Sequence"/>
+  </Object>
+
+  <Object id="0xb27" name="Lake Rocks">
+    <Type>Tile</Type>
+    <Sprite>LakeRocks-1</Sprite>
+    <Blend>52</Blend>
+    <Music>Serene_Waters</Music>
+  </Object>
+
+  <Object id="0xb28" name="Lake Grass">
+    <Type>Tile</Type>
+    <Sprite>LakeGrass-1</Sprite>
+    <Sprite>LakeGrass-2</Sprite>
+    <Sprite>LakeGrass-3</Sprite>
+    <Sprite>LakeGrass-4</Sprite>
+    <Blend>53</Blend>
+    <Music>Serene_Waters</Music>
+  </Object>
+
+  <Object id="0xb29" name="Desert Sand Light">
+    <Type>Tile</Type>
+    <Sprite>DesertSandLight-1</Sprite>
+    <Blend>41</Blend>
+    <Music>Forgotten_Sands</Music>
+  </Object>
+
+  <Object id="0xb2a" name="Valdok's Forge Ground">
+    <Type>Tile</Type>
+    <Sprite>ValdoksForgeGround-1</Sprite>
+    <Sprite>ValdoksForgeGround-2</Sprite>
+    <Sprite>ValdoksForgeGround-3</Sprite>
+    <Sprite>ValdoksForgeGround-4</Sprite>
+    <Blend>10</Blend>
+  </Object>
+
+  <Object id="0xb2b" name="Valdok's Forge Tile">
+    <Type>Tile</Type>
+    <Sprite>ValdoksForgeTile-1</Sprite>
+    <Sprite>ValdoksForgeTile-1</Sprite>
+    <Sprite>ValdoksForgeTile-2</Sprite>
+    <Blend>10</Blend>
+  </Object>
+
+  <Object id="0xb2c" name="Valdok's Forge Cracked Ground">
+    <Type>Tile</Type>
+    <Sprite>ValdoksForgeCrackedGround-1</Sprite>
+    <Sprite>ValdoksForgeCrackedGround-2</Sprite>
+    <Sprite>ValdoksForgeCrackedGround-3</Sprite>
+    <Sprite>ValdoksForgeCrackedGround-4</Sprite>
+    <Blend>10</Blend>
+  </Object>
+
+  <Object id="0xb2d" name="Valdok's Lava">
+    <Type>Tile</Type>
+    <Sprite>Lava-1</Sprite>
+    <Blend>9</Blend>
+    <Liquid/>
+    <Sink>0.3</Sink>
+    <Damage>40</Damage>
+
+    <TileChange action="Elapsed">
+      <Tile>0xb2c</Tile>
+      <Time>8</Time>
+    </TileChange>
+  </Object>
+
+  <Object id="0xb2e" name="Dumir Ocean">
+    <Type>Tile</Type>
+    <Sprite>DumirOcean-1</Sprite>
+    <Sprite>DumirOcean-2</Sprite>
+    <Sprite>DumirOcean-3</Sprite>
+    <Sprite>DumirOcean-4</Sprite>
+    <Blend>10</Blend>
+    <Speed>0.75</Speed>
+    <Sink>0.2</Sink>
+    <Liquid/>
+
+    <Animated fps="0.5" selection="Sequence"/>
+  </Object>
+
+  <Object id="0xb2f" name="Dumir Sand">
+    <Type>Tile</Type>
+    <Sprite>DumirSand-1</Sprite>
+    <Sprite>DumirSand-2</Sprite>
+    <Sprite>DumirSand-3</Sprite>
+    <Sprite>DumirSand-4</Sprite>
+    <Blend>9</Blend>
+  </Object>
+
+  <Object id="0xb30" name="Dumir Village Floor">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb31" name="Dumir Deep Ocean">
+    <Type>Tile</Type>
+    <Sprite>DumirOceanDeep-1</Sprite>
+    <Sprite>DumirOceanDeep-2</Sprite>
+    <Sprite>DumirOceanDeep-3</Sprite>
+    <Sprite>DumirOceanDeep-4</Sprite>
+    <Blend>11</Blend>
+    <Speed>0.75</Speed>
+    <Sink>0.2</Sink>
+    <Liquid/>
+    <NoWalk/>
+
+    <Animated fps="0.5" selection="Sequence"/>
+  </Object>
+
+  <Object id="0xb32" name="Mannah's Fortress Tile">
+    <Type>Tile</Type>
+    <Sprite>MannahsFortressTile-1</Sprite>
+    <Sprite>MannahsFortressTile-2</Sprite>
+    <Sprite>MannahsFortressTile-3</Sprite>
+    <Sprite>MannahsFortressTile-4</Sprite>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb33" name="Mannah's Fortress Grass">
+    <Type>Tile</Type>
+    <Sprite>MannahsFortressGrass-1</Sprite>
+    <Sprite>MannahsFortressGrass-2</Sprite>
+    <Sprite>MannahsFortressGrass-3</Sprite>
+    <Sprite>MannahsFortressGrass-4</Sprite>
+    <Blend>10</Blend>
+  </Object>
+
+  <Object id="0xb34" name="Mannah's Fortress Dirt">
+    <Type>Tile</Type>
+    <Sprite>MannahsFortressDirt-1</Sprite>
+    <Sprite>MannahsFortressDirt-2</Sprite>
+    <Sprite>MannahsFortressDirt-3</Sprite>
+    <Sprite>MannahsFortressDirt-4</Sprite>
+    <Blend>11</Blend>
+  </Object>
+
+  <Object id="0xb35" name="Mannah's Fortress Dirt Path">
+    <Type>Tile</Type>
+    <Sprite>MannahsFortressDirtPath-1</Sprite>
+    <Sprite>MannahsFortressDirtPath-2</Sprite>
+    <Sprite>MannahsFortressDirtPath-3</Sprite>
+    <Sprite>MannahsFortressDirtPath-4</Sprite>
+    <Blend>11</Blend>
+  </Object>
+
+  <Object id="0xb36" name="Mannahs Fortress Rug BL">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb37" name="Mannahs Fortress Rug BM">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb38" name="Mannahs Fortress Rug BR">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb39" name="Mannahs Fortress Rug ML">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb3a" name="Mannahs Fortress Rug MM">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb3b" name="Mannahs Fortress Rug MR">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb3c" name="Mannahs Fortress Rug TL">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb3d" name="Mannahs Fortress Rug TM">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb3e" name="Mannahs Fortress Rug TR">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb3f" name="Mannah's Fortress Dark Grass">
+    <Type>Tile</Type>
+    <Sprite>MannahsFortressDarkGrass-1</Sprite>
+    <Sprite>MannahsFortressDarkGrass-2</Sprite>
+    <Sprite>MannahsFortressDarkGrass-3</Sprite>
+    <Sprite>MannahsFortressDarkGrass-4</Sprite>
+    <Blend>11</Blend>
+  </Object>
+
+  <Object id="0xb40" name="Splotchy Grass">
+    <Type>Tile</Type>
+    <Sprite>SplotchyGrass-1</Sprite>
+    <Sprite>SplotchyGrass-2</Sprite>
+    <Sprite>SplotchyGrass-3</Sprite>
+    <Sprite>SplotchyGrass-4</Sprite>
+    <Sprite>SplotchyGrass-5</Sprite>
+    <Sprite>SplotchyGrass-6</Sprite>
+    <Sprite>SplotchyGrass-7</Sprite>
+    <Sprite>SplotchyGrass-8</Sprite>
+    <Sprite>SplotchyGrass-9</Sprite>
+    <Sprite>SplotchyGrass-10</Sprite>
+    <Sprite>SplotchyGrass-11</Sprite>
+    <Sprite>SplotchyGrass-12</Sprite>
+    <Blend>10</Blend>
+  </Object>
+
+  <Object id="0xb41" name="PackageRugTopLeft">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb42" name="PackageRugTopCenter">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb43" name="PackageRugTopRight">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb44" name="PackageRugMiddleLeft">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb45" name="PackageRugMiddle">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb46" name="PackageRugMiddleRight">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb47" name="PackageRugBottomLeft">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb48" name="PackageRugBottomCenter">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb49" name="PackageRugBottomRight">
+    <Type>Tile</Type>
+    <Tag>Market</Tag>
+  </Object>
+
+  <Object id="0xb4a" name="Gorge Rock">
+    <Type>Tile</Type>
+    <Sprite>GorgeRock-1</Sprite>
+    <Sprite>GorgeRock-2</Sprite>
+    <Sprite>GorgeRock-3</Sprite>
+    <Blend>9</Blend>
+  </Object>
+
+  <Object id="0xb4b" name="Gorge Dark Sand">
+    <Type>Tile</Type>
+    <Blend>10</Blend>
+  </Object>
+
+  <Object id="0xb4c" name="Bubra Red Rug Top Left">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb4d" name="Bubra Red Rug Top">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb4e" name="Bubra Red Rug Top Right">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb4f" name="Bubra Red Rug Left">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb50" name="Bubra Red Rug Center">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb51" name="Bubra Red Rug Right">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb52" name="Bubra Red Rug Bottom Left">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb53" name="Bubra Red Rug Bottom">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb54" name="Bubra Red Rug Bottom Right">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb55" name="Bubra White Rug Top Left">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb56" name="Bubra White Rug Top Right">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb57" name="Bubra White Rug Left">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb58" name="Bubra White Rug Right">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb59" name="Bubra White Rug Bottom Left">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb5a" name="Bubra White Rug Bottom Right">
+    <Type>Tile</Type>
+    <NoBlend/>
+  </Object>
+  
+  <Object id="0xb5b" name="Gorge Slab">
+    <Type>Tile</Type>
+
+    <Sprite>GorgeSlab-1</Sprite>
+    <Sprite>GorgeSlab-2</Sprite>
+    <Sprite>GorgeSlab-3</Sprite>
+    <Sprite>GorgeSlab-4</Sprite>
+    
+    <NoBlend/>
+  </Object>
+
+  <Object id="0xb5c" name="Gorge Tile">
+    <Type>Tile</Type>
+
+    <Sprite>GorgeTile-1</Sprite>
+    <Sprite>GorgeTile-2</Sprite>
+    <Sprite>GorgeTile-3</Sprite>
+    <Sprite>GorgeTile-4</Sprite>
+    
+    <NoBlend/>
+  </Object>
+</Objects>

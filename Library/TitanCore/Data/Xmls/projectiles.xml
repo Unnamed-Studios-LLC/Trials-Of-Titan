@@ -1,0 +1,767 @@
+﻿<Objects>
+  
+  <!-- Sword Projectiles -->
+
+  <Object id="0x300" name="Simple Slash">
+    <Type>Projectile</Type>
+    <Sprite>Simple Slash</Sprite>
+  </Object>
+  <Object id="0x301" name="Club Simple Slash">
+    <Type>Projectile</Type>
+    <Sprite>Club Simple Slash</Sprite>
+  </Object>
+  <Object id="0x302" name="Cleaver Simple Slash">
+    <Type>Projectile</Type>
+    <Sprite>Cleaver Simple Slash</Sprite>
+  </Object>
+
+  <Object id="0x303" name="Sword 6 Slash">
+    <Type>Projectile</Type>
+    <Sprite>Sword 6 Slash</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x304" name="Sword 7 Slash">
+    <Type>Projectile</Type>
+    <Sprite>Sword 7 Slash</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x305" name="Sword 8 Slash">
+    <Type>Projectile</Type>
+    <Sprite>Sword 8 Slash</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x306" name="Sword 9 Slash">
+    <Type>Projectile</Type>
+    <Sprite>Sword 9 Slash</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x307" name="Sword 10 Slash">
+    <Type>Projectile</Type>
+    <Sprite>Sword 10 Slash</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+
+  <!-- Claymore Projectiles -->
+  
+  <Object id="0x308" name="Claymore 1 Slash">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x309" name="Claymore 2 Slash">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x323" name="Claymore 3 Slash">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x324" name="Claymore 4 Slash">
+    <Type>Projectile</Type>
+  </Object>
+
+  <Object id="0x30a" name="Claymore 5 Slash">
+    <Type>Projectile</Type>
+    <Sprite>Claymore 5 Slash</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x30b" name="Claymore 6 Slash">
+    <Type>Projectile</Type>
+    <Sprite>Claymore 6 Slash</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x30c" name="Claymore 7 Slash">
+    <Type>Projectile</Type>
+    <Sprite>Claymore 7 Slash</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x30d" name="Claymore 8 Slash">
+    <Type>Projectile</Type>
+    <Sprite>Claymore 8 Slash</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x30e" name="Claymore 9 Slash">
+    <Type>Projectile</Type>
+    <Sprite>Claymore 9 Slash</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x30f" name="Claymore 10 Slash">
+    <Type>Projectile</Type>
+    <Sprite>Claymore 10 Slash</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+
+  <!-- Bow Projectiles -->
+
+  <Object id="0x310" name="Bow 1 Arrow">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x311" name="Bow 2 Arrow">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x312" name="Bow 3 Arrow">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x313" name="Bow 4 Arrow">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x314" name="Bow 5 Arrow">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x315" name="Bow 6 Arrow">
+    <Type>Projectile</Type>
+    <Sprite>Bow 6 Arrow</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x316" name="Bow 7 Arrow">
+    <Type>Projectile</Type>
+    <Sprite>Bow 7 Arrow</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x317" name="Bow 8 Arrow">
+    <Type>Projectile</Type>
+    <Sprite>Bow 8 Arrow</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x318" name="Bow 9 Arrow">
+    <Type>Projectile</Type>
+    <Sprite>Bow 9 Arrow</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x319" name="Bow 10 Arrow">
+    <Type>Projectile</Type>
+    <Sprite>Bow 10 Arrow</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+
+  <!-- Spear Projectiles -->
+
+  <Object id="0x31a" name="Spear 1 Jab">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x31b" name="Spear 2 Jab">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x31c" name="Spear 3 Jab">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x31d" name="Spear 4 Jab">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x31e" name="Spear 5 Jab">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x31f" name="Spear 6 Jab">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x320" name="Spear 7 Jab">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x321" name="Spear 8 Jab">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x322" name="Spear 9 Jab">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x325" name="Spear 10 Jab">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  
+  <!-- Enemy Projectiles -->
+
+  <Object id="0x400" name="Steel Slash">
+    <Type>Projectile</Type>
+    <Sprite>Steel Slash</Sprite>
+    <Rotation>45</Rotation>
+  </Object>
+  <Object id="0x401" name="Flower Bulb">
+    <Type>Projectile</Type>
+    <Sprite>Flower Bulb</Sprite>
+  </Object>
+  <Object id="0x402" name="Orb Blue Blast">
+    <Type>Projectile</Type>
+    <Sprite>Orb Blue Blast</Sprite>
+  </Object>
+  <Object id="0x403" name="Orb Pink Blast">
+    <Type>Projectile</Type>
+    <Sprite>Orb Pink Blast</Sprite>
+  </Object>
+  <Object id="0x404" name="Construct Line">
+    <Type>Projectile</Type>
+    <Sprite>Construct Line</Sprite>
+  </Object>
+  <Object id="0x405" name="Demon Brute Wave">
+    <Type>Projectile</Type>
+    <Sprite>Demon Brute Wave</Sprite>
+  </Object>
+  <Object id="0x406" name="Demon Brute Fire">
+    <Type>Projectile</Type>
+    <Sprite>Demon Brute Fire</Sprite>
+  </Object>
+  <Object id="0x407" name="Dragon Light Blast Stage 1">
+    <Type>Projectile</Type>
+    <Sprite>Dragon Light Blast Stage 1</Sprite>
+  </Object>
+  <Object id="0x408" name="Dragon Light Blast Stage 2">
+    <Type>Projectile</Type>
+    <Sprite>Dragon Light Blast Stage 2</Sprite>
+  </Object>
+  <Object id="0x409" name="Dragon Light Blast Stage 3">
+    <Type>Projectile</Type>
+    <Sprite>Dragon Light Blast Stage 3</Sprite>
+  </Object>
+  <Object id="0x40a" name="Frost Giant Shock 1">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x40b" name="Frost Giant Shock 2">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x40c" name="Frost Giant Shock 3">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x40d" name="Frost Giant Thunder 1">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x40e" name="Frost Giant Thunder 2">
+    <Type>Projectile</Type>
+    <Rotation>45</Rotation>
+  </Object>
+  <Object id="0x40f" name="Spider Web Spray">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x410" name="Spider Toxic Shot">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x411" name="Lancer Ability Jab">
+    <Type>Projectile</Type>
+    <Sprite>Spear_01</Sprite>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x412" name="Pink Summoner Blast">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x413" name="Cannonball">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x414" name="Forest Branch">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x415" name="Forest Growth">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x416" name="Forest Protector Bloom">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x417" name="Beach Snake Strike">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x418" name="Beach Snake Baby Strike">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x419" name="Starfish Star">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x41a" name="Beach Crab Strike">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x41b" name="Beach Crab Pinch">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x41c" name="Beach Snail Blast">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x41d" name="Chain Ball">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x41e" name="Chain Wave">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x41f" name="Toxic Goop">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x420" name="Toxic Virus">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x421" name="Spider Web Spit">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x422" name="Boomerang Banana">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x423" name="Pixie Slow">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x424" name="Pixie Charm">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x425" name="Ent Blade">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x426" name="Dust Devil Gust">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x427" name="Desert Wave">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x428" name="Dune Snake Bite">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x429" name="Bubra Warrior Jab">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x42a" name="Bubra Skilled Jab">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x42b" name="Bubra Mounted Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x42c" name="Scorpion Strike">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x42d" name="Scorpion Poison">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x42e" name="Skeletal Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x42f" name="Skeletal Arrow">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x430" name="Skeletal Slow">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x431" name="Stranded Knight Slash">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x432" name="Bone Reaper Swipe">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x433" name="Bone Reaper Bludgeon">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x434" name="Conjurer Blast">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x435" name="Black Knight Jab 1">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x436" name="Black Knight Jab 2">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x437" name="Black Knight Jab 3">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x438" name="Black Knight Jab 4">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x439" name="Hydra Wave">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x43a" name="Hydra Large Bubble">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x43b" name="Hydra Bubble">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x43c" name="Hydra Effect">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x43d" name="Zebt Jab">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x43e" name="Zebtling Bite">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x43f" name="Vicious Zebtling Bite">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x440" name="Dumirian Warrior Slash">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x441" name="Dumirian Chief Jab">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x442" name="Dumirian Chief Spiral">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x443" name="Mammoth Tusk">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x444" name="Brittlebone Shiv">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x445" name="Frost Leech Effect">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x446" name="Worgle Bite">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x447" name="Worgle Rider Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x448" name="Orc Beastmaster Whip">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x449" name="Orc Bruiser Smash">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x44a" name="Orc Warrior Spikes">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x44b" name="Orc Bladesman Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x44c" name="Bothmur Zweihander Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x44d" name="Bothmur Zweihander Poke">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x44e" name="Bothmur Slash">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x44f" name="Bothmur Large Slash">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x450" name="Bothmur Stab">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x451" name="Bothmur Wave">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x452" name="Bothmur Effect">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x453" name="Valdok Yellow Effect">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x454" name="Valdok Red Effect">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x455" name="Valdok Wave">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x456" name="Valdok Sharp Rock">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x457" name="Valdok Boulder">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x458" name="Valdok Flaming Rock">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x459" name="Oda's Arrow">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x45a" name="Oda's Large Arrow">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x45b" name="Beorn Slash">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x45c" name="Beorn Large Slash">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x45d" name="Yolma Blast">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x45e" name="Yolma Spikes">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x45f" name="Throwing Axe">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x460" name="Freagun Arrow">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x461" name="Yolma's Orb Blast">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x462" name="Jyorgin Mammoth Knockback">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x463" name="Jyorgin Warrior Slash">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x464" name="Raeg Slash">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x465" name="Recluse Dumirian Punch">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x466" name="Bhaling Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x467" name="Bhaling Axe Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x468" name="Royal Guard Poke">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x469" name="Royal Guard Slash">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x46a" name="Royal Keeper Pound 1">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x46b" name="Royal Keeper Pound 2">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x46c" name="Royal Keeper Pound 3">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x46d" name="Royal Scout Jab">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x46e" name="Fortress Spinning Blade">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x46f" name="Royal Advisor Shot 1">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x470" name="Royal Advisor Shot 2">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x471" name="Royal Advisor Shot 3">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x472" name="Royal Advisor Shot 4">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x473" name="Royal Idol Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x474" name="Royal Idol Blast">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x475" name="Mannah Gold Spiral">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x476" name="Mannah Gold Wave">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x477" name="Mannah Gold Dart">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x478" name="Mannah Gold Spikes">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x479" name="Mannah Soul Wave 1">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x47a" name="Mannah Soul Wave 2">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x47b" name="Mannah Soul Construct">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x47c" name="Mannah Soul Blast">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x47d" name="Mannah Crux Blade">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x47e" name="Mannah Mundane Effect">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x47f" name="Mannah Sick Effect">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x480" name="Mannah Ascended Crux Blade">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x481" name="Acolyte Arrow">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x482" name="Rictorn Mage Blast">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x483" name="Rictorn Mage Nova">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x484" name="Rictorn Magus Nova">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x485" name="Rictorn Prophet Nova">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x486" name="Rictorn Acolyte Nova">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x487" name="Rictorn Dual Blades">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x488" name="Rictorn Blade">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x489" name="Thumbor Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x48a" name="Thumbor Small Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x48b" name="Sword Tier 9 Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x48c" name="Spear Tier 9 Jab">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x48d" name="Claymore Tier 9 Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x48e" name="Bow Tier 9 Arrow">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x48f" name="Sword Tier 10 Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x490" name="Left Dash Blade">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x491" name="Right Dash Blade">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x492" name="Spear Tier 10 Jab">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x493" name="Claymore Tier 10 Slash">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x494" name="Bow Tier 10 Arrow">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x495" name="Lich Skull Shot">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x496" name="Greater Skull Shot">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x497" name="Lich Skull Ball">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x498" name="Lich Construct Shot">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x499" name="Lich Slash Shot">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x49a" name="Lich Blunt Shot">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x49b" name="Lich Chain Shot">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x49c" name="Forge Lava Blast">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x49d" name="Balun Ball Shock">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x49e" name="Balun Diagonal Shock">
+    <Type>Projectile</Type>
+    <Rotation>45</Rotation>
+  </Object>
+  <Object id="0x49f" name="Balun Hammer Shock">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x4a0" name="Balun Line Shock">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x4a1" name="Balun Prong Shock">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x4a2" name="Balun Resistor Shock">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x4a3" name="Balun Hammer">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x4a4" name="Ancient Bone Worm Pillar">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x4a5" name="Falling Rock Projectile">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x4a6" name="Barrens Golem Rock">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x4a7" name="Barren Vulture Strike">
+    <Type>Projectile</Type>
+    <Rotation>45</Rotation>
+  </Object>
+  <Object id="0x4a8" name="Barrens Iron Shot">
+    <Type>Projectile</Type>
+    <Rotation>45</Rotation>
+  </Object>
+  <Object id="0x4a9" name="Ancient Bone Worm Wave">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x4aa" name="Ancient Bone Worm Blast">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x4ab" name="Barren Tortoise Spike">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x4ac" name="Ravine Archer Arrow">
+    <Type>Projectile</Type>
+    <Rotation>-45</Rotation>
+  </Object>
+  <Object id="0x4ad" name="Raiding Shaman Blast">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x4ae" name="Raiding Shaman Orb">
+    <Type>Projectile</Type>
+  </Object>
+  <Object id="0x4af" name="Raiding Shaman Square">
+    <Type>Projectile</Type>
+  </Object>
+  
+</Objects>

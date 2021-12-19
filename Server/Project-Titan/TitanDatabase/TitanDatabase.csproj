@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="titan-server-key.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="titan-server-key.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.106.17" />
+    <PackageReference Include="AWSSDK.EC2" Version="3.3.187.1" />
+    <PackageReference Include="AWSSDK.SimpleEmail" Version="3.3.101.163" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Library\TitanCore\TitanCore.csproj" />
+    <ProjectReference Include="..\..\..\Library\Utils.NET\Utils.NET\Utils.NET.csproj" />
+  </ItemGroup>
+
+</Project>

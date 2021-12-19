@@ -1,0 +1,70 @@
+﻿<html>
+
+<head>
+    <title>Verify Email</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var responseCallback = function (value) {
+            $.ajax({
+                url: 'verified',
+                type: 'POST',
+                data: { token: '*token', gToken: value },
+                success: function (data) {
+                    if (data.error) {
+                        $("#response").text(data.value);
+                    } else {
+                        $("#response").text("Email verified, you may close this window.");
+                    }
+                }
+            });
+        }
+        var onloadCallback = function () {
+            grecaptcha.render('recaptcha', {
+                'sitekey': '6LeZ0fcUAAAAAB5-g4zV9YxlcgbgKybVfodzUMwW',
+                'callback': responseCallback
+            });
+        };
+    </script>
+</head>
+
+<body>
+    <table style="margin: 0 auto; table-layout: fixed;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#545d61">
+        <tbody>
+            <tr style="height: 795px;">
+                <td style="width: 448px; text-align: center; height: 795px;" valign="center">
+                    <table style="box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 8px; height: 420px; margin-left: auto; margin-right: auto;" border="0" width="458" bgcolor="#bfc6c7">
+                        <tbody>
+                            <tr>
+                                <td style="width: 448px; text-align: center;" valign="center">
+                                    <table style="height: 400px; margin-left: auto; margin-right: auto;" border="0" width="340" bgcolor="#bfc6c7">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" valign="bottom"><img src="https://i.ibb.co/pfHYsT3/Unnamed-Logo-Full-White.png" alt="" width="200" height="80" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center"><span style="color: #ffffff; font-size: 22px; line-height: 24px; font-family: arial;"><strong>Verify Your Email</strong></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <div id="recaptcha" data-sitekey="6LeZ0fcUAAAAAB5-g4zV9YxlcgbgKybVfodzUMwW"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center"><span id="response" style="color: #48545d; font-size: 16px; line-height: 20px; font-family: arial;"></span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+            async defer>
+    </script>
+</body>
+
+</html>

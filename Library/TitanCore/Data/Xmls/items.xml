@@ -1,0 +1,2143 @@
+﻿<Objects>
+  
+  <!-- Swords -->
+  
+  <Object id="0x100" name="Stick" tier="0">
+    <Type>Weapon</Type>
+    <SlotType>Sword</SlotType>
+    <Sprite>Sword 1</Sprite>
+
+    <Description>A stick harvested from an oak tree. Seems to be of poor worksmanship.</Description>
+
+    <Projectile name="Club Simple Slash">
+      <Speed>12</Speed>
+      <Range>4</Range>
+      <MinDamageMod>1</MinDamageMod>
+      <MaxDamageMod>2.2</MaxDamageMod>
+    </Projectile>
+    
+    <RateOfFire>2.1</RateOfFire>
+  </Object>
+  <Object id="0x101" name="Rusty Iron Shortsword" tier="1">
+    <Type>Weapon</Type>
+    <SlotType>Sword</SlotType>
+    <Sprite>Sword 2</Sprite>
+
+    <Description>A rusty iron shortsword. Blunted by forgone use and poor maintenance.</Description>
+    
+    <Projectile name="Simple Slash">
+      <Speed>12</Speed>
+      <Range>4</Range>
+      <ProjectileRef id="0x100">0</ProjectileRef>
+      <MinDamageMod>1.3</MinDamageMod>
+      <MaxDamageMod>1.3</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>2.3</RateOfFire>
+  </Object>
+  <Object id="0x102" name="Steel Shortsword" tier="2">
+    <Type>Weapon</Type>
+    <SlotType>Sword</SlotType>
+    <Sprite>Sword 3</Sprite>
+
+    <Description>A common sword used by travelers and warriors alike. Made of hard steel, with few blemishes.</Description>
+    
+    <Projectile name="Simple Slash">
+      <Speed>12</Speed>
+      <Range>4</Range>
+      <ProjectileRef id="0x101">0</ProjectileRef>
+      <MinDamageMod>1.3</MinDamageMod>
+      <MaxDamageMod>1.3</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>2.5</RateOfFire>
+  </Object>
+  <Object id="0x103" name="Black Shortsword" tier="3">
+    <Type>Weapon</Type>
+    <SlotType>Sword</SlotType>
+    <Sprite>Sword 4</Sprite>
+
+    <Description>A shortsword fabricated of out elysium metal. A rare remnant of the old esforge.</Description>
+
+    <Esforged/>
+    <Projectile name="Simple Slash">
+      <Speed>12</Speed>
+      <Range>4</Range>
+      <ProjectileRef id="0x102">0</ProjectileRef>
+      <MinDamageMod>1.3</MinDamageMod>
+      <MaxDamageMod>1.3</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>2.8</RateOfFire>
+  </Object>
+  <Object id="0x104" name="Twintooth" tier="4">
+    <Type>Weapon</Type>
+    <SlotType>Sword</SlotType>
+    <Sprite>Sword 5</Sprite>
+
+    <Description>A twin-tipped sword. Double tip, double... weight. There doesn't seem to be any practical use.</Description>
+    
+    <Projectile name="Cleaver Simple Slash">
+      <Speed>12</Speed>
+      <Range>4</Range>
+      <ProjectileRef id="0x103">0</ProjectileRef>
+      <MinDamageMod>0.6</MinDamageMod>
+      <MaxDamageMod>0.6</MaxDamageMod>
+      <Amount>2</Amount>
+      <AngleGap>15</AngleGap>
+    </Projectile>
+
+    <RateOfFire>3.1</RateOfFire>
+  </Object>
+  <Object id="0x105" name="Mezhier's Bane (Replicate)" tier="5">
+    <Type>Weapon</Type>
+    <SlotType>Sword</SlotType>
+    <Sprite>Sword 6</Sprite>
+
+    <Description>Forged in the fashion of Mezhier's Bane. A fabled sword used to smite the ancient ruler.</Description>
+
+    <Esforged/>
+    <Projectile name="Sword 6 Slash">
+      <Speed>12</Speed>
+      <Range>4</Range>
+      <ProjectileRef id="0x104">0</ProjectileRef>
+      <MinDamageMod>2</MinDamageMod>
+      <MaxDamageMod>2.05</MaxDamageMod>
+    </Projectile>
+    
+    <RateOfFire>3.4</RateOfFire>
+  </Object>
+  <Object id="0x106" name="Sword of Luminous Glory" tier="6">
+    <Type>Weapon</Type>
+    <SlotType>Sword</SlotType>
+    <Sprite>Sword 7</Sprite>
+
+    <Description>An extremely sharp blade. Blinds those who gaze into its shimmer. So don't look to clos—.</Description>
+
+    <Projectile name="Sword 7 Slash">
+      <Speed>12</Speed>
+      <Range>4</Range>
+      <ProjectileRef id="0x105">0</ProjectileRef>
+      <MinDamageMod>1.2</MinDamageMod>
+      <MaxDamageMod>1.2</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>3.7</RateOfFire>
+  </Object>
+  <Object id="0x107" name="Sword of Everlasting Gloom" tier="7">
+    <Type>Weapon</Type>
+    <SlotType>Sword</SlotType>
+    <Sprite>Sword 8</Sprite>
+
+    <Description>A keen blade. Formed of precious gems and metals. Woefully named after a rather gloomy warrior.</Description>
+
+    <Projectile name="Sword 8 Slash">
+      <Speed>12</Speed>
+      <Range>4</Range>
+      <ProjectileRef id="0x106">0</ProjectileRef>
+      <MinDamageMod>1.15</MinDamageMod>
+      <MaxDamageMod>1.15</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>4</RateOfFire>
+  </Object>
+  <Object id="0x108" name="Sword of Marvelous Majesty" tier="8">
+    <Type>Weapon</Type>
+    <SlotType>Sword</SlotType>
+    <Sprite>Sword 9</Sprite>
+
+    <Description>Immaculately fashioned and gleaming with a brilliant scarlet. Once used by ancient majesty, but lost with the fall of Mezhier.</Description>
+
+    <Projectile name="Sword 9 Slash">
+      <Speed>12</Speed>
+      <Range>4</Range>
+      <ProjectileRef id="0x107">0</ProjectileRef>
+      <MinDamageMod>1.1</MinDamageMod>
+      <MaxDamageMod>1.1</MaxDamageMod>
+    </Projectile>
+    
+    <RateOfFire>4.3</RateOfFire>
+  </Object>
+  
+  <Object id="0x109" name="Sword of Unknown UT" tier="-1">
+    <Type>Weapon</Type>
+    <SlotType>Sword</SlotType>
+    <Sprite>Sword 10</Sprite>
+
+    <Description>A large and environmentally-friendly blade. Still has yet to discover its own name and description.</Description>
+
+    <Projectile name="Sword 10 Slash" type="Parametric">
+      <Lifetime>2</Lifetime>
+      <Radius>4</Radius>
+      <MinDamageMod>8</MinDamageMod>
+      <MaxDamageMod>10</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>10</RateOfFire>
+  </Object>
+  <Object id="0x10a" name="Thumbor" tier="-1">
+    <Type>Weapon</Type>
+    <SlotType>Sword</SlotType>
+    <Sprite>Thumbor</Sprite>
+
+    <Description>Heroic Dumirians willingly sacrificed their souls to assist Balun in crafting his titan hammer, Thumbor.</Description>
+
+    <Projectile name="Thumbor Slash" type="Sin">
+      <Speed>12</Speed>
+      <Range>4</Range>
+      <Frequency>0.5</Frequency>
+      <Amplitude>1</Amplitude>
+      <MinDamageMod>3.8</MinDamageMod>
+      <MaxDamageMod>5</MaxDamageMod>
+      <Amount>2</Amount>
+    </Projectile>
+
+    <Projectile name="Thumbor Small Slash" type="Sin">
+      <Speed>12</Speed>
+      <Range>5</Range>
+      <Frequency>0.5</Frequency>
+      <Amplitude>2</Amplitude>
+      <MinDamageMod>3</MinDamageMod>
+      <MaxDamageMod>4</MaxDamageMod>
+      <Amount>2</Amount>
+    </Projectile>
+
+    <RateOfFire>3</RateOfFire>
+  </Object>
+  
+  <Object id="0x10b" name="Sword of Dastardly Deed" tier="9">
+    <Type>Weapon</Type>
+    <SlotType>Sword</SlotType>
+    <Sprite>Sword Tier 9</Sprite>
+
+    <Description>Dazzling with with piercing reflection, the sword is a wicked wonder. Forged from forgotten depths to fulfill secluded services.</Description>
+
+    <Projectile name="Sword Tier 9 Slash">
+      <Speed>12</Speed>
+      <Range>4</Range>
+      <ProjectileRef id="0x108">0</ProjectileRef>
+      <MinDamageMod>1.06</MinDamageMod>
+      <MaxDamageMod>1.05</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>4.4</RateOfFire>
+  </Object>
+
+  <Object id="0x10c" name="Sword of Unwavering Virtue" tier="10">
+    <Type>Weapon</Type>
+    <SlotType>Sword</SlotType>
+    <Sprite>Sword Tier 10</Sprite>
+
+    <Description>Radiating with a calming aura, the blade beholds the user with a sense of pure righteousness. Striking down opponents with conviction and resolve.</Description>
+
+    <Projectile name="Sword Tier 10 Slash">
+      <Speed>12</Speed>
+      <Range>4</Range>
+      <ProjectileRef id="0x10b">0</ProjectileRef>
+      <MinDamageMod>1.07</MinDamageMod>
+      <MaxDamageMod>1.04</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>4.5</RateOfFire>
+  </Object>
+  
+  <!-- Claymores -->
+
+  <Object id="0x120" name="Worn out Claymore" tier="0">
+    <Type>Weapon</Type>
+    <SlotType>Claymore</SlotType>
+    <Sprite>Claymore 1</Sprite>
+
+    <Description>An old and used claymore. Not much of what it used to be.</Description>
+
+    <Projectile name="Claymore 1 Slash">
+      <Speed>14</Speed>
+      <Range>3.3</Range>
+      <MinDamageMod>1</MinDamageMod>
+      <MaxDamageMod>1.7</MaxDamageMod>
+      <Fallthrough/>
+    </Projectile>
+
+    <RateOfFire>1.2</RateOfFire>
+  </Object>
+  
+  <Object id="0x121" name="Antique Claymore" tier="1">
+    <Type>Weapon</Type>
+    <SlotType>Claymore</SlotType>
+    <Sprite>Claymore 2</Sprite>
+
+    <Description>A regular old claymore, saved by hoarders due to the metal scarcity. Never turned out to be worth much.</Description>
+
+    <Projectile name="Claymore 2 Slash">
+      <Speed>14</Speed>
+      <Range>3.3</Range>
+      <ProjectileRef id="0x120">0</ProjectileRef>
+      <MinDamageMod>1.3</MinDamageMod>
+      <MaxDamageMod>1.3</MaxDamageMod>
+      <Fallthrough/>
+    </Projectile>
+
+    <RateOfFire>1.3</RateOfFire>
+  </Object>
+  
+  <Object id="0x122" name="Gold-Bladed Claymore" tier="2">
+    <Type>Weapon</Type>
+    <SlotType>Claymore</SlotType>
+    <Sprite>Claymore 3</Sprite>
+
+    <Description>A fine gold-plated blade. Looks quite fashionable, don't damage the precious metal!</Description>
+
+    <Projectile name="Claymore 3 Slash">
+      <Speed>14</Speed>
+      <Range>3.3</Range>
+      <ProjectileRef id="0x121">0</ProjectileRef>
+      <MinDamageMod>1.3</MinDamageMod>
+      <MaxDamageMod>1.3</MaxDamageMod>
+      <Fallthrough/>
+    </Projectile>
+
+    <RateOfFire>1.4</RateOfFire>
+  </Object>
+  
+  <Object id="0x123" name="Brawler's Bludgeoning Claymore" tier="3">
+    <Type>Weapon</Type>
+    <SlotType>Claymore</SlotType>
+    <Sprite>Claymore 4</Sprite>
+
+    <Description>A large and obtrusely tipped claymore. A heavy hitter, but is exhausting to swing.</Description>
+
+    <Projectile name="Claymore 4 Slash">
+      <Speed>14</Speed>
+      <Range>3.3</Range>
+      <ProjectileRef id="0x122">0</ProjectileRef>
+      <MinDamageMod>1.4</MinDamageMod>
+      <MaxDamageMod>1.4</MaxDamageMod>
+      <Fallthrough/>
+    </Projectile>
+
+    <RateOfFire>1.2</RateOfFire>
+  </Object>
+  
+  <Object id="0x124" name="Sage's Serpentine Blade" tier="4">
+    <Type>Weapon</Type>
+    <SlotType>Claymore</SlotType>
+    <Sprite>Claymore 5</Sprite>
+
+    <Description>Swings unaturally and with a mystical nature. The recipe for it's creation are lost to the Esforge.</Description>
+
+    <Projectile name="Claymore 5 Slash" type="Sin">
+      <Speed>14</Speed>
+      <Range>3.3</Range>
+      <Frequency>1</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <ProjectileRef id="0x123">0</ProjectileRef>
+      <MinDamageMod>1.3</MinDamageMod>
+      <MaxDamageMod>1.3</MaxDamageMod>
+      <NoPath/>
+      <Fallthrough/>
+    </Projectile>
+
+    <Esforged/>
+    
+    <RateOfFire>1.8</RateOfFire>
+  </Object>
+  
+  <Object id="0x125" name="Blacksteel Claymore" tier="5">
+    <Type>Weapon</Type>
+    <SlotType>Claymore</SlotType>
+    <Sprite>Claymore 6</Sprite>
+
+    <Description>A steel claymore hardend by unknown elements. Presents with a matte-like color, but, upon further inspection, micro shards gleam in the light.</Description>
+
+    <Projectile name="Claymore 6 Slash">
+      <Speed>14</Speed>
+      <Range>3.3</Range>
+      <ProjectileRef id="0x124">0</ProjectileRef>
+      <MinDamageMod>1.27</MinDamageMod>
+      <MaxDamageMod>1.27</MaxDamageMod>
+      <Fallthrough/>
+    </Projectile>
+
+    <Esforged/>
+    
+    <RateOfFire>2.0</RateOfFire>
+  </Object>
+  
+  <Object id="0x126" name="Blade of the Viridian Behemoth" tier="6">
+    <Type>Weapon</Type>
+    <SlotType>Claymore</SlotType>
+    <Sprite>Claymore 7</Sprite>
+
+    <Description>A blade saturated with viridian gems and materials. The climax of one's selection.</Description>
+
+    <Projectile name="Claymore 7 Slash">
+      <Speed>14</Speed>
+      <Range>3.3</Range>
+      <ProjectileRef id="0x125">0</ProjectileRef>
+      <MinDamageMod>1.25</MinDamageMod>
+      <MaxDamageMod>1.25</MaxDamageMod>
+      <Fallthrough/>
+    </Projectile>
+
+    <RateOfFire>2.1</RateOfFire>
+  </Object>
+  
+  <Object id="0x127" name="Claymore of the Azure Leviathan" tier="7">
+    <Type>Weapon</Type>
+    <SlotType>Claymore</SlotType>
+    <Sprite>Claymore 8</Sprite>
+
+    <Description>A blade of limited creation. Forged for the protection of utmost majesty.</Description>
+
+    <Projectile name="Claymore 8 Slash">
+      <Speed>14</Speed>
+      <Range>3.3</Range>
+      <ProjectileRef id="0x126">0</ProjectileRef>
+      <MinDamageMod>1.2</MinDamageMod>
+      <MaxDamageMod>1.2</MaxDamageMod>
+      <Fallthrough/>
+    </Projectile>
+    
+    <RateOfFire>2.3</RateOfFire>
+  </Object>
+  
+  <Object id="0x128" name="Claymore of the Chartreuse Colossus" tier="8">
+    <Type>Weapon</Type>
+    <SlotType>Claymore</SlotType>
+    <Sprite>Claymore 9</Sprite>
+
+    <Description>A colossal blade. Sturdy and resiliant, sprouted from the genesis of Gaia.</Description>
+
+    <Projectile name="Claymore 9 Slash">
+      <Speed>14</Speed>
+      <Range>3.3</Range>
+      <ProjectileRef id="0x127">0</ProjectileRef>
+      <MinDamageMod>1.15</MinDamageMod>
+      <MaxDamageMod>1.15</MaxDamageMod>
+      <Fallthrough/>
+    </Projectile>
+    
+    <RateOfFire>2.4</RateOfFire>
+  </Object>
+    
+  <Object id="0x129" name="Mannah's Soul Crux" tier="-1">
+    <Type>Weapon</Type>
+    <SlotType>Claymore</SlotType>
+    <Sprite>Claymore 10</Sprite>
+
+    <Description>A blade infused with the souls of fallen warriors. Their essence is used to converge the blade's power to a point.</Description>
+
+    <Projectile name="Claymore 10 Slash" type="Sin">
+      <Speed>14</Speed>
+      <Frequency>0.5</Frequency>
+      <Amplitude>1.2</Amplitude>
+      <Range>4.3</Range>
+      <AngleGap>0</AngleGap>
+      <Amount>2</Amount>
+      <MinDamageMod>4.6</MinDamageMod>
+      <MaxDamageMod>5.4</MaxDamageMod>
+      <Fallthrough/>
+    </Projectile>
+
+    <RateOfFire>2</RateOfFire>
+  </Object>
+
+  <Object id="0x12a" name="Bothmur's Zweihander" tier="-1">
+    <Type>Weapon</Type>
+    <SlotType>Claymore</SlotType>
+
+    <Description>Bothmur's Zweihander</Description>
+    
+    <Projectile name="Bothmur Zweihander Slash">
+      <Speed>14</Speed>
+      <Range>3.3</Range>
+      <MinDamageMod>7</MinDamageMod>
+      <MaxDamageMod>9</MaxDamageMod>
+      <DefinedAmount/>
+      <Amount>2</Amount>
+      <Fallthrough/>
+    </Projectile>
+    
+    <Projectile name="Bothmur Zweihander Poke">
+      <Speed>17</Speed>
+      <Range>4.3</Range>
+      <MinDamageMod>3</MinDamageMod>
+      <MaxDamageMod>5</MaxDamageMod>
+      <DefinedAmount/>
+      <Amount>2</Amount>
+      <Fallthrough/>
+    </Projectile>
+
+    <RateOfFire>2</RateOfFire>
+  </Object>
+
+  <Object id="0x12b" name="Claymore of the Sanguine Moon" tier="9">
+    <Type>Weapon</Type>
+    <SlotType>Claymore</SlotType>
+    <Sprite>Claymore Tier 9</Sprite>
+
+    <Description>A blade of unbridled thirst. It's said to have spilled the blood of humans and titans alike.</Description>
+
+    <Projectile name="Claymore Tier 9 Slash">
+      <Speed>14</Speed>
+      <Range>3.3</Range>
+      <ProjectileRef id="0x128">0</ProjectileRef>
+      <MinDamageMod>1.2</MinDamageMod>
+      <MaxDamageMod>1.05</MaxDamageMod>
+      <Fallthrough/>
+    </Projectile>
+
+    <RateOfFire>2.5</RateOfFire>
+  </Object>
+
+  <Object id="0x12c" name="Claymore of the Shattered Morality" tier="10">
+    <Type>Weapon</Type>
+    <SlotType>Claymore</SlotType>
+    <Sprite>Claymore Tier 10</Sprite>
+
+    <Description>A blade of pure calamity. Forged by ancient Titans, to ensure devastation through all who wield it.</Description>
+
+    <Projectile name="Claymore Tier 10 Slash">
+      <Speed>14</Speed>
+      <Range>3.3</Range>
+      <ProjectileRef id="0x12b">0</ProjectileRef>
+      <MinDamageMod>1.15</MinDamageMod>
+      <MaxDamageMod>1.05</MaxDamageMod>
+      <Fallthrough/>
+    </Projectile>
+
+    <RateOfFire>2.6</RateOfFire>
+  </Object>
+
+  <!-- Bows -->
+
+  <Object id="0x140" name="Oak Longbow" tier="0">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+    <Sprite>Bow 1</Sprite>
+
+    <Description>A simple longbow. Constructed of wood extracted from an oak tree.</Description>
+
+    <Projectile name="Bow 1 Arrow">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <MinDamageMod>1</MinDamageMod>
+      <MaxDamageMod>2</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>3</RateOfFire>
+  </Object>
+
+  <Object id="0x141" name="Yew Longbow" tier="1">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+    <Sprite>Bow 2</Sprite>
+
+    <Description>The standard longbow. Used by rangers and apprentices alike.</Description>
+
+    <Projectile name="Bow 2 Arrow">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <ProjectileRef id="0x140">0</ProjectileRef>
+      <MinDamageMod>1.6</MinDamageMod>
+      <MaxDamageMod>1.5</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>3.4</RateOfFire>
+  </Object>
+
+  <Object id="0x142" name="Osage Longbow" tier="2">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+    <Sprite>Bow 3</Sprite>
+
+    <Description>A fine longbow. Made with imported wood by an experienced craftsman.</Description>
+
+    <Projectile name="Bow 3 Arrow">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <ProjectileRef id="0x141">0</ProjectileRef>
+      <MinDamageMod>1.3</MinDamageMod>
+      <MaxDamageMod>1.3</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>3.8</RateOfFire>
+  </Object>
+
+  <Object id="0x143" name="Fortified Longbow" tier="3">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+    <Sprite>Bow 4</Sprite>
+
+    <Description>A longbow of quality make. Its weakest points have been fortified with iron.</Description>
+
+    <Projectile name="Bow 4 Arrow">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <ProjectileRef id="0x142">0</ProjectileRef>
+      <MinDamageMod>1.2</MinDamageMod>
+      <MaxDamageMod>1.2</MaxDamageMod>
+    </Projectile>
+    
+    <RateOfFire>4.2</RateOfFire>
+  </Object>
+
+  <Object id="0x144" name="Vulture's Ferocity" tier="4">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+    <Sprite>Bow 5</Sprite>
+
+    <Description>A bow splintered from a great Elm. Shoots arrows fashioned from vulture feathers.</Description>
+
+    <Esforged/>
+
+    <Projectile name="Bow 5 Arrow">
+      <Speed>17</Speed>
+      <Range>6.5</Range>
+      <ProjectileRef id="0x143">0</ProjectileRef>
+      <MinDamageMod>1.2</MinDamageMod>
+      <MaxDamageMod>1.2</MaxDamageMod>
+    </Projectile>
+    
+    <RateOfFire>4.6</RateOfFire>
+  </Object>
+
+  <Object id="0x145" name="Arcus's Featherdraw Bow" tier="5">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+    <Sprite>Bow 6</Sprite>
+
+    <Description>Bow of agile construct. Fabricated to shoot swiftly, with high precision.</Description>
+
+    <Esforged/>
+
+    <Projectile name="Bow 6 Arrow">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <ProjectileRef id="0x144">0</ProjectileRef>
+      <MinDamageMod>0.9</MinDamageMod>
+      <MaxDamageMod>0.9</MaxDamageMod>
+    </Projectile>
+    
+    <RateOfFire>5.4</RateOfFire>
+  </Object>
+
+  <Object id="0x146" name="Bow of Cruel Consequence" tier="6">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+    <Sprite>Bow 7</Sprite>
+
+    <Description>Accurate beyond belief. Provides severe consquences to those caught in its sight.</Description>
+
+    <Projectile name="Bow 7 Arrow">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <ProjectileRef id="0x145">0</ProjectileRef>
+      <MinDamageMod>1.25</MinDamageMod>
+      <MaxDamageMod>1.25</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>4.8</RateOfFire>
+  </Object>
+
+  <Object id="0x147" name="Bow of Pitless Pestilence" tier="7">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+    <Sprite>Bow 8</Sprite>
+
+    <Description>Granted namesake for the bow's scourge upon its enemies. The never-ending arrows criple even the mightiest of foes.</Description>
+
+    <Projectile name="Bow 8 Arrow">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <ProjectileRef id="0x146">0</ProjectileRef>
+      <MinDamageMod>1.2</MinDamageMod>
+      <MaxDamageMod>1.2</MaxDamageMod>
+    </Projectile>
+    
+    <RateOfFire>5.0</RateOfFire>
+  </Object>
+
+  <Object id="0x148" name="Bow of Renown Immortality" tier="8">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+    <Sprite>Bow 9</Sprite>
+
+    <Description>A master-class bow. The paragon of craftsmanship and skill. Fashioned out of gold and adorned with diamonds.</Description>
+
+    <Projectile name="Bow 9 Arrow">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <ProjectileRef id="0x147">0</ProjectileRef>
+      <MinDamageMod>1.15</MinDamageMod>
+      <MaxDamageMod>1.15</MaxDamageMod>
+    </Projectile>
+    
+    <RateOfFire>5.2</RateOfFire>
+  </Object>
+
+  <Object id="0x149" name="Stormsong (Tehtman's Soulstring)" tier="-1">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+    <Sprite>Bow 10</Sprite>
+
+    <Description>A bow of broad carnage. Alternating shots with the result of a widespread blow.</Description>
+
+    <Projectile name="Bow 10 Arrow">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <Amount>2</Amount>
+      <AngleGap>20</AngleGap>
+      <MinDamageMod>3.3</MinDamageMod>
+      <MaxDamageMod>4.5</MaxDamageMod>
+    </Projectile>
+    <Projectile name="Bow 10 Arrow">
+      <Speed>14</Speed>
+      <Range>6.5</Range>
+      <MinDamageMod>5.7</MinDamageMod>
+      <MaxDamageMod>6.4</MaxDamageMod>
+    </Projectile>
+    
+    <RateOfFire>4.8</RateOfFire>
+  </Object>
+
+  <Object id="0x14a" name="Oda's Transcendent Longbow" tier="-1">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+
+    <Description>Oda's Bow</Description>
+
+    <Projectile name="Oda's Arrow">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <MinDamageMod>4.8</MinDamageMod>
+      <MaxDamageMod>5.8</MaxDamageMod>
+      <DefinedAmount/>
+      <Amount>3</Amount>
+    </Projectile>
+
+    <Projectile name="Oda's Arrow" type="Sin">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <Frequency>0.5</Frequency>
+      <Amplitude>1.2</Amplitude>
+      <MinDamageMod>4.8</MinDamageMod>
+      <MaxDamageMod>5.8</MaxDamageMod>
+      <DefinedAmount/>
+      <Amount>3</Amount>
+    </Projectile>
+
+    <Projectile name="Oda's Arrow" type="Sin">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <Frequency>0.5</Frequency>
+      <Amplitude>1.2</Amplitude>
+      <MinDamageMod>4.8</MinDamageMod>
+      <MaxDamageMod>5.8</MaxDamageMod>
+      <DefinedAmount/>
+      <Amount>3</Amount>
+    </Projectile>
+
+    <RateOfFire>3</RateOfFire>
+  </Object>
+
+  <Object id="0x14b" name="Ceremonial Bow" tier="-1">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+
+    <Description>A ceremonial bow used by followers and acolytes of Rictorn.</Description>
+
+    <Projectile name="Acolyte Arrow">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <Amount>2</Amount>
+      <AngleGap>15</AngleGap>
+      <ProjectileRef id="0x144">0</ProjectileRef>
+      <MinDamageMod>0.8</MinDamageMod>
+      <MaxDamageMod>0.8</MaxDamageMod>
+      <IgnoreEntity/>
+    </Projectile>
+
+    <RateOfFire>4.8</RateOfFire>
+  </Object>
+
+  <Object id="0x14c" name="Bow of Swift Precision" tier="9">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+    <Sprite>Bow Tier 9</Sprite>
+
+    <Description>Weightless with unparalleled accuracy. The wielder of this bow can only be ,but the pinnacle of marksmanship.</Description>
+
+    <Projectile name="Bow Tier 9 Arrow">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <ProjectileRef id="0x148">0</ProjectileRef>
+      <MinDamageMod>1.2</MinDamageMod>
+      <MaxDamageMod>1.15</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>5.2</RateOfFire>
+  </Object>
+
+  <Object id="0x14d" name="Bow of Eternal Growth" tier="10">
+    <Type>Weapon</Type>
+    <SlotType>Bow</SlotType>
+    <Sprite>Bow Tier 10</Sprite>
+
+    <Description>Fashioned from the ancient vines of a world tree, the ancient bow is said to be strung by Gaea herself.</Description>
+
+    <Projectile name="Bow Tier 10 Arrow">
+      <Speed>16</Speed>
+      <Range>6.5</Range>
+      <ProjectileRef id="0x14c">0</ProjectileRef>
+      <MinDamageMod>1.2</MinDamageMod>
+      <MaxDamageMod>1.15</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>5.2</RateOfFire>
+  </Object>
+
+  <!-- Spears -->
+
+  <Object id="0x160" name="Spear" tier="0">
+    <Type>Weapon</Type>
+    <SlotType>Spear</SlotType>
+    <Sprite>Spear_01</Sprite>
+
+    <Description>The standard fighting spear. Purchased for cheap, used by poor commoners.</Description>
+
+    <Projectile name="Spear 1 Jab" type="Sin">
+      <Speed>14</Speed>
+      <Range>5</Range>
+      <Amount>2</Amount>
+      <Frequency>0.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <MinDamageMod>1.5</MinDamageMod>
+      <MaxDamageMod>3.5</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>2.4</RateOfFire>
+  </Object>
+
+  <Object id="0x161" name="Double-Edged Spear" tier="1">
+    <Type>Weapon</Type>
+    <SlotType>Spear</SlotType>
+    <Sprite>Spear_02</Sprite>
+
+    <Description>A spear tipped with a dual-sharpened blade. Causing damage from any direction!</Description>
+
+    <Projectile name="Spear 2 Jab" type="Sin">
+      <Speed>14</Speed>
+      <Range>5</Range>
+      <Amount>2</Amount>
+      <Frequency>0.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <ProjectileRef id="0x160">0</ProjectileRef>
+      <MinDamageMod>1.6</MinDamageMod>
+      <MaxDamageMod>1.4</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>2.5</RateOfFire>
+  </Object>
+
+  <Object id="0x162" name="Ebonsteel Piercer" tier="2">
+    <Type>Weapon</Type>
+    <SlotType>Spear</SlotType>
+    <Sprite>Spear_03</Sprite>
+
+    <Description>A pike forged with ebonsteel. A stalwart alloy that has triumphed the test of time.</Description>
+    
+    <Esforged/>
+
+    <Projectile name="Spear 3 Jab" type="Sin">
+      <Speed>14</Speed>
+      <Range>5</Range>
+      <Amount>2</Amount>
+      <Frequency>0.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <ProjectileRef id="0x161">0</ProjectileRef>
+      <MinDamageMod>1.5</MinDamageMod>
+      <MaxDamageMod>1.25</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>2.6</RateOfFire>
+  </Object>
+
+  <Object id="0x163" name="Bronze Piercer" tier="3">
+    <Type>Weapon</Type>
+    <SlotType>Spear</SlotType>
+    <Sprite>Spear_04</Sprite>
+
+    <Description>A spear forged of bronze. Crafted with quick and old techniques.</Description>
+
+    <Projectile name="Spear 4 Jab" type="Sin">
+      <Speed>14</Speed>
+      <Range>5</Range>
+      <Amount>2</Amount>
+      <Frequency>0.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <ProjectileRef id="0x162">0</ProjectileRef>
+      <MinDamageMod>1.2</MinDamageMod>
+      <MaxDamageMod>1.15</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>2.8</RateOfFire>
+  </Object>
+
+  <Object id="0x164" name="Enhanced Bronze Spear" tier="4">
+    <Type>Weapon</Type>
+    <SlotType>Spear</SlotType>
+    <Sprite>Spear_05</Sprite>
+
+    <Description>Formed with modern mechanisms and technology. A reconstruction of an older spear design.</Description>
+
+    <Projectile name="Spear 5 Jab" type="Sin">
+      <Speed>14</Speed>
+      <Range>5</Range>
+      <Amount>2</Amount>
+      <Frequency>0.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <ProjectileRef id="0x163">0</ProjectileRef>
+      <MinDamageMod>1.2</MinDamageMod>
+      <MaxDamageMod>1.15</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>3.0</RateOfFire>
+  </Object>
+
+  <Object id="0x165" name="Azler's Cerulean Partizan" tier="5">
+    <Type>Weapon</Type>
+    <SlotType>Spear</SlotType>
+    <Sprite>Spear_06</Sprite>
+
+    <Description>A partizan of deep blue color. Razor sharp and of likeness to the famed original.</Description>
+    
+    <Esforged/>
+
+    <Projectile name="Spear 6 Jab" type="Sin">
+      <Speed>14</Speed>
+      <Range>5</Range>
+      <Amount>2</Amount>
+      <Frequency>0.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <ProjectileRef id="0x164">0</ProjectileRef>
+      <MinDamageMod>1.25</MinDamageMod>
+      <MaxDamageMod>1.15</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>3.2</RateOfFire>
+  </Object>
+
+  <Object id="0x166" name="Halberd of Redeeming Action" tier="6">
+    <Type>Weapon</Type>
+    <SlotType>Spear</SlotType>
+    <Sprite>Spear_07</Sprite>
+
+    <Description>A halberd of disgraced infamy. Crawling towards redemption with every blow.</Description>
+
+    <Projectile name="Spear 7 Jab" type="Sin">
+      <Speed>14</Speed>
+      <Range>5</Range>
+      <Amount>2</Amount>
+      <Frequency>0.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <ProjectileRef id="0x165">0</ProjectileRef>
+      <MinDamageMod>1.3</MinDamageMod>
+      <MaxDamageMod>1.15</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>3.4</RateOfFire>
+  </Object>
+
+  <Object id="0x167" name="Halberd of Habitual Misery" tier="7">
+    <Type>Weapon</Type>
+    <SlotType>Spear</SlotType>
+    <Sprite>Spear_08</Sprite>
+
+    <Description>Gleams with an emerald green. A halberd that carves deep, causing lasting suffering.</Description>
+
+    <Projectile name="Spear 8 Jab" type="Sin">
+      <Speed>14</Speed>
+      <Range>5</Range>
+      <Amount>2</Amount>
+      <Frequency>0.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <ProjectileRef id="0x166">0</ProjectileRef>
+      <MinDamageMod>1.15</MinDamageMod>
+      <MaxDamageMod>1.1</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>3.5</RateOfFire>
+  </Object>
+
+  <Object id="0x168" name="Halberd of Forsaken Blight" tier="8">
+    <Type>Weapon</Type>
+    <SlotType>Spear</SlotType>
+    <Sprite>Spear_09</Sprite>
+
+    <Description>A deadly totem upon sight. Renowned for causing unspeakable calamity.</Description>
+
+    <Projectile name="Spear 9 Jab" type="Sin">
+      <Speed>14</Speed>
+      <Range>5</Range>
+      <Amount>2</Amount>
+      <Frequency>0.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <ProjectileRef id="0x167">0</ProjectileRef>
+      <MinDamageMod>1.1</MinDamageMod>
+      <MaxDamageMod>1.1</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>3.6</RateOfFire>
+  </Object>
+
+  <Object id="0x169" name="Mannah's Mop" tier="-1">
+    <Type>Weapon</Type>
+    <SlotType>Spear</SlotType>
+    <Sprite>Spear_10</Sprite>
+
+    <Description>Used to clean the floor of Mannah's chambers. Emanates a tender magical hum...</Description>
+
+    <Projectile name="Spear 10 Jab" type="Sin">
+      <Speed>14</Speed>
+      <Range>4.5</Range>
+      <Amount>4</Amount>
+      <AngleGap>20</AngleGap>
+      <Frequency>0.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <MinDamageMod>4</MinDamageMod>
+      <MaxDamageMod>14</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>2</RateOfFire>
+  </Object>
+
+  <Object id="0x16a" name="Halbert of Divine Courage" tier="9">
+    <Type>Weapon</Type>
+    <SlotType>Spear</SlotType>
+    <Sprite>Spear Tier 9</Sprite>
+
+    <Description>A Halbert bearing the lineage of past champions. Enamored by the influence of the holy blade are to prevail against the wrath of the titans.</Description>
+
+    <Projectile name="Spear Tier 9 Jab" type="Sin">
+      <Speed>14</Speed>
+      <Range>5</Range>
+      <Amount>2</Amount>
+      <Frequency>0.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <ProjectileRef id="0x168">0</ProjectileRef>
+      <MinDamageMod>1.15</MinDamageMod>
+      <MaxDamageMod>1.1</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>3.7</RateOfFire>
+  </Object>
+
+  <Object id="0x16b" name="Halbert of Midnight's Curse" tier="10">
+    <Type>Weapon</Type>
+    <SlotType>Spear</SlotType>
+    <Sprite>Spear Tier 10</Sprite>
+
+    <Description>Concealed in a shrouded aura of darkness. The Halbert emanates with a ominous feeling of dread.</Description>
+
+    <Projectile name="Spear Tier 10 Jab" type="Sin">
+      <Speed>14</Speed>
+      <Range>5</Range>
+      <Amount>2</Amount>
+      <Frequency>0.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <ProjectileRef id="0x16a">0</ProjectileRef>
+      <MinDamageMod>1.15</MinDamageMod>
+      <MaxDamageMod>1.1</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>3.8</RateOfFire>
+  </Object>
+
+  <!-- Elixirs -->
+
+  <Object id="0x180" name="Student's Elixir" tier="0">
+    <Type>Weapon</Type>
+    <SlotType>Elixir</SlotType>
+    <Sprite>Elixir 1</Sprite>
+
+    <Description>An elixir made by an inexperienced student. A foul fume lingers near the cork.</Description>
+
+    <Projectile color="yellow" type="Aoe">
+      <Lifetime>0.7</Lifetime>
+      <Radius>3</Radius>
+      <MinDamageMod>1</MinDamageMod>
+      <MaxDamageMod>2</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>1.2</RateOfFire>
+  </Object>
+  
+  <Object id="0x181" name="Scholar's Elixir" tier="1">
+    <Type>Weapon</Type>
+    <SlotType>Elixir</SlotType>
+    <Sprite>Elixir 2</Sprite>
+
+    <Description>An elixir formulated by a scholar of alchemy. Correctly measured and follows common practice.</Description>
+
+    <Projectile color="yellow" type="Aoe">
+      <Lifetime>0.7</Lifetime>
+      <Radius>3</Radius>
+      <ProjectileRef id="0x180">0</ProjectileRef>
+      <MinDamageMod>2</MinDamageMod>
+      <MaxDamageMod>1.67</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>1.2</RateOfFire>
+  </Object>
+
+  <Object id="0x182" name="Elixir of the Elements" tier="2">
+    <Type>Weapon</Type>
+    <SlotType>Elixir</SlotType>
+    <Sprite>Elixir 3</Sprite>
+
+    <Description>An elixir concocted from diverse elements. A balanced brew, inflicting damage upon touch.</Description>
+
+    <Projectile color="yellow" type="Aoe">
+      <Lifetime>0.7</Lifetime>
+      <Radius>3</Radius>
+      <ProjectileRef id="0x181">0</ProjectileRef>
+      <MinDamageMod>1.4</MinDamageMod>
+      <MaxDamageMod>1.3</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>1.2</RateOfFire>
+  </Object>
+
+  <Object id="0x183" name="Elixir of Sorrow" tier="3">
+    <Type>Weapon</Type>
+    <SlotType>Elixir</SlotType>
+    <Sprite>Elixir 4</Sprite>
+
+    <Description>A scarce elixir. Production of this elixir has ceased ever since its scientist vanished without a trace.</Description>
+
+    <Projectile color="yellow" type="Aoe">
+      <Lifetime>0.7</Lifetime>
+      <Radius>3</Radius>
+      <MinDamage>130</MinDamage>
+      <MaxDamage>190</MaxDamage>
+      <ProjectileRef id="0x182">0</ProjectileRef>
+      <MinDamageMod>1.4</MinDamageMod>
+      <MaxDamageMod>1.3</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>1.2</RateOfFire>
+  </Object>
+
+  <Object id="0x184" name="Elixir of Phantoms" tier="4">
+    <Type>Weapon</Type>
+    <SlotType>Elixir</SlotType>
+    <Sprite>Elixir 5</Sprite>
+
+    <Description>Brewed using an archaic formula, with each potion consuming a tremendous amount of time.</Description>
+    
+    <Esforged/>
+
+    <Projectile color="yellow" type="Aoe">
+      <Lifetime>0.7</Lifetime>
+      <Radius>3</Radius>
+      <ProjectileRef id="0x183">0</ProjectileRef>
+      <MinDamageMod>1.38</MinDamageMod>
+      <MaxDamageMod>1.28</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>1.2</RateOfFire>
+  </Object>
+
+  <Object id="0x185" name="Elixir of Empowerment" tier="5">
+    <Type>Weapon</Type>
+    <SlotType>Elixir</SlotType>
+    <Sprite>Elixir 6</Sprite>
+
+    <Description>An elixir created to empower it's enemies to their swift annihilation.</Description>
+
+    <Esforged/>
+
+    <Projectile color="yellow" type="Aoe">
+      <Lifetime>0.7</Lifetime>
+      <Radius>3</Radius>
+      <ProjectileRef id="0x184">0</ProjectileRef>
+      <MinDamageMod>1.35</MinDamageMod>
+      <MaxDamageMod>1.25</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>1.2</RateOfFire>
+  </Object>
+
+  <Object id="0x186" name="Elixir of Immolation" tier="6">
+    <Type>Weapon</Type>
+    <SlotType>Elixir</SlotType>
+    <Sprite>Elixir 7</Sprite>
+
+    <Description>A foul-smelling elixir. Glows with a pink hue, and must be stored in a gold anointed vial.</Description>
+
+    <Projectile color="yellow" type="Aoe">
+      <Lifetime>0.7</Lifetime>
+      <Radius>3</Radius>
+      <ProjectileRef id="0x185">0</ProjectileRef>
+      <MinDamageMod>1.25</MinDamageMod>
+      <MaxDamageMod>1.2</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>1.2</RateOfFire>
+  </Object>
+
+  <Object id="0x187" name="Elixir of Idle Minds" tier="7">
+    <Type>Weapon</Type>
+    <SlotType>Elixir</SlotType>
+    <Sprite>Elixir 8</Sprite>
+
+    <Description>An elixir that can dull the sharpest of minds. One breath can make a man speechless for life.</Description>
+
+    <Projectile color="yellow" type="Aoe">
+      <Lifetime>0.7</Lifetime>
+      <Radius>3</Radius>
+      <ProjectileRef id="0x186">0</ProjectileRef>
+      <MinDamageMod>1.2</MinDamageMod>
+      <MaxDamageMod>1.2</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>1.2</RateOfFire>
+  </Object>
+
+  <Object id="0x188" name="Elixir of Madness" tier="8">
+    <Type>Weapon</Type>
+    <SlotType>Elixir</SlotType>
+    <Sprite>Elixir 9</Sprite>
+
+    <Description>An elixir that targets the neural. Even the elixir's architect is said to have gone mad.</Description>
+
+    <Projectile color="yellow" type="Aoe">
+      <Lifetime>0.7</Lifetime>
+      <Radius>3</Radius>
+      <ProjectileRef id="0x187">0</ProjectileRef>
+      <MinDamageMod>1.15</MinDamageMod>
+      <MaxDamageMod>1.15</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>1.2</RateOfFire>
+  </Object>
+
+  <Object id="0x189" name="Elixir of Enigma" tier="-1">
+    <Type>Weapon</Type>
+    <SlotType>Elixir</SlotType>
+    <Sprite>Elixir 10</Sprite>
+
+    <Description>An astonishingly powerful elixir. Immensely unstable, and must be kept in small vials.</Description>
+
+    <Projectile color="yellow" type="Aoe">
+      <Lifetime>0.5</Lifetime>
+      <Radius>1</Radius>
+      <MinDamageMod>28</MinDamageMod>
+      <MaxDamageMod>37</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>0.8</RateOfFire>
+  </Object>
+
+  <Object id="0x18a" name="Elixir of Ichor" tier="9">
+    <Type>Weapon</Type>
+    <SlotType>Elixir</SlotType>
+    <Sprite>Elixir Tier 9</Sprite>
+
+    <Description>A forgotten elixir containing the blood of a forgotten titan, the liquid glistening with raw power.</Description>
+
+    <Projectile color="yellow" type="Aoe">
+      <Lifetime>0.7</Lifetime>
+      <Radius>3</Radius>
+      <ProjectileRef id="0x188">0</ProjectileRef>
+      <MinDamageMod>1.2</MinDamageMod>
+      <MaxDamageMod>1.15</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>1.2</RateOfFire>
+  </Object>
+
+  <Object id="0x18b" name="Elixir of Corruption" tier="10">
+    <Type>Weapon</Type>
+    <SlotType>Elixir</SlotType>
+    <Sprite>Elixir Tier 10</Sprite>
+
+    <Description>An elixir of a unknown origin. No one knows what the liquid is ,but those who dare study it say they hear whispers from afar.</Description>
+
+    <Projectile color="yellow" type="Aoe">
+      <Lifetime>0.7</Lifetime>
+      <Radius>3</Radius>
+      <ProjectileRef id="0x18a">0</ProjectileRef>
+      <MinDamageMod>1.2</MinDamageMod>
+      <MaxDamageMod>1.15</MaxDamageMod>
+    </Projectile>
+
+    <RateOfFire>1.2</RateOfFire>
+  </Object>
+  
+  <!-- Heavy Armors -->
+
+  <Object id="0x200" name="Rusty Chainmail" tier="1">
+    <Type>Equipment</Type>
+    <SlotType>HeavyArmor</SlotType>
+    <Sprite>HeavyArmor 1</Sprite>
+
+    <Description>Rusty chainmail that creaks with every small adjustment. It's better than nothing.. right?</Description>
+
+    <StatIncrease type="Defense">6</StatIncrease>
+  </Object>
+
+  <Object id="0x201" name="Steel Chainmail" tier="2">
+    <Type>Equipment</Type>
+    <SlotType>HeavyArmor</SlotType>
+    <Sprite>HeavyArmor 2</Sprite>
+
+    <Description>Chainmail made out of steel. A standard warrior's armor that's useful in many situations.</Description>
+
+    <StatIncrease type="Defense">8</StatIncrease>
+  </Object>
+
+  <Object id="0x202" name="Wyvern Hide Chainmail" tier="3">
+    <Type>Equipment</Type>
+    <SlotType>HeavyArmor</SlotType>
+    <Sprite>HeavyArmor 3</Sprite>
+
+    <Description>Trusty steel chainmail draped over a canvas of wyvern's hide.</Description>
+
+    <StatIncrease type="Defense">10</StatIncrease>
+  </Object>
+
+  <Object id="0x203" name="Gold Trimmed Armor" tier="4">
+    <Type>Equipment</Type>
+    <SlotType>HeavyArmor</SlotType>
+    <Sprite>HeavyArmor 4</Sprite>
+
+    <Description>Steel plate armor that has been trimmed with gold. The style points alone should net an advantage.</Description>
+
+    <StatIncrease type="Defense">12</StatIncrease>
+  </Object>
+
+  <Object id="0x204" name="Warlord's Plate Armor" tier="5">
+    <Type>Equipment</Type>
+    <SlotType>HeavyArmor</SlotType>
+    <Sprite>HeavyArmor 5</Sprite>
+
+    <Description>Plate armor worn by warlords. Fur surrounds the collar to provide protection and warmth.</Description>
+
+    <StatIncrease type="Defense">15</StatIncrease>
+    <StatIncrease type="Vigor">1</StatIncrease>
+  </Object>
+
+  <Object id="0x205" name="Bronze Plate Armor" tier="6">
+    <Type>Equipment</Type>
+    <SlotType>HeavyArmor</SlotType>
+    <Sprite>HeavyArmor 6</Sprite>
+
+    <Description>Plate armor made out of full bronze. Provides full converage with minimal weak points.</Description>
+
+    <StatIncrease type="Defense">18</StatIncrease>
+    <StatIncrease type="Vigor">2</StatIncrease>
+  </Object>
+
+  <Object id="0x206" name="Armor of the Moonlight Guardian" tier="7">
+    <Type>Equipment</Type>
+    <SlotType>HeavyArmor</SlotType>
+    <Sprite>HeavyArmor 7</Sprite>
+
+    <Description>Ebonsteel plate armor. Historically worn by a group of night guardians.</Description>
+
+    <StatIncrease type="Defense">20</StatIncrease>
+    <StatIncrease type="Vigor">4</StatIncrease>
+  </Object>
+
+  <Object id="0x207" name="Armor of Condemned Honor" tier="8">
+    <Type>Equipment</Type>
+    <SlotType>HeavyArmor</SlotType>
+    <Sprite>HeavyArmor 8</Sprite>
+
+    <Description>Plate armor given its namesake from a mythical paladin who was never lacking honor. A fiery red cape drapes from it's collar.</Description>
+
+    <StatIncrease type="Defense">21</StatIncrease>
+    <StatIncrease type="Vigor">5</StatIncrease>
+  </Object>
+
+  <Object id="0x208" name="Armor of Lost Veneance" tier="9">
+    <Type>Equipment</Type>
+    <SlotType>HeavyArmor</SlotType>
+    <Sprite>HeavyArmor 9</Sprite>
+
+    <Description>Plate armor made out of reinforced gold. Equipped with a magus cloak that is functional and fashionable.</Description>
+
+    <StatIncrease type="Defense">22</StatIncrease>
+    <StatIncrease type="Vigor">6</StatIncrease>
+  </Object>
+
+  <Object id="0x209" name="Valdok's Impervious Aegis" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>HeavyArmor</SlotType>
+    <Sprite>HeavyArmor 10</Sprite>
+
+    <Description>Plate armor forged from ebonsteel and augmented by Valdok's forge, provides the authorative defense of Valdok.</Description>
+
+    <StatIncrease type="Defense">24</StatIncrease>
+    <StatIncrease type="Speed">-4</StatIncrease>
+    <StatIncrease type="Vigor">4</StatIncrease>
+    <StatIncrease type="Attack">4</StatIncrease>
+  </Object>
+  
+  <!-- Light Armors -->
+
+  <Object id="0x220" name="Worn Leather Armor" tier="1">
+    <Type>Equipment</Type>
+    <SlotType>LightArmor</SlotType>
+    <Sprite>LightArmor 1</Sprite>
+
+    <Description>Old and worn leather armor protection. A simple cloth lies underneath.</Description>
+
+    <StatIncrease type="Defense">5</StatIncrease>
+  </Object>
+
+  <Object id="0x221" name="Boiled Leather Armor" tier="2">
+    <Type>Equipment</Type>
+    <SlotType>LightArmor</SlotType>
+    <Sprite>LightArmor 2</Sprite>
+
+    <Description>Standard leather armor that been boiled to increase strength and resistance.</Description>
+
+    <StatIncrease type="Defense">6</StatIncrease>
+  </Object>
+
+  <Object id="0x222" name="Bearhide Leather Armor" tier="3">
+    <Type>Equipment</Type>
+    <SlotType>LightArmor</SlotType>
+    <Sprite>LightArmor 3</Sprite>
+
+    <Description>Leather armor fashioned out of a bear hide. The thick leather is difficult to penetrate.</Description>
+
+    <StatIncrease type="Defense">7</StatIncrease>
+  </Object>
+
+  <Object id="0x223" name="Minotaur Leather Armor" tier="4">
+    <Type>Equipment</Type>
+    <SlotType>LightArmor</SlotType>
+    <Sprite>LightArmor 4</Sprite>
+
+    <Description>Leather armor crafted from a minotaur. Lightweight and durable.</Description>
+
+    <StatIncrease type="Defense">9</StatIncrease>
+  </Object>
+
+  <Object id="0x224" name="Ranger's Stealth Armor" tier="5">
+    <Type>Equipment</Type>
+    <SlotType>LightArmor</SlotType>
+    <Sprite>LightArmor 5</Sprite>
+
+    <Description>Armor used by rangers and all manners of stealth archtypes. The armor's movement makes near to no sound.</Description>
+
+    <StatIncrease type="Defense">10</StatIncrease>
+  </Object>
+
+  <Object id="0x225" name="Gold-studded Armor" tier="6">
+    <Type>Equipment</Type>
+    <SlotType>LightArmor</SlotType>
+    <Sprite>LightArmor 6</Sprite>
+
+    <Description>Leather armor studden with gold metal. What is gained in strength is also gained in weight.</Description>
+
+    <StatIncrease type="Speed">-1</StatIncrease>
+    <StatIncrease type="Defense">12</StatIncrease>
+  </Object>
+
+  <Object id="0x226" name="Dragonscale Body Armor" tier="7">
+    <Type>Equipment</Type>
+    <SlotType>LightArmor</SlotType>
+    <Sprite>LightArmor 7</Sprite>
+
+    <Description>Extremely durable and resilient to damage. Crafted from the hide of a greenscale dragon.</Description>
+
+    <StatIncrease type="Speed">1</StatIncrease>
+    <StatIncrease type="Attack">1</StatIncrease>
+    <StatIncrease type="Defense">13</StatIncrease>
+  </Object>
+
+  <Object id="0x227" name="Tarrasque Body Armor" tier="8">
+    <Type>Equipment</Type>
+    <SlotType>LightArmor</SlotType>
+    <Sprite>LightArmor 8</Sprite>
+
+    <Description>Fashioned from the hide of a tarrasque. The impenetrable hide makes this armor only vulterable at weak points.</Description>
+
+    <StatIncrease type="Speed">2</StatIncrease>
+    <StatIncrease type="Attack">1</StatIncrease>
+    <StatIncrease type="Defense">14</StatIncrease>
+  </Object>
+
+  <Object id="0x228" name="Kraken Body Armor" tier="9">
+    <Type>Equipment</Type>
+    <SlotType>LightArmor</SlotType>
+    <Sprite>LightArmor 9</Sprite>
+
+    <Description>Hide armor created from the flesh of the kraken. Ancient sailors managed to cleverly remove a single tentacle.</Description>
+    
+    <StatIncrease type="Speed">2</StatIncrease>
+    <StatIncrease type="Attack">2</StatIncrease>
+    <StatIncrease type="Defense">15</StatIncrease>
+  </Object>
+
+  <Object id="0x229" name="Empyrean's Guard" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>LightArmor</SlotType>
+    <Sprite>LightArmor 10</Sprite>
+
+    <Description>A light body armor constructed out of the corpse of an empyrean; a legendary creature that only materializes once every century.</Description>
+    
+    <StatIncrease type="Defense">8</StatIncrease>
+    <StatIncrease type="Attack">4</StatIncrease>
+    <StatIncrease type="Speed">4</StatIncrease>
+    <AlternateStatIncrease type="RateOfFire">5</AlternateStatIncrease>
+  </Object>
+  
+  <!-- Robes -->
+
+  <Object id="0x240" name="Robe of the Initiate" tier="1">
+    <Type>Equipment</Type>
+    <Sprite>Robe 1</Sprite>
+    <SlotType>Robe</SlotType>
+
+    <Description>A robe made of simple materials. Worn by initiates of the order.</Description>
+
+    <StatIncrease type="Defense">3</StatIncrease>
+  </Object>
+
+  <Object id="0x241" name="Robe of the Learner" tier="2">
+    <Type>Equipment</Type>
+    <Sprite>Robe 2</Sprite>
+    <SlotType>Robe</SlotType>
+
+    <Description>A robe worn by second-year members. Observed to be produced with quality materials.</Description>
+
+    <StatIncrease type="Defense">4</StatIncrease>
+  </Object>
+
+  <Object id="0x242" name="Robe of the Novice" tier="3">
+    <Type>Equipment</Type>
+    <Sprite>Robe 3</Sprite>
+    <SlotType>Robe</SlotType>
+
+    <Description>A robe woven with rare silk. Worn by adept members.</Description>
+
+    <StatIncrease type="Defense">5</StatIncrease>
+  </Object>
+
+  <Object id="0x243" name="Robe of the Proselyte" tier="4">
+    <Type>Equipment</Type>
+    <Sprite>Robe 4</Sprite>
+    <SlotType>Robe</SlotType>
+
+    <Description>A robe of superior silk. Bears the symbol of the high order.</Description>
+
+    <StatIncrease type="Defense">6</StatIncrease>
+    <StatIncrease type="Attack">1</StatIncrease>
+  </Object>
+
+  <Object id="0x244" name="Robe of the Convert" tier="5">
+    <Type>Equipment</Type>
+    <Sprite>Robe 5</Sprite>
+    <SlotType>Robe</SlotType>
+
+    <Description>Fashioned with elegant silk and vibrant orange drapes.</Description>
+
+    <StatIncrease type="Defense">7</StatIncrease>
+    <StatIncrease type="Attack">1</StatIncrease>
+  </Object>
+
+  <Object id="0x245" name="Robe of the Cultist" tier="6">
+    <Type>Equipment</Type>
+    <Sprite>Robe 6</Sprite>
+    <SlotType>Robe</SlotType>
+
+    <Description>A robe of exquisite material and make. Worn by the leaders of the high order.</Description>
+
+    <StatIncrease type="Defense">8</StatIncrease>
+    <StatIncrease type="Attack">2</StatIncrease>
+  </Object>
+
+  <Object id="0x246" name="Robe of Opaque Enlightenment" tier="7">
+    <Type>Equipment</Type>
+    <Sprite>Robe 7</Sprite>
+    <SlotType>Robe</SlotType>
+
+    <Description>A robe of magnificent, almost magical, build. First robe of three to transcend the high order.</Description>
+
+    <StatIncrease type="Defense">9</StatIncrease>
+    <StatIncrease type="Attack">2</StatIncrease>
+  </Object>
+
+  <Object id="0x247" name="Robe of Calamitous Demise" tier="8">
+    <Type>Equipment</Type>
+    <Sprite>Robe 8</Sprite>
+    <SlotType>Robe</SlotType>
+
+    <Description>A malefactor's robe, worn by those who desire calamity and destruction.</Description>
+
+    <StatIncrease type="Defense">10</StatIncrease>
+    <StatIncrease type="Attack">3</StatIncrease>
+  </Object>
+
+  <Object id="0x248" name="Robe of Arcane Mastery" tier="9">
+    <Type>Equipment</Type>
+    <Sprite>Robe 9</Sprite>
+    <SlotType>Robe</SlotType>
+
+    <Description>A robe of supreme aspect. Clouded with whispers of its magical make.</Description>
+
+    <StatIncrease type="Defense">11</StatIncrease>
+    <StatIncrease type="Attack">3</StatIncrease>
+  </Object>
+
+  <Object id="0x249" name="Archmage's Sibylline Vestment" tier="-1">
+    <Type>Equipment</Type>
+    <Sprite>Robe 10</Sprite>
+    <SlotType>Robe</SlotType>
+
+    <Description>A dazzling garment imbued with mystifying hues. Strange symbols coat the robe in a chaotic, but seemingly ordered, way.</Description>
+    
+    <StatIncrease type="Defense">7</StatIncrease>
+    <StatIncrease type="Attack">4</StatIncrease>
+    <StatIncrease type="Vigor">7</StatIncrease>
+  </Object>
+  
+  <!-- NewWeapons -->
+
+  <Object id="0x260" name="Crossbow" tier="0">
+    <Type>Equipment</Type>
+    <SlotType>Crossbow</SlotType>
+    
+  </Object>
+  
+  <!-- Rings and Accessories -->
+
+  <Object id="0x280" name="Ring of Speed" tier="1">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Speed Ring 1</Sprite>
+    <StatIncrease type="Speed">1</StatIncrease>
+
+    <Description>An emerald fixed on top of a silver ring.</Description>
+  </Object>
+
+  <Object id="0x281" name="Ring of Attack" tier="1">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Attack Ring 1</Sprite>
+    <StatIncrease type="Attack">1</StatIncrease>
+    
+    <Description>An amethyst fixed on top of a silver ring.</Description>
+  </Object>
+
+  <Object id="0x282" name="Ring of Defense" tier="1">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Defense Ring 1</Sprite>
+    <StatIncrease type="Defense">1</StatIncrease>
+    
+    <Description>An obsidian crystal fixed on top of a silver ring.</Description>
+  </Object>
+
+  <Object id="0x283" name="Ring of Vigor" tier="1">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Vigor Ring 1</Sprite>
+    <StatIncrease type="Vigor">1</StatIncrease>
+    
+    <Description>A ruby fixed on top of a silver ring.</Description>
+  </Object>
+
+  <Object id="0x284" name="Ring of Significant Speed" tier="2">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Speed Ring 2</Sprite>
+    <StatIncrease type="Speed">2</StatIncrease>
+    
+    <Description>A sizable emerald fixed on top of a silver ring.</Description>
+  </Object>
+
+  <Object id="0x285" name="Ring of Significant Attack" tier="2">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Attack Ring 2</Sprite>
+    <StatIncrease type="Attack">2</StatIncrease>
+
+    <Description>A sizable amethyst fixed on top of a silver ring.</Description>
+  </Object>
+
+  <Object id="0x286" name="Ring of Significant Defense" tier="2">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Defense Ring 2</Sprite>
+    <StatIncrease type="Defense">2</StatIncrease>
+
+    <Description>A sizable obsidian crystal fixed on top of a silver ring.</Description>
+  </Object>
+
+  <Object id="0x287" name="Ring of Significant Vigor" tier="2">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Vigor Ring 2</Sprite>
+    <StatIncrease type="Vigor">2</StatIncrease>
+
+    <Description>A sizable ruby fixed on top of a silver ring.</Description>
+  </Object>
+
+  <Object id="0x288" name="Ring of Acclaimed Speed" tier="3">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Speed Ring 3</Sprite>
+    <StatIncrease type="Speed">3</StatIncrease>
+
+    <Description>An immense emerald fixed on top of a gold ring.</Description>
+  </Object>
+
+  <Object id="0x289" name="Ring of Acclaimed Attack" tier="3">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Attack Ring 3</Sprite>
+    <StatIncrease type="Attack">3</StatIncrease>
+
+    <Description>An immense amethyst fixed on top of a gold ring.</Description>
+  </Object>
+
+  <Object id="0x28a" name="Ring of Acclaimed Defense" tier="3">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Defense Ring 3</Sprite>
+    <StatIncrease type="Defense">3</StatIncrease>
+
+    <Description>An immense obsidian crystal fixed on top of a gold ring.</Description>
+  </Object>
+
+  <Object id="0x28b" name="Ring of Acclaimed Vigor" tier="3">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Vigor Ring 3</Sprite>
+    <StatIncrease type="Vigor">3</StatIncrease>
+
+    <Description>An immense ruby fixed on top of a gold ring.</Description>
+  </Object>
+
+  <Object id="0x28c" name="Ring of Monumental Speed" tier="4">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Speed Ring 4</Sprite>
+    <StatIncrease type="Speed">4</StatIncrease>
+
+    <Description>A tremendous emerald fixed on top of a gleaming gold ring.</Description>
+  </Object>
+
+  <Object id="0x28d" name="Ring of Monumental Attack" tier="4">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Attack Ring 4</Sprite>
+    <StatIncrease type="Attack">4</StatIncrease>
+
+    <Description>A tremendous amethyst fixed on top of a gleaming gold ring.</Description>
+  </Object>
+
+  <Object id="0x28e" name="Ring of Monumental Defense" tier="4">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Defense Ring 4</Sprite>
+    <StatIncrease type="Defense">4</StatIncrease>
+
+    <Description>A tremendous obsidian crystal fixed on top of a gleaming gold ring.</Description>
+  </Object>
+
+  <Object id="0x28f" name="Ring of Monumental Vigor" tier="4">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Vigor Ring 4</Sprite>
+    <StatIncrease type="Vigor">4</StatIncrease>
+
+    <Description>A tremendous ruby fixed on top of a gleaming gold ring.</Description>
+  </Object>
+
+  <Object id="0x290" name="Ring of the Lonely Spirit" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>UT Ring 1</Sprite>
+
+    <StatIncrease type="Speed">3</StatIncrease>
+    <StatIncrease type="Attack">2</StatIncrease>
+    <StatIncrease type="Defense">2</StatIncrease>
+    <StatIncrease type="Vigor">3</StatIncrease>
+
+    <Description>A ring affixed with a jewel trinity. Rumored to benefit all aspects of life.</Description>
+  </Object>
+
+  <Object id="0x291" name="Adorned Band" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>UT Ring 2</Sprite>
+
+    <StatIncrease type="Speed">5</StatIncrease>
+    <StatIncrease type="Attack">4</StatIncrease>
+
+    <Description>A gold band engulfed with luscious emeralds.</Description>
+  </Object>
+
+  <Object id="0x292" name="Ring of Sinful Beauty" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>UT Ring 3</Sprite>
+
+    <StatIncrease type="MaxHealth">80</StatIncrease>
+    <StatIncrease type="Attack">-2</StatIncrease>
+    <StatIncrease type="Defense">-2</StatIncrease>
+    <StatIncrease type="Vigor">-2</StatIncrease>
+
+    <Description>A brilliant platinum ring adorned with a grand, diamond-shaped, ruby.</Description>
+  </Object>
+
+  <Object id="0x293" name="Ring of Stalwart Vitality" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>UT Ring 4</Sprite>
+
+    <StatIncrease type="Defense">4</StatIncrease>
+    <StatIncrease type="Vigor">4</StatIncrease>
+
+    <Description>A hefty and brawny stone affixed on a platinum band.</Description>
+  </Object>
+
+  <Object id="0x294" name="Mezhier's Ring of Valor" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>UT Ring 5</Sprite>
+
+    <StatIncrease type="Attack">4</StatIncrease>
+    <StatIncrease type="Vigor">4</StatIncrease>
+
+    <Description>A ring worn by valorant warriors. Said to possess the spirit of Mezhier.</Description>
+  </Object>
+
+  <Object id="0x295" name="Tehtman's Brutal Band" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>UT Ring 6</Sprite>
+
+    <StatIncrease type="Attack">5</StatIncrease>
+    <AlternateStatIncrease type="RateOfFire">5</AlternateStatIncrease>
+
+    <Description>A blazing amber placed upon a bronze band.</Description>
+  </Object>
+
+  <Object id="0x296" name="Arcus's Nimble Circlet" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>UT Ring 7</Sprite>
+    
+    <StatIncrease type="Speed">6</StatIncrease>
+    <AlternateStatIncrease type="RateOfFire">5</AlternateStatIncrease>
+
+    <Description>A magnificent emerald placed upon a bronze band.</Description>
+  </Object>
+
+  <Object id="0x297" name="Mannah's Capstone" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>UT Ring 8</Sprite>
+
+    <StatIncrease type="MaxHealth">20</StatIncrease>
+    <StatIncrease type="Speed">2</StatIncrease>
+    <StatIncrease type="Attack">2</StatIncrease>
+    <StatIncrease type="Defense">2</StatIncrease>
+    <StatIncrease type="Vigor">2</StatIncrease>
+
+    <Description>A dazzling gold ring. A pristine amethyst crowns the band and is enveloped in gold leaves.</Description>
+  </Object>
+
+  <Object id="0x298" name="Ring of Colossal Speed" tier="5">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Speed Ring 5</Sprite>
+    <StatIncrease type="Speed">5</StatIncrease>
+
+    <Description>A colossal emerald fixed on top of an enchanted gemmed ring.</Description>
+  </Object>
+
+  <Object id="0x299" name="Ring of Colossal Attack" tier="5">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Attack Ring 5</Sprite>
+    <StatIncrease type="Attack">5</StatIncrease>
+
+    <Description>A colossal amethyst fixed on top of an enchanted gemmed ring.</Description>
+  </Object>
+
+  <Object id="0x29a" name="Ring of Colossal Defense" tier="5">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Defense Ring 5</Sprite>
+    <StatIncrease type="Defense">5</StatIncrease>
+
+    <Description>A colossal obsidian crystal fixed on top of an enchanted gemmed ring.</Description>
+  </Object>
+
+  <Object id="0x29b" name="Ring of Colossal Vigor" tier="5">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    <Sprite>Vigor Ring 5</Sprite>
+    <StatIncrease type="Vigor">5</StatIncrease>
+
+    <Description>A colossal ruby fixed on top of an enchanted gemmed ring.</Description>
+  </Object>
+
+  <Object id="0x2a0" name="Juix">
+    <Type>Item</Type>
+    <Sprite>juix</Sprite>
+
+    <Description>Uhh.. what do I do with this.</Description>
+  </Object>
+
+  <Object id="0x2a1" name="Lancer Ability">
+    <Type>Weapon</Type>
+    <Sprite>Spear 1</Sprite>
+    
+    <Projectile name="Lancer Ability Jab">
+      <Speed>14</Speed>
+      <Range>5</Range>
+    </Projectile>
+  </Object>
+
+  <Object id="0x2a2" name="Scroll of Agility">
+    <Type>Scroll</Type>
+
+    <StatType>Speed</StatType>
+    <Description>A delicate scroll, its contents dimly hum with a soft leafy color.</Description>
+    <MaxStack>4</MaxStack>
+
+    <Consumable/>
+  </Object>
+
+  <Object id="0x2a3" name="Scroll of Power">
+    <Type>Scroll</Type>
+
+    <StatType>Attack</StatType>
+    <Description>A scroll of unstable constitution. Radiates of erratic nature.</Description>
+    <MaxStack>4</MaxStack>
+
+    <Consumable/>
+  </Object>
+
+  <Object id="0x2a4" name="Scroll of Fortitude">
+    <Type>Scroll</Type>
+
+    <StatType>Defense</StatType>
+    <Description>A scroll enfused with stone and iron. A sturdy ambience resinates from its core.</Description>
+    <MaxStack>4</MaxStack>
+
+    <Consumable/>
+  </Object>
+
+  <Object id="0x2a5" name="Scroll of Stamina">
+    <Type>Scroll</Type>
+
+    <StatType>Vigor</StatType>
+    <Description>A scroll permeating with hope. A lively essence seems to spring from the paper.</Description>
+    <MaxStack>4</MaxStack>
+
+    <Consumable/>
+  </Object>
+
+  <Object id="0x2a6" name="Health Vial">
+    <Type>Item</Type>
+
+    <Description>Concocted for the purpose of rejuvenation, but deadly in large quantities.</Description>
+    <Consumable/>
+    
+    <Heals>100</Heals>
+    <MaxStack>3</MaxStack>
+  </Object>
+
+  <Object id="0x2a7" name="Healing Spell">
+    <Type>Item</Type>
+
+    <Description>A widely used healing spell. Carried by all adventurers to handle tricky situations.</Description>
+    <Consumable/>
+
+    <Heals>100</Heals>
+    
+  </Object>
+
+  <Object id="0x2a8" name="Bladeweaver Ability">
+    <Type>Weapon</Type>
+    <Sprite>Spear 1</Sprite>
+
+    <Projectile name="Left Dash Blade" type="Sin">
+      <Speed>20</Speed>
+      <Range>7</Range>
+      <Amount>2</Amount>
+      <Frequency>1.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <DefinedAmount/>
+      <IgnoreEntity/>
+      <Spin>2</Spin>
+      <Spin>2</Spin>
+    </Projectile>
+    
+    <Projectile name="Right Dash Blade">
+      <Speed>20</Speed>
+      <Range>7</Range>
+      <Amount>2</Amount>
+      <Frequency>1.5</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <DefinedAmount/>
+      <IgnoreEntity/>
+      <Spin>-2</Spin>
+    </Projectile>
+  </Object>
+
+  <Object id="0x2a9" name="Beginner's Pack">
+    <Type>Item</Type>
+
+    <Description>A suitable package to start the game with a head start! Start playing another character today!
+
+1x Character Slot
+12x Vault Slots</Description>
+    <Consumable/>
+    <Unlockable/>
+
+  </Object>
+
+  <Object id="0x2aa" name="Soulless Ring" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>Accessory</SlotType>
+    
+    <StatIncrease type="MaxHealth">40</StatIncrease>
+    <StatIncrease type="Speed">5</StatIncrease>
+    <StatIncrease type="Attack">5</StatIncrease>
+    <StatIncrease type="Defense">5</StatIncrease>
+    <StatIncrease type="Vigor">5</StatIncrease>
+
+    <Description>Soulless Ring</Description>
+    <Soulless/>
+
+  </Object>
+
+  <Object id="0x2ab" name="Robe of Soulless Rejuvenation" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>Robe</SlotType>
+    <Sprite>Soulless Robe</Sprite>
+
+    <StatIncrease type="MaxHealth">20</StatIncrease>
+    <StatIncrease type="Speed">2</StatIncrease>
+    <StatIncrease type="Attack">2</StatIncrease>
+    <StatIncrease type="Defense">6</StatIncrease>
+    <StatIncrease type="Vigor">2</StatIncrease>
+
+    <Description>A robe woven from soul strands that emit an ambient glow.
+
+This item heals its user for 10% missing health every 5 seconds.</Description>
+    <Soulless/>
+
+  </Object>
+
+  <Object id="0x2ac" name="Breastplate of Soulless Vigor" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>HeavyArmor</SlotType>
+    <Sprite>Soulless Heavy Armor</Sprite>
+
+    <StatIncrease type="MaxHealth">20</StatIncrease>
+    <StatIncrease type="Speed">2</StatIncrease>
+    <StatIncrease type="Attack">2</StatIncrease>
+    <StatIncrease type="Defense">18</StatIncrease>
+    <StatIncrease type="Vigor">2</StatIncrease>
+
+    <Description>Armor worn by the mighty and powerful, imbued with an ancient power fueled with the souls of the dead.
+
+This item heals its user for 10% missing health every 5 seconds.</Description>
+    <Soulless/>
+
+  </Object>
+
+  <Object id="0x2ad" name="Tunic of Soulless Wraith" tier="-1">
+    <Type>Equipment</Type>
+    <SlotType>LightArmor</SlotType>
+    <Sprite>Soulless Light Armor</Sprite>
+
+    <StatIncrease type="MaxHealth">20</StatIncrease>
+    <StatIncrease type="Speed">2</StatIncrease>
+    <StatIncrease type="Attack">2</StatIncrease>
+    <StatIncrease type="Defense">13</StatIncrease>
+    <StatIncrease type="Vigor">2</StatIncrease>
+
+    <Description>Written in its name, tunics torn from the cloaks of the ever dead pulses the wearer with ghastly, ancient power.
+
+This item heals its user for 10% missing health every 5 seconds.</Description>
+    <Soulless/>
+
+  </Object>
+
+  <Object id="0x2ae" name="Scroll of Life">
+    <Type>Scroll</Type>
+
+    <StatType>MaxHealth</StatType>
+    <Description>A scroll glowing with essence. An unintelligible language is written on the parchment.</Description>
+    <MaxStack>4</MaxStack>
+
+    <Consumable/>
+  </Object>
+  
+  
+  <Object id="0x2000" name="F Emote">
+    <Type>EmoteUnlocker</Type>
+    <Sprite>F-emote</Sprite>
+
+    <Emote>F</Emote>
+    <Description>Unlocks the 'F' emote</Description>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+  
+  <Object id="0x2001" name="Heart Emote">
+    <Type>EmoteUnlocker</Type>
+    <Sprite>Heart-emote</Sprite>
+
+    <Emote>Heart</Emote>
+    <Description>Unlocks the 'Heart' emote</Description>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+  
+  <Object id="0x2002" name="Danger Emote">
+    <Type>EmoteUnlocker</Type>
+    <Sprite>Danger-emote</Sprite>
+
+    <Emote>Danger</Emote>
+    <Description>Unlocks the 'Danger' emote</Description>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+  
+  <Object id="0x2003" name="Thumbs Up Emote">
+    <Type>EmoteUnlocker</Type>
+    <Sprite>ThumbsUp-emote</Sprite>
+
+    <Emote>ThumbsUp</Emote>
+    <Description>Unlocks the 'Thumbs Up' emote</Description>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+
+  <Object id="0x2004" name="Rare Chest Emote">
+    <Type>EmoteUnlocker</Type>
+    <Sprite>RareChest-emote</Sprite>
+
+    <Emote>RareChest</Emote>
+    <Description>Unlocks the 'Rare Chest' emote</Description>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+  
+</Objects>

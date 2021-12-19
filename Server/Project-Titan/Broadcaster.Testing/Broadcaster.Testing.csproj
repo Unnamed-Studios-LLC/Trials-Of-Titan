@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="manifest.mfst" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="manifest.mfst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Library\ServerNetwork\ServerBroadcaster\ServerBroadcaster.csproj" />
+    <ProjectReference Include="..\..\..\Library\Utils.NET\Utils.NET\Utils.NET.csproj" />
+  </ItemGroup>
+
+</Project>

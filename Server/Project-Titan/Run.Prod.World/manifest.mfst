@@ -1,0 +1,8 @@
+﻿{
+  "programType": 2,
+  "localDb": false,
+  "local": false,
+  "webServer": "https://web.trialsoftitan.com/",
+  "webServerIp": "3.18.56.73",
+  "sandbox":  false
+}

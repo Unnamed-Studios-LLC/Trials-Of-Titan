@@ -1,0 +1,1 @@
+{"$type":"MMO.NET.Data.GameDataFile, MMO.NET","data":{"$type":"System.Collections.Generic.List`1[[MMO.NET.Data.ObjectData, MMO.NET]], mscorlib","$values":[{"$type":"MMO.NET.Data.Entities.CharacterData, MMO.NET","id":0,"name":"NewObject","description":null,"textureIds":null}]}}

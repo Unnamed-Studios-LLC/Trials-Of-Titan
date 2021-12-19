@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="characters.xml" />
+    <None Remove="manifest.mfst" />
+    <None Remove="SampleLogicScript.ls" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="characters.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="manifest.mfst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SampleLogicScript.ls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Library\TitanCore\TitanCore.csproj" />
+    <ProjectReference Include="..\WebServer\WebServer.csproj" />
+    <ProjectReference Include="..\World\World.csproj" />
+  </ItemGroup>
+
+</Project>

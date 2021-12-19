@@ -1,0 +1,1335 @@
+﻿<Objects>
+  <Object id="0xa00" name="Stone Wall">
+    <Type>Wall</Type>
+
+    <Mesh>Stone Wall 1</Mesh>
+    <Mesh>Stone Wall 2</Mesh>
+    <Mesh>Stone Wall 3</Mesh>
+  </Object>
+
+  <Object id="0xa01" name="Coast Rock">
+    <Type>StaticObject</Type>
+
+    <Sprite>CoastRock-1</Sprite>
+    <Sprite>CoastRock-2</Sprite>
+    <Sprite>CoastRock-3</Sprite>
+  </Object>
+
+  <Object id="0xa02" name="Dark Tree">
+    <Type>StaticObject</Type>
+
+    <Sprite>DarkTree-1</Sprite>
+    <Sprite>DarkTree-2</Sprite>
+    <Sprite>DarkTree-3</Sprite>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa03" name="Dark Tree Stump">
+    <Type>StaticObject</Type>
+
+    <Sprite>DarkTreeStump-1</Sprite>
+    <Sprite>DarkTreeStump-2</Sprite>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa04" name="Dark Mushroom">
+    <Type>StaticObject</Type>
+
+    <Sprite>DarkMushroom-1</Sprite>
+    <Sprite>DarkMushroom-2</Sprite>
+    <Sprite>DarkMushroom-3</Sprite>
+    <Sprite>DarkMushroom-4</Sprite>
+    <Sprite>DarkMushroom-5</Sprite>
+    <Sprite>DarkMushroom-6</Sprite>
+  </Object>
+
+  <Object id="0xa05" name="Cactus">
+    <Type>StaticObject</Type>
+
+    <Sprite>Cactus-1</Sprite>
+    <Sprite>Cactus-2</Sprite>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa06" name="Desert Tree">
+    <Type>StaticObject</Type>
+    
+    <Sprite>DesertTree-1</Sprite>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa07" name="Grass Flower">
+    <Type>GroundObject</Type>
+    
+    <Sprite>GrassFlower-1</Sprite>
+    <Sprite>GrassFlower-1</Sprite>
+    <Sprite>GrassFlower-2</Sprite>
+  </Object>
+
+  <Object id="0xa08" name="Seaweed">
+    <Type>GroundObject</Type>
+    
+    <Sprite>Seaweed-1</Sprite>
+    <Sprite>Seaweed-2</Sprite>
+    <Sprite>Seaweed-3</Sprite>
+    <Sprite>Seaweed-4</Sprite>
+    <Sprite>Seaweed-5</Sprite>
+    <Sprite>Seaweed-6</Sprite>
+    <Sprite>Seaweed-7</Sprite>
+    <Sprite>Seaweed-8</Sprite>
+    <Sprite>Seaweed-9</Sprite>
+  </Object>
+
+  <Object id="0xa09" name="Dark Grass">
+    <Type>StaticObject</Type>
+    
+    <Sprite>DarkGrass-1</Sprite>
+    <Sprite>DarkGrass-2</Sprite>
+    <Sprite>DarkGrass-3</Sprite>
+    <Sprite>DarkGrass-4</Sprite>
+    <Sprite>DarkGrass-5</Sprite>
+  </Object>
+
+  <Object id="0xa0a" name="Grass">
+    <Type>StaticObject</Type>
+    
+    <Sprite>Grass-1</Sprite>
+    <Sprite>Grass-2</Sprite>
+    <Sprite>Grass-3</Sprite>
+    <Sprite>Grass-4</Sprite>
+    <Sprite>Grass-5</Sprite>
+  </Object>
+
+  <Object id="0xa0b" name="Grass Tree">
+    <Type>StaticObject</Type>
+    
+    <Sprite>GrassTree-1</Sprite>
+    <Sprite>GrassTree-2</Sprite>
+    <Collidable/>
+  </Object>
+  
+  <Object id="0xa0c" name="Village Wall">
+    <Type>Wall</Type>
+
+    <Mesh>Village Wall</Mesh>
+  </Object>
+
+  <Object id="0xa0d" name="Village Wall Window">
+    <Type>Wall</Type>
+
+    <Mesh>Village Wall Window</Mesh>
+  </Object>
+
+  <Object id="0xa0e" name="Village Wall Corner">
+    <Type>Wall</Type>
+
+    <Mesh>Village Wall Corner</Mesh>
+  </Object>
+  
+  <Object id="0xa0f" name="Vault Chest">
+    <Type>VaultChest</Type>
+    
+    <Sprite>VaultChest</Sprite>
+  </Object>
+
+  <Object id="0xa10" name="Bank Wall">
+    <Type>Wall</Type>
+
+    <Mesh>Bank Wall</Mesh>
+  </Object>
+
+  <Object id="0xa11" name="Bank Wall Flag Up">
+    <Type>Wall</Type>
+
+    <Mesh>Bank Wall Flag Up</Mesh>
+  </Object>
+
+  <Object id="0xa12" name="Bank Gate Left">
+    <Type>Object3d</Type>
+
+    <Mesh>Bank Gate Left</Mesh>
+  </Object>
+
+  <Object id="0xa13" name="Bank Gate Right">
+    <Type>Object3d</Type>
+
+    <Mesh>Bank Gate Right</Mesh>
+  </Object>
+
+  <Object id="0xa14" name="Bank Gate Up">
+    <Type>Object3d</Type>
+
+    <Mesh>Bank Gate Up</Mesh>
+  </Object>
+  
+  <Object id="0xa15" name="Bank Sword">
+    <Type>StaticObject</Type>
+
+    <Sprite>Bank Sword</Sprite>
+    <Size>0.9</Size>
+  </Object>
+
+  <Object id="0xa16" name="Bank Chest">
+    <Type>StaticObject</Type>
+
+    <Sprite>Chest</Sprite>
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa17" name="Bank Bow">
+    <Type>StaticObject</Type>
+
+    <Sprite>Bank Bow</Sprite>
+    <Size>0.9</Size>
+  </Object>
+
+  <Object id="0xa18" name="Bank Coin">
+    <Type>StaticObject</Type>
+
+    <Sprite>Bank Coin</Sprite>
+    <Size>0.7</Size>
+  </Object>
+
+  <Object id="0xa19" name="Bank Table">
+    <Type>Object3d</Type>
+
+    <Mesh>Bank Table</Mesh>
+  </Object>
+
+  <Object id="0xa1a" name="Bank Table Left">
+    <Type>Object3d</Type>
+
+    <Mesh>Bank Table Left</Mesh>
+  </Object>
+
+  <Object id="0xa1b" name="Bank Table Right">
+    <Type>Object3d</Type>
+
+    <Mesh>Bank Table Right</Mesh>
+  </Object>
+
+  <Object id="0xa1c" name="Bank Goblin">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BankGoblin</Set>
+      <NoAttack/>
+    </Texture>
+    
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa1d" name="Bank Short Wall Horizontal">
+    <Type>Object3d</Type>
+  </Object>
+
+  <Object id="0xa1e" name="Bank Short Wall Vertical">
+    <Type>Object3d</Type>
+  </Object>
+
+  <Object id="0xa1f" name="Shop Wall Flag Left">
+    <Type>Wall</Type>
+  </Object>
+
+  <Object id="0xa20" name="Shop Wall Flag Right">
+    <Type>Wall</Type>
+  </Object>
+
+  <Object id="0xa21" name="Bank Wall Fountain Down">
+    <Type>Object3d</Type>
+  </Object>
+
+  <Object id="0xa22" name="Overworld Portal">
+    <Type>Portal</Type>
+  </Object>
+
+  <Object id="0xa23" name="Deer">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Deer</Set>
+      <SepWalk/>
+      <NoAttack/>
+    </Texture>
+
+    <Size>0.8</Size>
+    
+  </Object>
+
+  <Object id="0xa24" name="Bunny">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Bunny</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Size>0.8</Size>
+
+  </Object>
+
+  <Object id="0xa25" name="Lava Rock">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+    <Collidable/>
+
+  </Object>
+
+  <Object id="0xa26" name="Gravestone T0">
+    <Type>Gravestone</Type>
+    
+  </Object>
+
+  <Object id="0xa27" name="Gravestone T1">
+    <Type>Gravestone</Type>
+
+  </Object>
+
+  <Object id="0xa28" name="Gravestone T2">
+    <Type>Gravestone</Type>
+
+  </Object>
+
+  <Object id="0xa29" name="Gravestone T3">
+    <Type>Gravestone</Type>
+
+  </Object>
+
+  <Object id="0xa2a" name="Gravestone T4">
+    <Type>Gravestone</Type>
+
+  </Object>
+
+  <Object id="0xa2b" name="Gravestone T5">
+    <Type>Gravestone</Type>
+
+  </Object>
+
+  <Object id="0xa2c" name="Grave Flower">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Grave Flower</Set>
+      <Loops>1</Loops>
+      <Fps>0.15</Fps>
+    </Texture>
+  </Object>
+
+  <Object id="0xa2d" name="Grave Rose">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Grave Rose</Set>
+      <Loops>1</Loops>
+      <Fps>0.15</Fps>
+    </Texture>
+  </Object>
+
+  <Object id="0xa2e" name="Alchemist Ability">
+    <Type>GroundObject</Type>
+    <ServerOnly/>
+  </Object>
+
+  <Object id="0xa2f" name="Minister Pillar">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>MinisterPillar</Set>
+      <Loops>1</Loops>
+      <Fps>0.12</Fps>
+    </Texture>
+  </Object>
+
+  <Object id="0xa30" name="Antique Vendor">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>AntiqueVendor</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa31" name="Sleeping Goblin">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>Sleeping Goblin</Sprite>
+      <Effect>SleepingZ</Effect>
+      <EffectPosition>Top</EffectPosition>
+    </Texture>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa32" name="Lute Goblin">
+    <Type>MusicPlayer</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>LuteGoblin</Set>
+      <Effect>MusicNotes</Effect>
+      <EffectPosition>Top</EffectPosition>
+      <Fps>0.25</Fps>
+    </Texture>
+
+    <Music>Goblin_Quartet</Music>
+    <MusicRadius>8</MusicRadius>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa33" name="Bass String Goblin">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>BassStringGoblin</Set>
+      <Effect>MusicNotes</Effect>
+      <EffectPosition>Top</EffectPosition>
+      <Fps>0.5</Fps>
+    </Texture>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa34" name="Flute Goblin">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>FluteGoblin</Set>
+      <Effect>MusicNotes</Effect>
+      <EffectPosition>Top</EffectPosition>
+      <Fps>0.5</Fps>
+    </Texture>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa35" name="Tambourine Goblin">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>TambourineGoblin</Set>
+      <Effect>MusicNotes</Effect>
+      <EffectPosition>Top</EffectPosition>
+      <Fps>0.25</Fps>
+    </Texture>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa36" name="Instrument Case 1">
+    <Type>StaticObject</Type>
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa37" name="Instrument Case 2">
+    <Type>StaticObject</Type>
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa38" name="Instrument Case 3">
+    <Type>StaticObject</Type>
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa39" name="Nexus Chair">
+    <Type>StaticObject</Type>
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa3a" name="Snow Rock Spike 1">
+    <Type>StaticObject</Type>
+    <Sprite>RockSpike-1</Sprite>
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa3b" name="Snow Rock Spike 2">
+    <Type>StaticObject</Type>
+    <Sprite>RockSpike-2</Sprite>
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa3c" name="Snow Rock Spike 3">
+    <Type>StaticObject</Type>
+    <Sprite>RockSpike-3</Sprite>
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa3d" name="Snow Rock Spike 4">
+    <Type>StaticObject</Type>
+    <Sprite>RockSpike-4</Sprite>
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa3e" name="Snow Rock 1">
+    <Type>StaticObject</Type>
+    <Sprite>SnowRock-1</Sprite>
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa3f" name="Snow Rock 2">
+    <Type>StaticObject</Type>
+    <Sprite>SnowRock-2</Sprite>
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa40" name="Snow Rock 3">
+    <Type>StaticObject</Type>
+    <Sprite>SnowRock-3</Sprite>
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa41" name="Snow Rock 4">
+    <Type>StaticObject</Type>
+    <Sprite>SnowRock-3</Sprite>
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa42" name="Lillypad">
+    <Type>GroundObject</Type>
+    <Size>1</Size>
+  </Object>
+
+  <Object id="0xa43" name="Lake Log">
+    <Type>StaticObject</Type>
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa44" name="Lake Tree">
+    <Type>StaticObject</Type>
+    <Sprite>LakeTree-1</Sprite>
+    <Sprite>LakeTree-2</Sprite>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa45" name="Fire">
+    <Type>MusicPlayer</Type>
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Fire</Set>
+    </Texture>
+    <GroundObject>0xa46</GroundObject>
+    <Collidable/>
+  
+    <Music>Hero's_Ballad_Campfire</Music>
+    <MusicRadius>10</MusicRadius>
+    <WorldMusicMin>0</WorldMusicMin>
+  </Object>
+
+  <Object id="0xa46" name="Fire Light">
+    <Type>GroundObject</Type>
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>FireLight</Set>
+    </Texture>
+  </Object>
+
+  <Object id="0xa47" name="Fireside Man">
+    <Type>Npc</Type>
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>FiresideNpc-1</Sprite>
+    </Texture>
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>FiresideNpc-Look</Set>
+      <Loops>1</Loops>
+    </Texture>
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa48" name="Ground Sword">
+    <Type>StaticObject</Type>
+  </Object>
+
+  <Object id="0xa49" name="Mossy Beach Rock">
+    <Type>StaticObject</Type>
+    <Sprite>MossyBeachRock-1</Sprite>
+    <Sprite>MossyBeachRock-2</Sprite>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa50" name="Market Display">
+    <Type>MarketDisplay</Type>
+  </Object>
+
+  <Object id="0xa51" name="Market Mule">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>MarketMule</Sprite>
+    </Texture>
+    
+    <Texture>
+      <Type>Still</Type>
+      <Sprite>MarketMule-Rest-4</Sprite>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>MarketMule-Rest</Set>
+      <Loops>1</Loops>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>MarketMule-Rest</Set>
+      <Loops>1</Loops>
+      <Reverse/>
+    </Texture>
+  </Object>
+
+  <Object id="0xa52" name="Emote Vendor">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>MarketGoblin</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa53" name="Wardrobe Vendor">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>WardrobeVendor</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa54" name="Companion Vendor">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>CompanionVendor</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa55" name="Valdok's Forge Portal">
+    <Type>Portal</Type>
+  </Object>
+  
+  <Object id="0xa56" name="Valdok's Forge Wall">
+    <Type>ContextualWall</Type>
+
+    <Mesh>Valdoks Forge Wall</Mesh>
+  </Object>
+
+  <Object id="0xa57" name="Blacksmith's Forge Wall">
+    <Type>Wall</Type>
+
+    <Mesh>Blacksmith Forge Wall</Mesh>
+  </Object>
+
+  <Object id="0xa58" name="Blacksmith Table">
+    <Type>Object3d</Type>
+
+    <Mesh>Blacksmith Table</Mesh>
+  </Object>
+
+  <Object id="0xa59" name="Blacksmith Table Left">
+    <Type>Object3d</Type>
+
+    <Mesh>Blacksmith Table Left</Mesh>
+  </Object>
+
+  <Object id="0xa5a" name="Blacksmith Table Right">
+    <Type>Object3d</Type>
+
+    <Mesh>Blacksmith Table Right</Mesh>
+  </Object>
+
+  <Object id="0xa5c" name="Blacksmith">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Blacksmith</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Blacksmith-Hammer</Set>
+      <Fps>0.2777</Fps>
+    </Texture>
+
+    <Size>1.1</Size>
+  </Object>
+
+  <Object id="0xa5d" name="Blacksmith Cooling Tub">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>BlacksmithCoolingTub</Set>
+      <Fps>0.2</Fps>
+    </Texture>
+
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa5e" name="Blacksmith Weapon Rack">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa5f" name="Blacksmith Anvil">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa60" name="Blacksmith Crux Mold">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa61" name="Blacksmith Furnace">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>BlacksmithFurnace</Set>
+      <Fps>0.2</Fps>
+    </Texture>
+
+    <Collidable/>
+    
+    <Size>1.2</Size>
+  </Object>
+
+  <Object id="0xa62" name="Forge Pickaxe">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa63" name="Forge Coal">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa64" name="Forge Torch">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>ForgeTorch</Set>
+      <Fps>0.2</Fps>
+    </Texture>
+    
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa65" name="Forge Box of Coal">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa66" name="Forge Miner">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>Miner</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>Miner-Mine</Set>
+    </Texture>
+
+    <Size>0.8</Size>
+
+  </Object>
+
+  <Object id="0xa67" name="Giant Forge Miner">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>GiantMiner</Set>
+      <NoAttack/>
+    </Texture>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>GiantMiner-Mine</Set>
+    </Texture>
+
+    <Size>0.8</Size>
+
+  </Object>
+  
+  <Object id="0xa68" name="Dumir Village Wall">
+    <Type>Wall</Type>
+  </Object>
+
+  <Object id="0xa69" name="Dumir Village Wall Shield 1">
+    <Type>Wall</Type>
+  </Object>
+
+  <Object id="0xa6a" name="Dumir Village Wall Shield 2">
+    <Type>Wall</Type>
+  </Object>
+
+  <Object id="0xa6b" name="Dumir Village Wall Shield 3">
+    <Type>Wall</Type>
+  </Object>
+  
+  <Object id="0xa6c" name="Dumir Village Wall Window">
+    <Type>Wall</Type>
+  </Object>
+
+  <Object id="0xa6d" name="Dumir Village Wall Truss 1">
+    <Type>Wall</Type>
+  </Object>
+
+  <Object id="0xa6e" name="Dumir Village Wall Truss 2">
+    <Type>Wall</Type>
+  </Object>
+
+  <Object id="0xa6f" name="Dumirian Green Ship">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>DumirianGreenShip</Set>
+      <Fps>0.8</Fps>
+    </Texture>
+
+    <Size>0.8</Size>
+
+  </Object>
+
+  <Object id="0xa70" name="Dumirian Fire">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>DumirianFire</Set>
+      <Fps>0.15</Fps>
+    </Texture>
+
+    <Size>0.8</Size>
+    
+  </Object>
+
+  <Object id="0xa71" name="Dumirian Wood Bundle">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa72" name="Dumirian Stool">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa73" name="Dumirian Red Shield">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa74" name="Dumirian Blue Shield">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa75" name="Dumirian Green Shield">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa76" name="Dumirian Large Shield">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa77" name="Dumirian Axe">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa78" name="Dumirian Red Ship">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>DumirianRedShip</Set>
+      <Fps>0.8</Fps>
+    </Texture>
+
+    <Size>0.8</Size>
+
+  </Object>
+
+  <Object id="0xa79" name="Dumirian Blue Ship">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>DumirianBlueShip</Set>
+      <Fps>0.8</Fps>
+    </Texture>
+
+    <Size>0.8</Size>
+
+  </Object>
+
+  <Object id="0xa7a" name="Dumir Portal">
+    <Type>Portal</Type>
+  </Object>
+
+  <Object id="0xa7b" name="Dumirian Torch">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>DumirianTorch</Set>
+      <Fps>0.15</Fps>
+    </Texture>
+
+    <GroundObject>0xa46</GroundObject>
+    <Collidable/>
+    <Size>0.8</Size>
+    
+  </Object>
+
+  <Object id="0xa7c" name="Mannah's Fortress Banner Vertical">
+    <Type>Wall</Type>
+
+    <Mesh>Mannahs Fortress Banner Vertical</Mesh>
+  </Object>
+
+  <Object id="0xa7d" name="Mannah's Fortress Banner Horizontal">
+    <Type>Wall</Type>
+
+    <Mesh>Mannahs Fortress Banner Horizontal</Mesh>
+  </Object>
+
+  <Object id="0xa7e" name="Mannah's Fortress Column">
+    <Type>Object3d</Type>
+
+    <Mesh>Mannahs Fortress Column</Mesh>
+  </Object>
+
+  <Object id="0xa7f" name="Mannah's Fortress Painting 1">
+    <Type>Wall</Type>
+
+    <Mesh>Mannahs Fortress Painting 1</Mesh>
+  </Object>
+
+  <Object id="0xa80" name="Mannah's Fortress Painting 2">
+    <Type>Wall</Type>
+
+    <Mesh>Mannahs Fortress Painting 2</Mesh>
+  </Object>
+
+  <Object id="0xa81" name="Mannah's Fortress Painting 3">
+    <Type>Wall</Type>
+
+    <Mesh>Mannahs Fortress Painting 3</Mesh>
+  </Object>
+
+  <Object id="0xa82" name="Mannah's Fortress Painting 4">
+    <Type>Wall</Type>
+
+    <Mesh>Mannahs Fortress Painting 4</Mesh>
+  </Object>
+
+  <Object id="0xa83" name="Mannah's Fortress Painting 5">
+    <Type>Wall</Type>
+
+    <Mesh>Mannahs Fortress Painting 5</Mesh>
+  </Object>
+
+  <Object id="0xa84" name="Mannah's Fortress Painting 6">
+    <Type>Wall</Type>
+
+    <Mesh>Mannahs Fortress Painting 6</Mesh>
+  </Object>
+
+  <Object id="0xa85" name="Mannah's Fortress Wall">
+    <Type>Wall</Type>
+
+    <Mesh>Mannahs Fortress Wall 1</Mesh>
+    <Mesh>Mannahs Fortress Wall 2</Mesh>
+    <Mesh>Mannahs Fortress Wall 3</Mesh>
+  </Object>
+
+  <Object id="0xa86" name="Mannah's Fortress Portal">
+    <Type>Portal</Type>
+  </Object>
+
+  <Object id="0xa87" name="Mannah's Fortress Torch">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>MannahsFortressTorch</Set>
+      <Fps>0.15</Fps>
+    </Texture>
+
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa88" name="Fortress Armor Sword">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa89" name="Fortress Armor Shield">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa8a" name="Mannah's Fortress Table Left">
+    <Type>Object3d</Type>
+
+    <Mesh>Mannahs Fortress Table Left</Mesh>
+  </Object>
+
+  <Object id="0xa8b" name="Mannah's Fortress Table">
+    <Type>Object3d</Type>
+
+    <Mesh>Mannahs Fortress Table</Mesh>
+  </Object>
+
+  <Object id="0xa8c" name="Mannah's Fortress Table Plates">
+    <Type>Object3d</Type>
+
+    <Mesh>Mannahs Fortress Table Plates</Mesh>
+  </Object>
+
+  <Object id="0xa8d" name="Mannah's Fortress Table Right">
+    <Type>Object3d</Type>
+
+    <Mesh>Mannahs Fortress Table Right</Mesh>
+  </Object>
+
+  <Object id="0xa8e" name="Mannah's Fortress Chair">
+    <Type>StaticObject</Type>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa8f" name="Mannah's Fortress Door 1">
+    <Type>Object3d</Type>
+
+    <Mesh>Mannah Door 1</Mesh>
+    <Health>10000</Health>
+
+    <BlockSight/>
+  </Object>
+
+  <Object id="0xa90" name="Mannah's Fortress Door 2">
+    <Type>Object3d</Type>
+
+    <Mesh>Mannah Door 2</Mesh>
+    <Health>10000</Health>
+
+    <BlockSight/>
+  </Object>
+
+  <Object id="0xa91" name="Mannah's Fortress Door 3">
+    <Type>Object3d</Type>
+
+    <Mesh>Mannah Door 3</Mesh>
+    <Health>10000</Health>
+
+    <BlockSight/>
+  </Object>
+
+  <Object id="0xa92" name="Mannah's Fortress Tree">
+    <Type>StaticObject</Type>
+    
+    <Sprite>FortressTree-1</Sprite>
+    <Sprite>FortressTree-2</Sprite>
+    <Sprite>FortressTree-3</Sprite>
+
+    <SizeMin>0.9</SizeMin>
+    <SizeMax>1.3</SizeMax>
+
+    <Collidable/>
+  </Object>
+
+  <Object id="0xa93" name="Ascension Table">
+    <Type>AscensionTable</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>AscensionTable</Set>
+      <Fps>0.2</Fps>
+    </Texture>
+    
+  </Object>
+
+  <Object id="0xa94" name="Crooked Tree">
+    <Type>StaticObject</Type>
+
+    <Sprite>CrookedTree-1</Sprite>
+    <Sprite>CrookedTree-2</Sprite>
+    <Sprite>CrookedTree-3</Sprite>
+    <Sprite>CrookedTree-4</Sprite>
+
+    <SizeMin>0.6</SizeMin>
+    <SizeMax>1.2</SizeMax>
+
+    <Collidable/>
+    <BlockSight/>
+  </Object>
+
+  <Object id="0xa95" name="Magical Weeds">
+    <Type>StaticObject</Type>
+
+    <Sprite>MagicalWeeds-1</Sprite>
+    <Sprite>MagicalWeeds-2</Sprite>
+    <Sprite>MagicalWeeds-3</Sprite>
+    <Sprite>MagicalWeeds-4</Sprite>
+
+  </Object>
+
+  <Object id="0xa96" name="Rictorn's Portal">
+    <Type>Portal</Type>
+  </Object>
+
+  <Object id="0xa97" name="Magical Flower">
+    <Type>StaticObject</Type>
+
+    <Sprite>MagicalFlower-1</Sprite>
+    <Sprite>MagicalFlower-2</Sprite>
+    <Sprite>MagicalFlower-3</Sprite>
+
+    <Size>0.8</Size>
+
+  </Object>
+
+  <Object id="0xa98" name="Magical Mushroom">
+    <Type>StaticObject</Type>
+
+    <Sprite>MagicalMushroom-1</Sprite>
+    <Sprite>MagicalMushroom-2</Sprite>
+    <Sprite>MagicalMushroom-3</Sprite>
+
+    <Size>0.8</Size>
+
+  </Object>
+
+  <Object id="0xa99" name="Magic Mirror">
+    <Type>Wardrobe</Type>
+
+    <Size>0.8</Size>
+
+  </Object>
+
+  <Object id="0xa9a" name="Minister Pillar Tier 2">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>MinisterPillarT2</Set>
+      <Loops>1</Loops>
+      <Fps>0.12</Fps>
+    </Texture>
+  </Object>
+
+  <Object id="0xa9b" name="Minister Pillar Tier 3">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>MinisterPillarT3</Set>
+      <Loops>1</Loops>
+      <Fps>0.12</Fps>
+    </Texture>
+  </Object>
+
+  <Object id="0xa9c" name="Minister Pillar Tier 4">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>MinisterPillarT4</Set>
+      <Loops>1</Loops>
+      <Fps>0.12</Fps>
+    </Texture>
+  </Object>
+
+  <Object id="0xa9d" name="Nomad Charm">
+    <Type>NomadCharm</Type>
+
+    <Sprite>HealingCharm</Sprite>
+    <Sprite>HealingCharmUsed</Sprite>
+    
+  </Object>
+
+  <Object id="0xa9e" name="Package Vendor">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>PackageVendor</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xa9f" name="Balun Lightning Indicator">
+    <Type>GroundObject</Type>
+    
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>RedArea-Flash</Set>
+      <Fps>0.5</Fps>
+    </Texture>
+
+    <Size>1.5</Size>
+  </Object>
+
+  <Object id="0xaa0" name="Gorge Wall">
+    <Type>ContextualWall</Type>
+
+    <Mesh>Gorge Wall</Mesh>
+  </Object>
+
+  <Object id="0xaa1" name="Bubra Rotisserie">
+    <Type>StaticObject</Type>
+
+    <Texture>
+      <Type>Sequence</Type>
+      <Set>BubraRotisserie</Set>
+      <Fps>0.2</Fps>
+    </Texture>
+    
+    <GroundObject>0xa46</GroundObject>
+    <Collidable/>
+  </Object>
+
+  <Object id="0xaa2" name="Bubra Tipi">
+    <Type>StaticObject</Type>
+
+    <Collidable/>
+  </Object>
+
+  <Object id="0xaa3" name="Bubra Barricade">
+    <Type>StaticObject</Type>
+
+    <Collidable/>
+  </Object>
+
+  <Object id="0xaa4" name="Bubra Male Villager">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BubraMaleVillager</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xaa5" name="Bubra Female Villager">
+    <Type>Npc</Type>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>BubraFemaleVillager</Set>
+      <NoAttack/>
+    </Texture>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0xaa6" name="Gorge Pillar">
+    <Type>Object3d</Type>
+
+    <Mesh>Gorge Pillar</Mesh>
+  </Object>
+
+  <Object id="0xaa7" name="Gorge Standing Rock">
+    <Type>Object3d</Type>
+
+    <Mesh>Gorge Rock</Mesh>
+  </Object>
+
+  <Object id="0xaa8" name="Bubra Barrens Portal">
+    <Type>Portal</Type>
+  </Object>
+
+  <Object id="0xaa9" name="Barrens Plant 1">
+    <Type>GroundObject</Type>
+  </Object>
+
+  <Object id="0xaaa" name="Barrens Plant 2">
+    <Type>GroundObject</Type>
+  </Object>
+
+  <Object id="0xaab" name="Barrens Skeletal Ribs">
+    <Type>StaticObject</Type>
+    
+  </Object>
+
+  <Object id="0xaac" name="Hula Skull">
+    <Type>StaticObject</Type>
+
+  </Object>
+  
+</Objects>

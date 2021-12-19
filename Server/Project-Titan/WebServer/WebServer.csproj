@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="favicon.png" />
+    <None Remove="googleapis.json" />
+    <None Remove="Htmls\privacy_policy.html" />
+    <None Remove="Htmls\verify_email.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="favicon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="googleapis.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Htmls\privacy_policy.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Library\TitanCore\TitanCore.csproj" />
+    <ProjectReference Include="..\..\..\Library\Utils.NET\Utils.NET\Utils.NET.csproj" />
+    <ProjectReference Include="..\TitanDatabase\TitanDatabase.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Htmls\verify_email.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.AndroidPublisher.v3" Version="1.48.0.2016" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

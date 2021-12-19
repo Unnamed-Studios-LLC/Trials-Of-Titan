@@ -1,1 +1,1 @@
-# Trials-Of-Titan
+# Project Titan

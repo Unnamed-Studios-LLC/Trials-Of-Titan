@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "spriteSheets": [
+    {
+      "name": "Characters",
+      "directories": [
+        {
+          "relativePath": "Characters",
+          "options": [
+            {
+              "pathFromDirectory": "Archer.aseprite",
+              "anchorX": 4.5,
+              "anchorY": 0.0
+            },
+            {
+              "pathFromDirectory": "Longswordman.aseprite",
+              "anchorX": 0.0,
+              "anchorY": 0.0
+            },
+            {
+              "pathFromDirectory": "Warrior.aseprite",
+              "anchorX": 5.0,
+              "anchorY": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gameDatas": [
+    {
+      "fileName": "Characters.json"
+    }
+  ]
+}

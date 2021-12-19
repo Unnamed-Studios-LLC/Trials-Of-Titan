@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RuntimeFrameworkVersion>2.1.0</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Utils.NET\Utils.NET\Utils.NET.csproj" />
+    <ProjectReference Include="..\ServerNode\ServerNode.csproj" />
+  </ItemGroup>
+
+</Project>

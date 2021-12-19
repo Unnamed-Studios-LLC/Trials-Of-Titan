@@ -1,0 +1,212 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Logic\Scripts\bhognin.ls" />
+    <None Remove="Logic\Scripts\Gates\dumir.ls" />
+    <None Remove="Logic\Scripts\Gates\gorge.ls" />
+    <None Remove="Logic\Scripts\Gates\mannahsfortress.ls" />
+    <None Remove="Logic\Scripts\Gates\rictornsgate.ls" />
+    <None Remove="Logic\Scripts\Gates\valdoksforge.ls" />
+    <None Remove="Logic\Scripts\npcs.ls" />
+    <None Remove="Logic\Scripts\overworld.ls" />
+    <None Remove="Logic\Scripts\Overworld\darkforest.ls" />
+    <None Remove="Logic\Scripts\Overworld\desert.ls" />
+    <None Remove="Logic\Scripts\Overworld\grasslands.ls" />
+    <None Remove="Logic\Scripts\Overworld\oceanbeach.ls" />
+    <None Remove="Logic\Scripts\Overworld\peaks.ls" />
+    <None Remove="Logic\Scripts\Overworld\shallows.ls" />
+    <None Remove="Logic\Scripts\Overworld\tundra.ls" />
+    <None Remove="Logic\Scripts\pets.ls" />
+    <None Remove="Logic\Scripts\Titans\balun.ls" />
+    <None Remove="Logic\Scripts\Titans\mannah.ls" />
+    <None Remove="Logic\Scripts\Titans\rictorn.ls" />
+    <None Remove="Logic\Scripts\Titans\valdok.ls" />
+    <None Remove="Map\Files\Gates\Bhognin\bhognin-shape-1.mef" />
+    <None Remove="Map\Files\Gates\Bhognin\bhognin-shape-2.mef" />
+    <None Remove="Map\Files\Gates\Bhognin\bhognin-shape-3.mef" />
+    <None Remove="Map\Files\Gates\Bhognin\bhognin-shape-4.mef" />
+    <None Remove="Map\Files\Gates\Bhognin\bhognin-shape-5.mef" />
+    <None Remove="Map\Files\Gates\Bhognin\bhognin-shape-6.mef" />
+    <None Remove="Map\Files\Gates\Bhognin\bubra-camp.mef" />
+    <None Remove="Map\Files\nexus.mef" />
+    <None Remove="Map\Files\overworld.mef" />
+    <None Remove="Map\Files\rictornsgate-1.mef" />
+    <None Remove="Map\Files\rictornsgate-2.mef" />
+    <None Remove="Map\Files\rictornsgate-3.mef" />
+    <None Remove="Map\Files\rictornsgate.mef" />
+    <None Remove="Map\Files\SetPieces\blacksmith.mef" />
+    <None Remove="Map\Files\SetPieces\bothmurroom.mef" />
+    <None Remove="Map\Files\SetPieces\dumir\house-1.mef" />
+    <None Remove="Map\Files\SetPieces\dumir\village-blue.mef" />
+    <None Remove="Map\Files\SetPieces\dumir\village-green.mef" />
+    <None Remove="Map\Files\SetPieces\dumir\village-red.mef" />
+    <None Remove="Map\Files\SetPieces\fireside.mef" />
+    <None Remove="Map\Files\SetPieces\gorge\bone-bhognin-room.mef" />
+    <None Remove="Map\Files\SetPieces\gorge\bone-worm-room.mef" />
+    <None Remove="Map\Files\SetPieces\mannahsfortress.mef" />
+    <None Remove="Map\Files\SetPieces\valdoksroom.mef" />
+    <None Remove="Map\Files\SetPieces\valdoksspawn.mef" />
+    <None Remove="Map\Files\SetPieces\village.mef" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Logic\Scripts\Gates\dumir.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Gates\gorge.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Gates\mannahsfortress.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Gates\rictornsgate.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Gates\valdoksforge.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Overworld\darkforest.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Overworld\desert.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Overworld\grasslands.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Overworld\oceanbeach.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Overworld\peaks.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Overworld\shallows.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Overworld\tundra.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\pets.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Titans\balun.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Titans\bhognin.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\npcs.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\overworld.ls">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Titans\mannah.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Titans\rictorn.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logic\Scripts\Titans\valdok.ls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\Gates\Bhognin\bhognin-shape-1.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\Gates\Bhognin\bhognin-shape-2.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\Gates\Bhognin\bhognin-shape-3.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\Gates\Bhognin\bhognin-shape-4.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\Gates\Bhognin\bhognin-shape-5.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\Gates\Bhognin\bhognin-shape-6.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\SetPieces\gorge\bone-bhognin-room.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\SetPieces\gorge\bone-worm-room.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\SetPieces\gorge\bubra-camp.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\nexus.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\overworld.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\rictornsgate-1.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\rictornsgate-2.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\rictornsgate-3.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\rictornsgate.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\SetPieces\blacksmith.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\SetPieces\bothmurroom.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\SetPieces\dumir\house-1.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\SetPieces\dumir\village-blue.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\SetPieces\dumir\village-green.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\SetPieces\dumir\village-red.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\SetPieces\fireside.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\mannahsfortress.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\SetPieces\valdoksroom.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\SetPieces\valdoksspawn.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Map\Files\SetPieces\village.mef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Library\TitanCore\TitanCore.csproj" />
+    <ProjectReference Include="..\..\..\Library\Utils.NET\Utils.NET\Utils.NET.csproj" />
+    <ProjectReference Include="..\TitanDatabase\TitanDatabase.csproj" />
+    <ProjectReference Include="..\WorldGen\WorldGen.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Logic\Reader\" />
+    <Folder Include="Logic\States\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.EC2" Version="3.3.187.1" />
+  </ItemGroup>
+</Project>

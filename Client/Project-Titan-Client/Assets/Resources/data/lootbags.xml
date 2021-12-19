@@ -1,0 +1,66 @@
+﻿<Objects>
+  
+  <Object id="0xf00" name="Loot Bag">
+    <Type>LootBag</Type>
+    <Sprite>Chest</Sprite>
+
+    <Sfx type="spawn">loot_appear</Sfx>
+  </Object>
+  
+  <Object id="0xf01" name="Item Bag">
+    <Type>LootBag</Type>
+    <Size>0.8</Size>
+    
+    <Sfx type="spawn">bag_drop</Sfx>
+  </Object>
+
+  <Object id="0xf02" name="Loot Chest 1">
+    <Type>LootBag</Type>
+
+    <Sfx type="spawn">loot_appear</Sfx>
+  </Object>
+
+  <Object id="0xf03" name="Loot Chest 2">
+    <Type>LootBag</Type>
+
+    <Sfx type="spawn">loot_appear</Sfx>
+  </Object>
+
+  <Object id="0xf04" name="Loot Chest 3">
+    <Type>LootBag</Type>
+
+    <Sfx type="spawn">loot_appear</Sfx>
+  </Object>
+
+  <Object id="0xf05" name="Loot Chest 4">
+    <Type>LootBag</Type>
+
+    <Sfx type="spawn">loot_appear</Sfx>
+  </Object>
+
+  <Object id="0xf06" name="Loot Chest 5">
+    <Type>LootBag</Type>
+
+    <Sfx type="spawn">loot_appear</Sfx>
+  </Object>
+  
+  <Object id="0xf07" name="Loot Chest 6">
+    <Type>LootBag</Type>
+
+    <Sfx type="spawn">loot_appear</Sfx>
+  </Object>
+
+  <Object id="0xf08" name="Soulbound Bag">
+    <Type>LootBag</Type>
+    <Size>0.8</Size>
+
+    <Sfx type="spawn">bag_drop</Sfx>
+  </Object>
+
+  <Object id="0xf09" name="Loot Chest 7">
+    <Type>LootBag</Type>
+
+    <Sfx type="spawn">loot_appear</Sfx>
+  </Object>
+  
+</Objects>

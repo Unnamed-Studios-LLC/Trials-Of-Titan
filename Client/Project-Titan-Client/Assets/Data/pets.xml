@@ -1,0 +1,88 @@
+﻿<Objects>
+
+  <Object id="0x3000" name="Companion Hula">
+    <Type>Pet</Type>
+
+    <Slots>8</Slots>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>CompanionHula</Set>
+    </Texture>
+
+    <Size>0.7</Size>
+  </Object>
+
+  <Object id="0x3001" name="Companion Hula Totem">
+    <Type>PetSpawner</Type>
+
+    <Pet>0x3000</Pet>
+    <Description>Used to call a companion Hula to your side! A Hula can carry up to 8 of your items.</Description>
+    <Consumable/>
+  </Object>
+
+  <Object id="0x3002" name="Companion Snail">
+    <Type>Pet</Type>
+
+    <Slots>8</Slots>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>CompanionSnail</Set>
+    </Texture>
+
+    <Size>0.8</Size>
+  </Object>
+
+  <Object id="0x3003" name="Companion Snail Totem">
+    <Type>PetSpawner</Type>
+
+    <Pet>0x3002</Pet>
+    <Description>Used to call a companion Snail to your side! A Snail can carry up to 8 of your items.</Description>
+    <Consumable/>
+  </Object>
+
+  <Object id="0x3004" name="Companion Mammoth">
+    <Type>Pet</Type>
+
+    <Slots>8</Slots>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>CompanionMammoth</Set>
+    </Texture>
+
+    <Size>0.6</Size>
+  </Object>
+
+  <Object id="0x3005" name="Companion Mammoth Totem">
+    <Type>PetSpawner</Type>
+
+    <Pet>0x3004</Pet>
+    <Description>Used to call a companion Mammoth to your side! A Mammoth can carry up to 8 of your items.</Description>
+    <Consumable/>
+  </Object>
+
+  <Object id="0x3006" name="Companion Tortoise">
+    <Type>Pet</Type>
+
+    <Slots>8</Slots>
+
+    <Texture>
+      <Type>Entity</Type>
+      <Set>CompanionTortoise</Set>
+      <SepWalk/>
+    </Texture>
+
+    <Size>0.7</Size>
+  </Object>
+
+  <Object id="0x3007" name="Companion Tortoise Totem">
+    <Type>PetSpawner</Type>
+
+    <Pet>0x3006</Pet>
+    <Description>Used to call a companion Tortoise to your side! A Tortoise can carry up to 8 of your items.</Description>
+    <Consumable/>
+  </Object>
+  
+</Objects>

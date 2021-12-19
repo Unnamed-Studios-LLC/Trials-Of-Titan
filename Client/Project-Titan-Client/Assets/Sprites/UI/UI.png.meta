@@ -1,0 +1,2663 @@
+fileFormatVersion: 2
+guid: 00f2665ad94774f4a8116a8813ed702b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -684341498602138215
+    second: HealthBar
+  - first:
+      213: -930237195146107689
+    second: Tray
+  - first:
+      213: 2002396119531869072
+    second: Inventory
+  - first:
+      213: 3454177862641619130
+    second: Items
+  - first:
+      213: -1467020845609650598
+    second: Cornered Background
+  - first:
+      213: 3118169986250858628
+    second: Blank
+  - first:
+      213: -1557013538026691241
+    second: Placeholder Sword
+  - first:
+      213: -2135893623428938431
+    second: Placeholder Claymore
+  - first:
+      213: 8375531001119755603
+    second: Placeholder Bow
+  - first:
+      213: -3736310383354607028
+    second: Placeholder Accessory
+  - first:
+      213: 601195973831222289
+    second: Placeholder LightArmor
+  - first:
+      213: 1619707567827029665
+    second: Placeholder HeavyArmor
+  - first:
+      213: -8392012135945574644
+    second: Chat Background
+  - first:
+      213: -6960044155524354517
+    second: Chat Arrow
+  - first:
+      213: -1867788920276133924
+    second: Chat Input Box
+  - first:
+      213: -5811785901110289930
+    second: Slot Cornered
+  - first:
+      213: -2933266813700884411
+    second: Cooldown Bar
+  - first:
+      213: -1596678786540825464
+    second: Move Joystick Tray
+  - first:
+      213: -3832433481075633524
+    second: Thumbstick
+  - first:
+      213: -2507591184121045843
+    second: Button Rotate
+  - first:
+      213: 6419117845314160727
+    second: Menu Background
+  - first:
+      213: -6315563261886852407
+    second: Input Background
+  - first:
+      213: -2297437686697648626
+    second: Loading
+  - first:
+      213: -1557013538026691241
+    second: Equips
+  - first:
+      213: -7663726720228882987
+    second: Placeholder Spear
+  - first:
+      213: -7480728949967529149
+    second: PlayerIndicator
+  - first:
+      213: -833650525019321480
+    second: Circle Indicator
+  - first:
+      213: -1835304658440169179
+    second: Transparent
+  - first:
+      213: 8342652507314131844
+    second: Selection
+  - first:
+      213: 2221266336665460745
+    second: Box Outline
+  - first:
+      213: -8118286791663184854
+    second: Tooltip
+  - first:
+      213: -5888239082179257686
+    second: Line Separator
+  - first:
+      213: 2369483291186063077
+    second: Add
+  - first:
+      213: -5764469917993626149
+    second: Subtract
+  - first:
+      213: 4718173360986145311
+    second: Selected Slot Edge
+  - first:
+      213: -7222886077422055305
+    second: Selected Slot
+  - first:
+      213: 538065581432009940
+    second: Selected Slot Corner
+  - first:
+      213: 7186223825358793108
+    second: Circle
+  - first:
+      213: -4474550822714035355
+    second: Icon Backpack
+  - first:
+      213: 204498514801101586
+    second: Icon Stats
+  - first:
+      213: 5309753315947761652
+    second: Mobile Side Bar
+  - first:
+      213: 1403366297599532345
+    second: Placeholder Generic
+  - first:
+      213: 8973309523435777393
+    second: Icon Near Players
+  - first:
+      213: -1557013538026691241
+    second: Icon Map
+  - first:
+      213: -7276818722253040626
+    second: Directional Arrow
+  - first:
+      213: -1557013538026691241
+    second: Tooltip background
+  - first:
+      213: 5875573977471761186
+    second: Single Slot
+  - first:
+      213: -1557013538026691241
+    second: Icon Chat
+  - first:
+      213: -1557013538026691241
+    second: Icon Teleport
+  - first:
+      213: -1557013538026691241
+    second: Icon Options
+  - first:
+      213: -1206922102013839616
+    second: Button Options
+  - first:
+      213: -7408712548160095414
+    second: Button Options Selected
+  - first:
+      213: -1557013538026691241
+    second: Scroll Bar
+  - first:
+      213: 6604374139671152143
+    second: Button Option
+  - first:
+      213: -1557013538026691241
+    second: Button Red
+  - first:
+      213: -3033334821422125189
+    second: Cooldown Progress
+  - first:
+      213: 7200801130980126510
+    second: Bar Glow
+  - first:
+      213: 1742248798650700193
+    second: Placeholder Archer
+  - first:
+      213: 8862189678291093956
+    second: Placeholder Berserker
+  - first:
+      213: -6601214495556687770
+    second: Placeholder Lancer
+  - first:
+      213: 571523109256120007
+    second: Placeholder Warrior
+  - first:
+      213: -7572728221267174887
+    second: Enemy ChatBox
+  - first:
+      213: 6796424340641616957
+    second: Guild ChatBox
+  - first:
+      213: -9022869530284956043
+    second: Guild Chat Arrow
+  - first:
+      213: -2701719433290564538
+    second: Enemy Chat Arrow
+  - first:
+      213: -4000982346974253384
+    second: Button
+  - first:
+      213: -7307112348384811647
+    second: Button Grey
+  - first:
+      213: -1120091356256039703
+    second: Button Green
+  - first:
+      213: 1713851340441814056
+    second: Icon Sound On
+  - first:
+      213: -7704473389967786673
+    second: Icon Sound Off
+  - first:
+      213: 4936162571786258016
+    second: Button Red Up
+  - first:
+      213: 7306341602214785307
+    second: Button Grey Up
+  - first:
+      213: -6098041740763882889
+    second: Button Green Up
+  - first:
+      213: -8529422097859241825
+    second: Button Green Down
+  - first:
+      213: 3771552678146473640
+    second: Button Grey Down
+  - first:
+      213: 2405533402713387144
+    second: Button Red Down
+  - first:
+      213: 1712575162520223668
+    second: Placeholder Elixir
+  - first:
+      213: -3855441506137048413
+    second: Placeholder Bag
+  - first:
+      213: -4339118694201094353
+    second: Throw Gizmo
+  - first:
+      213: -2559353629222152901
+    second: Mobile Loot Menu
+  - first:
+      213: -884302383420730777
+    second: Placeholder Robe
+  - first:
+      213: -1557013538026691241
+    second: Menu Back
+  - first:
+      213: -7306855669053604407
+    second: Dot
+  - first:
+      213: -1557013538026691241
+    second: UI Flare
+  - first:
+      213: -7472292656738236170
+    second: Flare Background
+  - first:
+      213: 3024388617287034054
+    second: Quest Circle
+  - first:
+      213: -5770004171591221
+    second: Quest Health
+  - first:
+      213: 5714149024590952185
+    second: Quest Damage
+  - first:
+      213: -1557013538026691241
+    second: Quest Arrow
+  - first:
+      213: -5493781394395186303
+    second: Quest Inner
+  - first:
+      213: -5515153914767263811
+    second: Emote Dial
+  - first:
+      213: 4505535521051341453
+    second: Emote Dial Large Selected
+  - first:
+      213: 5186268565700685293
+    second: Emote Dial Small Selected
+  - first:
+      213: 7283894618393165573
+    second: Rotate CW
+  - first:
+      213: -5587503504317566879
+    second: Rotate CCW
+  - first:
+      213: -756319382068512986
+    second: Nexus Icon
+  - first:
+      213: -560495587546242493
+    second: Emote Icon
+  - first:
+      213: 4898460860488513181
+    second: Connection Good
+  - first:
+      213: -3399714159554908928
+    second: Connection Ok
+  - first:
+      213: 8872493311006265478
+    second: Connection Bad
+  - first:
+      213: -7454607181822512311
+    second: Button Orange
+  - first:
+      213: -7535362966532523558
+    second: Button Orange Up
+  - first:
+      213: 4474961958920119500
+    second: Button Orange Down
+  - first:
+      213: 733889024704278733
+    second: Spare Currency
+  - first:
+      213: 3160547877008966001
+    second: Sack of Currency
+  - first:
+      213: -1432281245641963443
+    second: Box of Currency
+  - first:
+      213: -5241363573309535214
+    second: Chest of Currency
+  - first:
+      213: -7366014647749789086
+    second: Vault of Currency
+  - first:
+      213: 82707731993968007
+    second: Aim Gizmo
+  - first:
+      213: 1080825480604336155
+    second: Target Gizmo
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HealthBar
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 991
+        width: 1
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4cac96eec069f44a9608c9a246fa5e
+      internalID: -684341498602138215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tray
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 929
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 34, y: 20, z: 0, w: 20}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaffa53af92b13f4ca416e2be08206b3
+      internalID: -930237195146107689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 895
+        width: 172
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c04a0d16d1aaf47a097836731500cc
+      internalID: 2002396119531869072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Items
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 895
+        width: 172
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a9f1c91fe7d7948af3aad57899d31a
+      internalID: 3454177862641619130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cornered Background
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 983
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ed82a2c846b974d946841e9a7eb1b6
+      internalID: -1467020845609650598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blank
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1019
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ea32c4e4abe944d8f114f38e2a684c
+      internalID: 3118169986250858628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Sword
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1014
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79f2cc4cbb71b84f8589061f5d71ff3
+      internalID: -1557013538026691241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Claymore
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 984
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edf6c9885e45b546af8097c69807da3
+      internalID: -2135893623428938431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Bow
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1014
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902d9b52e123a0445ac5626f089fe176
+      internalID: 8375531001119755603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Accessory
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1014
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1131cb195b2ace41b41f5e965735741
+      internalID: -3736310383354607028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder LightArmor
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1014
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df38a2a7be57d5f4a92245942f53fba2
+      internalID: 601195973831222289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder HeavyArmor
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1014
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcb03e542c311645b7befecb9955e4b
+      internalID: 1619707567827029665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chat Background
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 997
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 7, z: 7, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae640a0ca8b09445822f89ed1e10d0b
+      internalID: -8392012135945574644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chat Arrow
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1008
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b9f79c59422014ba02b104611464c2
+      internalID: -6960044155524354517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chat Input Box
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1010
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c461714548673ab409c5dea98abfbd3a
+      internalID: -1867788920276133924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot Cornered
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 939
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80aaed19d9f869348837f29b321767cc
+      internalID: -5811785901110289930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cooldown Bar
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1000
+        width: 1
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c3997166d8a9f4e87b70d48f336edf
+      internalID: -2933266813700884411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Background
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 950
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 13, z: 13, w: 13}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca02e30449a8044ab39da754bdbb004
+      internalID: 6419117845314160727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Input Background
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 935
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83845269fbd4a645bbe9a3bded8fc1f
+      internalID: -6315563261886852407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loading
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 874
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02a15830c74e3044a159a4bee9835c6
+      internalID: -2297437686697648626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Equips
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 983
+        width: 172
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a413a528c2e50540889f20d944d870f
+      internalID: -1557013538026691241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Spear
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1004
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a955d784d5ba243804dd6d9802e5e7
+      internalID: -7663726720228882987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIndicator
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1003
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f636054a3bfb24a8421ada4f7dd14e
+      internalID: -7480728949967529149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Indicator
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 908
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101b1c85759f254419dd133bf2a1b0eb
+      internalID: -833650525019321480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selection
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 913
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 3, y: 3, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d190f9b079b71f247b5b7e4506ccfe82
+      internalID: 8342652507314131844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box Outline
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 922
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26430cc538a5a92469a0dcb80465a726
+      internalID: 2221266336665460745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tooltip
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 942
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 17, y: 17, z: 17, w: 17}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d1877f4d32af34d94064cfc3cfe4bb
+      internalID: -8118286791663184854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Line Separator
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1013
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 4, z: 9, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82557424af275314e8e9bf18278e6ace
+      internalID: -5888239082179257686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Add
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1018
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ef3066c3eaaff45a9466de236afe57
+      internalID: 2369483291186063077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subtract
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1018
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fdeddd789604749ba1ce5fe0c19f5d
+      internalID: -5764469917993626149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selected Slot Edge
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 983
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2d42151de63114d9e20fd59b932532
+      internalID: 4718173360986145311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selected Slot
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 983
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551c7ed524591284199f8fbdda430054
+      internalID: -7222886077422055305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selected Slot Corner
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 983
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a36c594c2f15fd4387adeb5a4fb4bbb
+      internalID: 538065581432009940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 81
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdb870f985245a4c891022ed80750a4
+      internalID: 7186223825358793108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon Backpack
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1014
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2a8be260207d5469cc07b3ca206fa4
+      internalID: -4474550822714035355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon Stats
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1014
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30b5a9047d40f94dbdad05dca400943
+      internalID: 204498514801101586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Side Bar
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 937
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 8, z: 0, w: 8}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3feec1a725aec14d86065cd6f799082
+      internalID: 5309753315947761652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Generic
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1004
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b080d94461e9107409c26152d94e47b9
+      internalID: 1403366297599532345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon Near Players
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1013
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1aaf59e6feda741bb2889fd6f2cc34
+      internalID: 8973309523435777393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon Map
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1004
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507951b612ced8249b8293ad5a5fe608
+      internalID: -1557013538026691241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Directional Arrow
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 993
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d56f1cc08bc2c43b599d2e5b49d26e
+      internalID: -7276818722253040626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tooltip background
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 937
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 8, z: 8, w: 8}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e8fb37e2d8e2d45b1cf25d42f8d40e
+      internalID: -1557013538026691241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Single Slot
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 937
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf5782097b81374cab328e027d1d054
+      internalID: 5875573977471761186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon Chat
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1006
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a6c7312bd2e9b4ab0665db1a0d9596
+      internalID: -1557013538026691241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon Teleport
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1001
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f0d1871cb965044a8b55c87242e800
+      internalID: -1557013538026691241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon Options
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1011
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e31bbaaa33ad6f42b795309b9b81f6d
+      internalID: -1557013538026691241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Options
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 896
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 17, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a420e7a0cd538bd47b68571c997cb6b2
+      internalID: -1206922102013839616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Options Selected
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 896
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 17, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d20cd7cb286aaf41a41179ada180f04
+      internalID: -7408712548160095414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scroll Bar
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 920
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ee1388b0250b7498c2563a8028221b
+      internalID: -1557013538026691241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Option
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 859
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 13, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031e375af873d494b824ede9c7c83703
+      internalID: 6604374139671152143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Red
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 871
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 8, z: 4, w: 8}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553e62007cfd1094cbdc8f640a6996bb
+      internalID: -1557013538026691241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cooldown Progress
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1005
+        width: 1
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaeec0ee1483ba4ca40698f80055cdb
+      internalID: -3033334821422125189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bar Glow
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 901
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15813f92e65fbf14a8d3af5c00c0d444
+      internalID: 7200801130980126510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Archer
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1015
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705fe1747d3829149935cab8b9139009
+      internalID: 1742248798650700193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Berserker
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1015
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518f74fd70917964f9100000ae6cda1b
+      internalID: 8862189678291093956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Lancer
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1015
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d80147cb291ae40a1bbd0dac198f38
+      internalID: -6601214495556687770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Warrior
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1015
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a5b27a1527efd4b9b4c761f3069eb7
+      internalID: 571523109256120007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy ChatBox
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 868
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 7, z: 7, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab528c6baa6e01419a0a0bddcc79279
+      internalID: -7572728221267174887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guild ChatBox
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 868
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 7, z: 7, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482e9d36299c7be40b6bc0470585ddc9
+      internalID: 6796424340641616957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guild Chat Arrow
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 878
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32a2435c8afdfb48ae665d174ca994c
+      internalID: -9022869530284956043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Chat Arrow
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 878
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9f333d348eb27408150f8419fc3c95
+      internalID: -2701719433290564538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Grey
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 846
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 8, z: 4, w: 8}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d326091ed6158d409afe8235e77e6a7
+      internalID: -7307112348384811647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Green
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 821
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 8, z: 4, w: 8}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa473d9b4f395a4cb8fcd542976ca49
+      internalID: -1120091356256039703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon Sound On
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1003
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36517874904f9c1449f7c480b6f83377
+      internalID: 1713851340441814056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon Sound Off
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1003
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc2f2581041ccf4d8fb8c51786adf99
+      internalID: -7704473389967786673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Red Up
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 871
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 12, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f9c87effebd13498a169a74f155524
+      internalID: 4936162571786258016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Grey Up
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 846
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 12, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f3eef0d9d0d9241be67a23b30d4bde
+      internalID: 7306341602214785307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Green Up
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 821
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 12, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9cf58458ffcb640bcd1f6588e622d1
+      internalID: -6098041740763882889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Green Down
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 821
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9de875e2f8af44bb6998a3a2c33b73
+      internalID: -8529422097859241825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Grey Down
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 846
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af6a67cbc55d6946a815bd3e5ac8c4f
+      internalID: 3771552678146473640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Red Down
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 871
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56571e87066e9b749a9960dd9109256d
+      internalID: 2405533402713387144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Elixir
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1004
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31debf5e0102c242a7e92745784fa9c
+      internalID: 1712575162520223668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Bag
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1004
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3171cc7cbf47643b983c1175a44245
+      internalID: -3855441506137048413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throw Gizmo
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 798
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f871bd21127f64aaf23f3398b04fd0
+      internalID: -4339118694201094353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Loot Menu
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 896
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 8, z: 6, w: 8}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede55206ddab67a41938f5486a9e9128
+      internalID: -2559353629222152901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Robe
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1004
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75fb001c538bc64ba92cf776fe5858b
+      internalID: -884302383420730777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Back
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 854
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 18, y: 18, z: 18, w: 18}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1b38589a127b84ab26a14e890a1fa1
+      internalID: -1557013538026691241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dot
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 883
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee6298c7c38f3343855fee8cd50fa39
+      internalID: -7306855669053604407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Flare
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 873
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0deefd7b4e9a7824c82212c3859761ce
+      internalID: -1557013538026691241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flare Background
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 873
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0936cd6320e08584a91e13859d9e67dc
+      internalID: -7472292656738236170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quest Circle
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 799
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e4e04fdde411540adb686aa037e55e
+      internalID: 3024388617287034054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quest Health
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 720
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc90a90f958b4446a02423604f599dd
+      internalID: -5770004171591221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quest Damage
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 720
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e1c34f0e1de6a429c6137b4c7babac
+      internalID: 5714149024590952185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quest Arrow
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 710
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8852b431a0d3d94084df7fde86607f5
+      internalID: -1557013538026691241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quest Inner
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 724
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1337c4e34ee5e04099187a2905d87e4
+      internalID: -5493781394395186303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emote Dial
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 541
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8021b56afc398474cbe52913caf548ce
+      internalID: -5515153914767263811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emote Dial Large Selected
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 541
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c07884ed8c75e04884a0091d2bd7daa
+      internalID: 4505535521051341453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emote Dial Small Selected
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 541
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2fe9d5ad682304187ea1617068a679
+      internalID: 5186268565700685293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotate CW
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1002
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c0fdc00d674a340b28487b46f32e66
+      internalID: 7283894618393165573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotate CCW
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 990
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c683cafc1d1fa4946a121516cb9d28cb
+      internalID: -5587503504317566879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Icon
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 969
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09009df160dd6cf4485b2caa9fd243f3
+      internalID: -756319382068512986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emote Icon
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 977
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7704d751b4325084c9ac391e2f8d720d
+      internalID: -560495587546242493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Connection Good
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 979
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec557d7d56f62ae4a9c86c013fb1782b
+      internalID: 4898460860488513181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Connection Ok
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 979
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5983aa84dc8454c4e9efe16e885ba8b6
+      internalID: -3399714159554908928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Connection Bad
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 979
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f75819e4f9a4341b792288a9423fe6
+      internalID: 8872493311006265478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Orange
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 846
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 8, z: 4, w: 9}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ae485e38916264ea79a193afd904e2
+      internalID: -7454607181822512311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Orange Up
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 846
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 12, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a0659858f1a014bae5ff70cb437b04
+      internalID: -7535362966532523558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Orange Down
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 846
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cf08d7fdc64304eaa9598f4c5af8bf
+      internalID: 4474961958920119500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spare Currency
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 984
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5086088f584001945ab07726b0369879
+      internalID: 733889024704278733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sack of Currency
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 984
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec66f36b204df347be1f673e15dd33f
+      internalID: 3160547877008966001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box of Currency
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 984
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a97ec609f63024083bc9f5fa49be8c
+      internalID: -1432281245641963443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest of Currency
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 984
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05723b2d579aebb4d88aaf274ac516fe
+      internalID: -5241363573309535214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault of Currency
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 984
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6d71e1e7b6949458e45a2257bed858
+      internalID: -7366014647749789086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aim Gizmo
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 794
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dbda97e36d52100800000000000000
+      internalID: 82707731993968007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target Gizmo
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 754
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10cc935c0ddffe00800000000000000
+      internalID: 1080825480604336155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3f731fb5982925b4a8d05edd8a62ac3d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

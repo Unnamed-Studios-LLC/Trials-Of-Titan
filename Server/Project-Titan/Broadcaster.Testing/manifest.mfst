@@ -1,0 +1,12 @@
+﻿{
+  "programs": [
+    {
+      "directory": "../Testing.WebServer/",
+      "endpoints": [ "3.18.56.73" ]
+    },
+    {
+      "directory": "../Testing.World/",
+      "endpoints": [ "3.17.35.212" ]
+    }
+  ]
+}

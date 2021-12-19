@@ -1,0 +1,424 @@
+﻿<Objects>
+  <Object id="0x1" name="Ranger">
+    <Type>Character</Type>
+
+    <Slots>Bow, LightArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x140</DefaultItems>
+    
+    <Texture>
+      <Type>Character</Type>
+      <Set>Ranger</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>100</Base>
+      <Max>500</Max>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>40</Max>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>55</Max>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>25</Max>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>40</Max>
+    </Stat>
+    
+    <Sfx type="shoot">bow-1</Sfx>
+  </Object>
+  
+  <Object id="0x2" name="Warrior">
+    <Type>Character</Type>
+
+    <Slots>Sword, HeavyArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x100</DefaultItems>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Warrior</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>100</Base>
+      <Max>550</Max>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>40</Max>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>40</Max>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>30</Max>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>45</Max>
+    </Stat>
+
+    <Sfx type="shoot">sword-1</Sfx>
+  </Object>
+
+  <Object id="0x3" name="Commander">
+    <Type>Character</Type>
+
+    <Slots>Claymore, HeavyArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x120</DefaultItems>
+
+    <ClassRequirement class="Warrior">1</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Commander</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>100</Base>
+      <Max>600</Max>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>40</Max>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>35</Max>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>30</Max>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>45</Max>
+    </Stat>
+
+    <Sfx type="shoot">claymore-1</Sfx>
+  </Object>
+
+  <Object id="0x4" name="Lancer">
+    <Type>Character</Type>
+
+    <Slots>Spear, LightArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x160</DefaultItems>
+
+    <ClassRequirement class="Ranger">1</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Lancer</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>100</Base>
+      <Max>500</Max>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>45</Max>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>50</Max>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>30</Max>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>35</Max>
+    </Stat>
+
+    <Sfx type="shoot">sword-1</Sfx>
+  </Object>
+
+  <Object id="0x5" name="Alchemist">
+    <Type>Character</Type>
+
+    <Slots>Elixir, Robe, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x180</DefaultItems>
+
+    <ClassRequirement class="Warrior">1</ClassRequirement>
+    <ClassRequirement class="Ranger">1</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Alchemist</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>100</Base>
+      <Max>500</Max>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>45</Max>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>60</Max>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>20</Max>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>35</Max>
+    </Stat>
+
+    <Sfx type="shoot">throw</Sfx>
+  </Object>
+
+  <Object id="0x6" name="Berserker">
+    <Type>Character</Type>
+
+    <Slots>Claymore, HeavyArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x120</DefaultItems>
+    
+    <ClassRequirement class="Warrior">2</ClassRequirement>
+    <ClassRequirement class="Commander">1</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Berserker</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>100</Base>
+      <Max>600</Max>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>40</Max>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>40</Max>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>30</Max>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>40</Max>
+    </Stat>
+
+    <Sfx type="shoot">claymore-1</Sfx>
+  </Object>
+
+  <Object id="0x7" name="Nomad">
+    <Type>Character</Type>
+
+    <Slots>Bow, LightArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x140</DefaultItems>
+
+    <ClassRequirement class="Ranger">2</ClassRequirement>
+    <ClassRequirement class="Lancer">1</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Nomad</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>100</Base>
+      <Max>500</Max>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>45</Max>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>55</Max>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>25</Max>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>35</Max>
+    </Stat>
+    
+    <Sfx type="shoot">bow-1</Sfx>
+  </Object>
+
+  <Object id="0x8" name="Bladeweaver">
+    <Type>Character</Type>
+
+    <Slots>Sword, Robe, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x100</DefaultItems>
+
+    <ClassRequirement class="Warrior">3</ClassRequirement>
+    <ClassRequirement class="Alchemist">2</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Bladeweaver</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>100</Base>
+      <Max>550</Max>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>45</Max>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>45</Max>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>25</Max>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>40</Max>
+    </Stat>
+
+    <Sfx type="shoot">sword-1</Sfx>
+  </Object>
+
+  <Object id="0x9" name="Minister">
+    <Type>Character</Type>
+
+    <Slots>Spear, Robe, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x160</DefaultItems>
+
+    <ClassRequirement class="Alchemist">1</ClassRequirement>
+    <ClassRequirement class="Lancer">2</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Minister</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>100</Base>
+      <Max>500</Max>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>50</Max>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>50</Max>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>25</Max>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>35</Max>
+    </Stat>
+
+    <Sfx type="shoot">sword-1</Sfx>
+  </Object>
+
+  <Object id="0xa" name="Brewer">
+    <Type>Character</Type>
+
+    <Slots>Elixir, Robe, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x180</DefaultItems>
+
+    <ClassRequirement class="Minister">2</ClassRequirement>
+    <ClassRequirement class="Alchemist">3</ClassRequirement>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Brewer</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>100</Base>
+      <Max>500</Max>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>45</Max>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>55</Max>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>25</Max>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>35</Max>
+    </Stat>
+
+    <Sfx type="shoot">throw</Sfx>
+  </Object>
+
+  <Object id="0xb" name="Sharpshooter">
+    <Type>Character</Type>
+
+    <Slots>Crossbow, LightArmor, Accessory, Accessory</Slots>
+
+    <DefaultItems>0x260</DefaultItems>
+
+    <ClassRequirement class="Berserker">2</ClassRequirement>
+    <ClassRequirement class="Nomad">2</ClassRequirement>
+
+    <NotPlayable/>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Sharpshooter</Set>
+    </Texture>
+
+    <Stat type="MaxHealth">
+      <Base>100</Base>
+      <Max>500</Max>
+    </Stat>
+    <Stat type="Speed">
+      <Base>1</Base>
+      <Max>45</Max>
+    </Stat>
+    <Stat type="Attack">
+      <Base>1</Base>
+      <Max>50</Max>
+    </Stat>
+    <Stat type="Defense">
+      <Base>1</Base>
+      <Max>25</Max>
+    </Stat>
+    <Stat type="Vigor">
+      <Base>1</Base>
+      <Max>35</Max>
+    </Stat>
+
+    <Sfx type="shoot">bow-1</Sfx>
+  </Object>
+</Objects>

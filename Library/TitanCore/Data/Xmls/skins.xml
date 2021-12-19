@@ -1,0 +1,185 @@
+﻿<Objects>
+  <Object id="0x5000" name="Dragon Warrior Skin">
+    <Type>SkinUnlocker</Type>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>DragonKnight</Set>
+    </Texture>
+
+    <Description>Unlocks the "Dragon Warrior" skin for a warrior.</Description>
+
+    <CharacterType>0x2</CharacterType>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+
+  <Object id="0x5001" name="Mist Dancer Skin">
+    <Type>SkinUnlocker</Type>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>MistDancer</Set>
+    </Texture>
+
+    <Description>Unlocks the "Mist Dancer" skin for a bladeweaver.</Description>
+
+    <CharacterType>0x8</CharacterType>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+
+  <Object id="0x5002" name="Soul Hunter Skin">
+    <Type>SkinUnlocker</Type>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>SoulRanger</Set>
+    </Texture>
+
+    <Description>Unlocks the "Soul Hunter" skin for a ranger.</Description>
+
+    <CharacterType>0x1</CharacterType>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+
+  <Object id="0x5003" name="Plague Doctor Skin">
+    <Type>SkinUnlocker</Type>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>PlagueDoctor</Set>
+    </Texture>
+
+    <Description>Unlocks the "Plague Doctor" skin for a brewer.</Description>
+
+    <CharacterType>0xa</CharacterType>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+
+  <Object id="0x5004" name="Prince of Sands Skin">
+    <Type>SkinUnlocker</Type>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>PrinceOfSands</Set>
+    </Texture>
+
+    <Description>Unlocks the "Prince of Sands" skin for a berserker.</Description>
+
+    <CharacterType>0x6</CharacterType>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+
+  <Object id="0x5005" name="Baldweaver Skin">
+    <Type>SkinUnlocker</Type>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>Baldweaver</Set>
+    </Texture>
+
+    <Description>Unlocks the "Baldweaver" skin for a bladeweaver.</Description>
+
+    <CharacterType>0x8</CharacterType>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+
+  <Object id="0x5006" name="Mannah's Guard Skin">
+    <Type>SkinUnlocker</Type>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>MannahsGuard</Set>
+    </Texture>
+
+    <Description>Unlocks the "Mannah's Guard" skin for a commander.</Description>
+
+    <CharacterType>0x3</CharacterType>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+
+  <Object id="0x5007" name="Mythic Brotherhood Skin">
+    <Type>SkinUnlocker</Type>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>MythicBrotherhood</Set>
+      <Effect>MythicPixels</Effect>
+      <EffectPosition>Bottom</EffectPosition>
+    </Texture>
+
+    <Description>Unlocks the "Mythic Brotherhood" skin for a nomad.</Description>
+
+    <CharacterType>0x7</CharacterType>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+
+  <Object id="0x5008" name="Crusading Commander Skin">
+    <Type>SkinUnlocker</Type>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>CrusadingKnight</Set>
+    </Texture>
+
+    <Description>Unlocks the "Crusading Commander" skin for a commander.</Description>
+
+    <CharacterType>0x3</CharacterType>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+
+  <Object id="0x5009" name="Black Lancer Skin">
+    <Type>SkinUnlocker</Type>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>BlackKnightSkin</Set>
+    </Texture>
+
+    <Description>Unlocks the "Black Lancer" skin for a lancer.</Description>
+
+    <CharacterType>0x4</CharacterType>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+
+  <Object id="0x500a" name="Crusading Minister Skin">
+    <Type>SkinUnlocker</Type>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>TemplarMinister</Set>
+    </Texture>
+
+    <Description>Unlocks the "Crusading Minister" skin for a minister.</Description>
+
+    <CharacterType>0x9</CharacterType>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+
+  <Object id="0x500b" name="Master of the Order Skin">
+    <Type>SkinUnlocker</Type>
+
+    <Texture>
+      <Type>Character</Type>
+      <Set>MasterOfTheOrder</Set>
+      <Effect>MasterOrderPixels</Effect>
+      <EffectPosition>Bottom</EffectPosition>
+    </Texture>
+
+    <Description>Unlocks the "Master of the Order" skin for an alchemist.</Description>
+
+    <CharacterType>0x5</CharacterType>
+    <Consumable/>
+    <Unlockable/>
+  </Object>
+</Objects>

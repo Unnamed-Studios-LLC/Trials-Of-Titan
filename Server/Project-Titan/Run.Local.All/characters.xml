@@ -1,0 +1,28 @@
+<Object id="0x1" name="Warrior">
+  <Type>Character</Type>
+
+  <Stat type="Health">
+    <Base>100</Base>
+    <Max>500</Max>
+  </Stat>
+  <Stat type="Mana">
+    <Base>100</Base>
+    <Max>500</Max>
+  </Stat>
+  <Stat type="Speed">
+    <Base>10</Base>
+    <Max>50</Max>
+  </Stat>
+  <Stat type="Defense">
+    <Base>10</Base>
+    <Max>50</Max>
+  </Stat>
+  <Stat type="Vigor">
+    <Base>10</Base>
+    <Max>500</Max>
+  </Stat>
+  <Stat type="Intellect">
+    <Base>10</Base>
+    <Max>50</Max>
+  </Stat>
+</Object>

@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\Xmls\Characters.xml" />
+    <None Remove="Data\Xmls\Enemies.xml" />
+    <None Remove="Data\Xmls\Items.xml" />
+    <None Remove="Data\Xmls\LootBags.xml" />
+    <None Remove="Data\Xmls\Pets.xml" />
+    <None Remove="Data\Xmls\Projectiles.xml" />
+    <None Remove="Data\Xmls\Skins.xml" />
+    <None Remove="Data\Xmls\StaticObjects.xml" />
+    <None Remove="Data\Xmls\Tiles.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\Xmls\characters.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Xmls\enemies.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Xmls\items.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Xmls\lootbags.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Xmls\pets.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Xmls\projectiles.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Xmls\skins.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Xmls\staticobjects.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Xmls\tiles.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Files\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Utils.NET\Utils.NET\Utils.NET.csproj" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <ItemGroup>
+        <MySourceFiles Include="$(ProjectDir)Data\Xmls\**\*.*" />
+    </ItemGroup>
+    <ItemGroup>
+        <DllFiles Include="$(OutDir)TitanCore.dll;$(OutDir)Utils.NET.dll" />
+    </ItemGroup>
+
+  </Target>
+</Project>
