@@ -5,13 +5,15 @@
 ## Setup
 
 `[server]`
+
 1. Open `Server\Project-Titan\Project-Titan.sln`
 2. Run project `Run.Local.All`
 
 `[client]`
-3. Open client in Unity (tested on `2019.4.3f1`, newer may work)
-4. Run the client
-5. Register with any email and a password
-6. Press `I verified`
-7. Choose a name
-8. Create and character and play
+
+1. Open client in Unity (tested on `2019.4.3f1`, newer may work)
+2. Run the client
+3. Register with any email and a password
+4. Press `I verified`
+5. Choose a name
+6. Create and character and play
