@@ -6,8 +6,11 @@
 
 `[pre-requisite]`
 
-1. Download DynamoDb local - [Install instructions](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html#DynamoDBLocal.DownloadingAndRunning.title)
-2. Run DynamoDb local
+1. Download and install [Java Runtime Environment](https://download.oracle.com/java/19/latest/jdk-19_windows-x64_bin.exe)
+
+`[database]`
+
+1. Run `Database\DynamoDb\run.bat`
 
 `[server]`
 
