@@ -7,9 +7,6 @@ Client/Project-Titan-Client/[Ll]ibrary/
 **/bin/**
 Assets/AssetStoreTools*
 
-Client/Project-Titan-Client/Assets/Plugins/*.dll
-Client/Project-Titan-Client/Assets/StreamingAssets/Data/*
-
 [Pp]ackages/
 
 # Visual Studio cache directory
