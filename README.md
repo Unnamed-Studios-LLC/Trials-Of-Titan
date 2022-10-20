@@ -11,7 +11,7 @@
 
 `[server]`
 
-1. Open `Server\Project-Titan\Project-Titan.sln`
+1. Open `Server\Project-Titan\Project-Titan.sln` **as administrator**
 2. Run project `Run.Local.All`
 
 `[client]`
