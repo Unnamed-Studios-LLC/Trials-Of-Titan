@@ -6,7 +6,7 @@
 
 `[pre-requisite]`
 
-1. Download DynamoDb local `[Download](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html#DynamoDBLocal.DownloadingAndRunning.title)`
+1. Download DynamoDb local [Download](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html#DynamoDBLocal.DownloadingAndRunning.title)
 2. Run DynamoDb local
 
 `[server]`
