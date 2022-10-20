@@ -6,8 +6,8 @@ namespace TitanDatabase
 {
     public static class AwsConstants
     {
-        public const string Key = "--- AWS KEY ---";
+        public const string Key = "";
 
-        public const string Secret = "--- AWS SECRET ---";
+        public const string Secret = "";
     }
 }

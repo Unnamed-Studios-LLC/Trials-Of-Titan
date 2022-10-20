@@ -64,14 +64,13 @@ namespace TitanCore.Data.Map
             tag = xml.String("Tag", null);
 
             foreach (var el in xml.Elements("TileChange"))
-                change = new TileChange(new XmlParser(el));
+                change = new TileChange(el);
 
             foreach (var el in xml.Elements("Animated"))
             {
-                var xmlP = new XmlParser(el);
                 animated = true;
-                framesPerSecond = xmlP.AtrFloat("fps");
-                selectionType = xmlP.AtrEnum("selection", TileFrameSelectionType.Sequence);
+                framesPerSecond = el.AtrFloat("fps");
+                selectionType = el.AtrEnum("selection", TileFrameSelectionType.Sequence);
             }
         }
     }

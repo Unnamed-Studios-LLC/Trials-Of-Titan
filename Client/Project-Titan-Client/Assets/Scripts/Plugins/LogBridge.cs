@@ -12,7 +12,7 @@ public class LogBridge : MonoBehaviour
 {
     private void Awake()
     {
-        Log.WriteMethod = Write;
+        Log.backupWrite = Write;
 
         //Debug.Log(typeof(TileInfo).Assembly.FullName);
         //Debug.Log(typeof(Vec2).Assembly.FullName);

@@ -75,7 +75,7 @@ namespace World.Net
         /// <summary>
         /// Rsa decryption used to read client secrets
         /// </summary>
-        private static Rsa rsa = new Rsa(Database.Rsa_Private_Key);
+        private static Rsa rsa = new Rsa(Database.Rsa_Private_Key, true);
 
         /// <summary>
         /// Timer used to ping the client's connection

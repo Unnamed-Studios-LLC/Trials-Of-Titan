@@ -30,7 +30,7 @@ namespace TitanCore.Data.Components
         public void Parse(XmlParser xml)
         {
             type = xml.AtrEnum("type", StatType.Speed);
-            amount = xml.IntValue;
+            amount = xml.intValue;
         }
     }
 }

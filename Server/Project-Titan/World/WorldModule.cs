@@ -168,7 +168,7 @@ namespace World
                     instanceId = "local"
                 });
 
-                LogDps();
+                //LogDps();
 
                 var nexus = (Nexus)startWorlds[0];
                 nexus.AddPortal(startWorlds[2]);
@@ -204,7 +204,7 @@ namespace World
                     sep = '=';
             }
 
-            Log.Write(str, ConsoleColor.Green);
+            Log.Write(str.ToString(), ConsoleColor.Green);
         }
 
         public override void Stop()

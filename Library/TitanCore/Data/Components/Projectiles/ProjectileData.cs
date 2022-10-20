@@ -123,9 +123,9 @@ namespace TitanCore.Data.Components.Projectiles
             maxDamageMod = xml.Float("MaxDamageMod", minDamageMod);
 
             foreach (var reference in xml.Elements("ProjectileRef"))
-                projReference = new ProjectileRef(new XmlParser(reference));
+                projReference = new ProjectileRef(reference);
 
-            onHitEffects = xml.Elements("StatusEffect").Select(_ => new StatusEffectData(new XmlParser(_))).ToArray();
+            onHitEffects = xml.Elements("StatusEffect").Select(_ => new StatusEffectData(_)).ToArray();
 
             var range = xml.Float("Range", 0);
             if (range > 0)

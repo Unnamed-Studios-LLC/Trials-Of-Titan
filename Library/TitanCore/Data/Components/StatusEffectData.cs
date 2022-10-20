@@ -30,7 +30,7 @@ namespace TitanCore.Data.Components
         public void Parse(XmlParser xml)
         {
             type = xml.AtrEnum("type", StatusEffect.Slowed);
-            duration = (uint)xml.IntValue;
+            duration = (uint)xml.intValue;
         }
     }
 }

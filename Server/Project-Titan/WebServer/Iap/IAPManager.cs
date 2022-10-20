@@ -61,6 +61,7 @@ namespace WebServer.Iap
 
         public IapManager()
         {
+            /*
             http = new HttpClient();
             discordHttp = new HttpClient();
             discordHttp.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bot", Discord_Token);
@@ -85,6 +86,7 @@ namespace WebServer.Iap
                 HttpClientInitializer = credential,
                 ApplicationName = "Trials of Titan Server"
             });
+            */
         }
 
         private void OnTimer(object state)

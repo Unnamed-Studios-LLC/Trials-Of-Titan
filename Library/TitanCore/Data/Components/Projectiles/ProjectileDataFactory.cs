@@ -13,7 +13,7 @@ namespace TitanCore.Data.Components.Projectiles
 
         public static IEnumerable<ProjectileData> ParseProjectiles(XmlParser xml)
         {
-            var list = xml.Elements("Projectile").Select(_ => Create(new XmlParser(_))).ToList();
+            var list = xml.Elements("Projectile").Select(Create).ToList();
             int skipCount = 0;
             int cycleIndex = 0;
             for (int i = 0; i < list.Count; i++)

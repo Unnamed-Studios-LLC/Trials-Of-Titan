@@ -91,7 +91,7 @@ namespace TitanCore.Data
             if (textures.Length == 0)
                 textures = new TextureData[] { new StillTextureData(name) };
 
-            foreach (var sfx in xml.Elements("Sfx").Select(_ => new SfxData(new XmlParser(_))))
+            foreach (var sfx in xml.Elements("Sfx").Select(_ => new SfxData(_)))
             {
                 if (!soundEffects.TryGetValue(sfx.type, out var list))
                 {
@@ -110,8 +110,8 @@ namespace TitanCore.Data
         private TextureData[] ParseTextures(XmlParser xml)
         {
             var textures = new List<TextureData>();
-            textures.AddRange(xml.Elements("Texture").Select(_ => TextureData.Create(new XmlParser(_))));
-            textures.AddRange(xml.Elements("Sprite").Select(_ => new StillTextureData(_.Value)));
+            textures.AddRange(xml.Elements("Texture").Select(TextureData.Create));
+            textures.AddRange(xml.Elements("Sprite").Select(_ => new StillTextureData(_.stringValue)));
             return textures.ToArray();
         }
 

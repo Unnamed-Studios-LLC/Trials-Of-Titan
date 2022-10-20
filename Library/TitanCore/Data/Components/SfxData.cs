@@ -36,7 +36,7 @@ namespace TitanCore.Data.Components
         public void Parse(XmlParser xml)
         {
             type = xml.AtrEnum("type", SfxType.Shoot);
-            soundName = xml.StringValue;
+            soundName = xml.stringValue;
         }
     }
 }

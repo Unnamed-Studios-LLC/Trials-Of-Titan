@@ -10,7 +10,7 @@ namespace TitanCore.Net
 {
     public static class NetConstants
     {
-        public const string Rsa_Public_Key = "AQEAAGbPNII8lUNpQltrgZjZEUu2WMo6XejB3p3bUoD3AJoIplMyw6CstY25nr1ramu04w2c9q7/AF1B5pXrdJ/LovR4RBrGSkJJqjwbZh7AyWehMKQbfSQN7+3yndutQbV4pJKivxpDGY4yuYfO8l//HzYUDnFdxjBWQFHf0Fk58pMDBwAAAAIAAgA=";
+        public const string Rsa_Public_Key = "eyJEIjpudWxsLCJEUCI6bnVsbCwiRFEiOm51bGwsIkV4cG9uZW50IjoiQVFBQiIsIkludmVyc2VRIjpudWxsLCJNb2R1bHVzIjoiMU1YUTFhNnBUM2tRUzhuMVJKaUgyNkNVMU1GOGFzVzRRNTRkdUNKN1pscFJqWVIzaysza20zNmJjQWFGVmtvak1kSTU2VFlBT2FQWW9nK0xuT0E3akRubFBQWTZMWkJoN0lUZmVRYWRyZ25Xd2hyT21yT1hyVEF2L0ErQlZ1d1JaRGFWdnF5ZEEwU0NoUEcxWThIblI2YkVPZ0laaHRXMmgrd3UrMG82WnBFPSIsIlAiOm51bGwsIlEiOm51bGx9";
 
         public const int Max_Chat_Length = 120;
 

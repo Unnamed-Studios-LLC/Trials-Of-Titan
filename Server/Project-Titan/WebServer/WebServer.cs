@@ -35,7 +35,7 @@ namespace WebServer
     public class WebServer
     {
 #if DEBUG
-        private const string Prefix = "https://*:8443/";
+        private const string Prefix = "http://*:8443/";
 #else
         private const string Prefix = "https://*.trialsoftitan.com/";
 #endif
@@ -45,7 +45,7 @@ namespace WebServer
         /// <summary>
         /// Rsa decryption used to read secrets
         /// </summary>
-        private static Rsa rsa = new Rsa(Database.Rsa_Private_Key);
+        private static Rsa rsa = new Rsa(Database.Rsa_Private_Key, true);
 
         private WebListener listener;
 
@@ -59,13 +59,13 @@ namespace WebServer
 
         private ServerList serverList = new ServerList();
 
-        private IapManager iapManager;
+        //private IapManager iapManager;
 
         public WebServer()
         {
             broadcastListener = new BroadcastListener();
 
-            iapManager = new IapManager();
+            //iapManager = new IapManager();
 
             listener = new WebListener(Prefix);
             listener.AddHandler("privacy", HandlePrivacyPolicy);
@@ -515,7 +515,7 @@ namespace WebServer
             if (AnyNull(receiptData, accountIdString)) return new WebVerifyResponse(false);
             if (!ulong.TryParse(accountIdString, out var accountId)) return new WebVerifyResponse(false);
 
-            int currencyAmount = await iapManager.VerifyApplePurchase(receiptData, accountId, false, context.Request.RemoteEndPoint.Address);
+            int currencyAmount = -1;// iapManager.VerifyApplePurchase(receiptData, accountId, false, context.Request.RemoteEndPoint.Address);
             if (currencyAmount < 0)
                 return new WebVerifyResponse(false);
 
@@ -539,7 +539,7 @@ namespace WebServer
             if (AnyNullOrEmpty(token, productId, accountIdString)) return new WebVerifyResponse(false);
             if (!ulong.TryParse(accountIdString, out var accountId)) return new WebVerifyResponse(false);
 
-            int currencyAmount = await iapManager.VerifyAndroidPurchase(token, productId, accountId, context.Request.RemoteEndPoint.Address);
+            int currencyAmount = -1;// iapManager.VerifyAndroidPurchase(token, productId, accountId, context.Request.RemoteEndPoint.Address);
             if (currencyAmount < 0)
                 return new WebVerifyResponse(false);
 
@@ -564,8 +564,8 @@ namespace WebServer
             if (AnyNullOrEmpty(steamId, languageCode, productId, accountIdString)) return new WebVerifyResponse(false);
             if (!ulong.TryParse(accountIdString, out var accountId)) return new WebVerifyResponse(false);
 
-            var response = await iapManager.StartSteamPurchase(steamId, languageCode, productId, accountId);
-            return response;
+            //var response = await iapManager.StartSteamPurchase(steamId, languageCode, productId, accountId);
+            return new WebSteamInitTxnResponse(false);
         }
 
         private async Task<object> HandleSteamPurchaseVerify(HttpListenerContext context, NameValueCollection query)
@@ -581,7 +581,7 @@ namespace WebServer
             if (AnyNullOrEmpty(orderIdString, accountIdString)) return new WebVerifyResponse(false);
             if (!ulong.TryParse(accountIdString, out var accountId) || !ulong.TryParse(orderIdString, out var orderId)) return new WebVerifyResponse(false);
 
-            var currencyAmount = await iapManager.FinalizeSteamPurchase(orderId);
+            var currencyAmount = -1;// await iapManager.FinalizeSteamPurchase(orderId);
 
             if (currencyAmount < 0)
                 return new WebVerifyResponse(false);
@@ -602,7 +602,7 @@ namespace WebServer
             if (AnyNull(entitlementId, accountIdString)) return new WebVerifyResponse(false);
             if (!ulong.TryParse(accountIdString, out var accountId)) return new WebVerifyResponse(false);
 
-            int currencyAmount = await iapManager.VerifyDiscordPurchase(entitlementId, accountId, context.Request.RemoteEndPoint.Address);
+            int currencyAmount = -1;// await iapManager.VerifyDiscordPurchase(entitlementId, accountId, context.Request.RemoteEndPoint.Address);
             if (currencyAmount < 0)
                 return new WebVerifyResponse(false);
 

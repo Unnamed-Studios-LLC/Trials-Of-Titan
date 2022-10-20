@@ -35,7 +35,7 @@ public static class WebClient
 
     private static string Web_Server_Url = "https://web.trialsoftitan.com/";
 
-    private static string Local_Web_Server_Url = "https://local.trialsoftitan.com:8443/";
+    private static string Local_Web_Server_Url = "http://localhost:8443/";
 
     private static string Debug_Web_Server_Url = Local_Web_Server_Url;
 
@@ -63,11 +63,7 @@ public static class WebClient
         T result = default;
         try
         {
-            string url;
-            if (Debug.isDebugBuild)
-                url = Debug_Web_Server_Url + path;
-            else
-                url = Web_Server_Url + path;
+            string url = Debug_Web_Server_Url + path;
 
             var content = new FormUrlEncodedContent(query);
             var response = await client.PostAsync(url, content);

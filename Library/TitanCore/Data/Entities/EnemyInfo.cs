@@ -72,7 +72,7 @@ namespace TitanCore.Data.Entities
             shortName = xml.String("ShortName", name);
             //level = xml.Int("Level");
             soulGroup = xml.Enum("SoulGroup", SoulGroup.OceanBeach);
-            lootTiers = xml.Elements("LootTier").Select(_ => new XmlParser(_).IntValue).ToArray();
+            lootTiers = xml.Elements("LootTier").Select(_ => _.intValue).ToArray();
             titan = xml.Exists("Titan");
         }
     }

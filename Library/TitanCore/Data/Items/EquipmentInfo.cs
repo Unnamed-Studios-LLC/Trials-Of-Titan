@@ -31,7 +31,7 @@ namespace TitanCore.Data.Items
             if (Enum.TryParse<ItemTier>(xml.AtrString("tier", "-1"), true, out var result))
                 tier = result;
 
-            foreach (var statIncrease in xml.Elements("StatIncrease").Select(_ => new StatIncrease(new XmlParser(_))))
+            foreach (var statIncrease in xml.Elements("StatIncrease").Select(_ => new StatIncrease(_)))
             {
                 if (!statIncreases.TryGetValue(statIncrease.type, out var amount))
                     amount = 0;
@@ -39,7 +39,7 @@ namespace TitanCore.Data.Items
                 statIncreases[statIncrease.type] = amount;
             }
 
-            foreach (var increase in xml.Elements("AlternateStatIncrease").Select(_ => new AlternateStatIncrease(new XmlParser(_))))
+            foreach (var increase in xml.Elements("AlternateStatIncrease").Select(_ => new AlternateStatIncrease(_)))
             {
                 if (!alternateStatIncreases.TryGetValue(increase.type, out var amount))
                     amount = 0;

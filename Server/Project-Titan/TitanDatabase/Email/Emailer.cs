@@ -28,8 +28,10 @@ namespace TitanDatabase.Email
 
 "Welcome to Trials of Titan! \n\nBefore you can play, we need to verify your email! \n\nJust visit this link to verify your email address: \n\n#link \n\nThis verification link will expire in 24 hours", '#');
 
-        public static async Task<bool> SendVerificationEmail(string address, string token)
+        public static Task<bool> SendVerificationEmail(string address, string token)
         {
+            return Task.FromResult(true);
+            /*
             verificationTemplate.Build(new Dictionary<string, string>
             {
                 { "link", $"{Web_Server_Url}/v1/account/verify?token={token}" }
@@ -59,10 +61,12 @@ namespace TitanDatabase.Email
                     }
                 }
             });
+            */
         }
 
         public static void SendBugReport(string message)
         {
+            /*
             var task = Task.Run(() => SendEmail(new SendEmailRequest()
             {
                 Source = Email_Source,
@@ -84,6 +88,7 @@ namespace TitanDatabase.Email
                 }
             }));
             task.GetAwaiter().GetResult();
+            */
         }
 
         private static async Task<bool> SendEmail(SendEmailRequest request)

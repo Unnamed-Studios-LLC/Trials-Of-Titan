@@ -34,7 +34,7 @@ namespace TitanCore.Data.Map
         {
             base.Parse(xml);
 
-            meshNames = xml.Elements("Mesh").Select(_ => _.Value).ToArray();
+            meshNames = xml.Elements("Mesh").Select(_ => _.stringValue).ToArray();
             health = xml.Int("Health", 0);
             if (meshNames.Length == 0)
                 meshNames = new string[] { name };

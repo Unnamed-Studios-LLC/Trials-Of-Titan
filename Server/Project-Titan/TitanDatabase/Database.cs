@@ -178,7 +178,7 @@ namespace TitanDatabase
 
     public static class Database
     {
-        public const string Rsa_Private_Key = "--- RSA PRIVATE KEY ---";
+        public const string Rsa_Private_Key = "eyJEIjoib2tNVlpzL2phS3NmcFZ5b0FoNzhoSjVxd2ZHb2ExakxsQzF4NXFuTlI1b2JWWHd2SVE0cjUvVmVuc2txU0VzVG1md0RrL2xOcEtkeUh1MFNBSm4wYmpEb1VtUTVqZFh1Z0k5a1l4WUJ6dGJNYURlTU5nVzJBNjBqY0NLdGlXa3Y5dG0yQjE0Yy8rY2Rnb1dkTEVzeW5ZMTRIMXp4V2M1aTZWSlNhMVlJdGYwPSIsIkRQIjoiWXA5OVJmQ0hIdmlnSXcxV1NUWDViVVlZSHB3ZGw4RjNocXB5RWdHSnp4c1VwbUEvSUtwZmY4cmRNMG1MRHRDT09hR2dlaE81RlNFSWtvTFpGTVcyV1E9PSIsIkRRIjoieUVsVUl5em1tSXVzQVdpSXlMOHRBaDZtcmxGQktiM3g5bXBLVUUvZldqczFxVG1NUmp2bGF5dGhzU0U5TG1lLy9YOUZ0aVo1RjFtTmF6di8vSXAzb3c9PSIsIkV4cG9uZW50IjoiQVFBQiIsIkludmVyc2VRIjoiMDZiT05tNW9IaXFvLzRkTGlIMlVzdDhySGtqUnJ6ME5TSWpXdUo3QzZ5UE00ZnA2OFhPdmwyTnNmY1JSZFh5Q0xSOStwajdRam01bGY2VnVXcno2dFE9PSIsIk1vZHVsdXMiOiIxTVhRMWE2cFQza1FTOG4xUkppSDI2Q1UxTUY4YXNXNFE1NGR1Q0o3WmxwUmpZUjNrKzNrbTM2YmNBYUZWa29qTWRJNTZUWUFPYVBZb2crTG5PQTdqRG5sUFBZNkxaQmg3SVRmZVFhZHJnbld3aHJPbXJPWHJUQXYvQStCVnV3UlpEYVZ2cXlkQTBTQ2hQRzFZOEhuUjZiRU9nSVpodFcyaCt3dSswbzZacEU9IiwiUCI6Ijd6WEdySkRrdnllRTNlZm8zbGxqWEcybTFVRGlEem5jKzgvZ2IzUXhiTVozLzVkMFBjbW44aWJhemdBMk1vT2hESGVNdi9SYmZsVm1aVXVqNTVVVTh3PT0iLCJRIjoiNDdVQXNNcDdGV2I1cjI4cHM3WjNHcFBsbTIzczFsRkhCR2s0QkVYbVFyUzRkbGJ2TGxucEVsQk9OM3NWUDV5NmEzNjErSWYySmkxdlFSMk5IVWdIYXc9PSJ9";
 
         private static AmazonDynamoDBClient client;
         public static AmazonDynamoDBClient Client => client;
@@ -708,7 +708,8 @@ namespace TitanDatabase
 #if DEBUG
                 rank = Rank.Admin,
 #endif
-                bannedUntil = DateTime.UtcNow.AddDays(-1)
+                bannedUntil = DateTime.UtcNow.AddDays(-1),
+                verifiedEmail = true
             };
 
 

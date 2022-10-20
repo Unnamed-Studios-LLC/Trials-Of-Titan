@@ -17,7 +17,7 @@ using Utils.NET.Net.Udp.Reliability;
 
 public class Client : NetConnection<TnPacket>//UdpClient<TnPacket>
 {
-    private static Rsa rsa = new Rsa(NetConstants.Rsa_Public_Key);
+    private static Rsa rsa = new Rsa(NetConstants.Rsa_Public_Key, false);
 
     //private const string Game_Host = "3.17.35.212";
 
