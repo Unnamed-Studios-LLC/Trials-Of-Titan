@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using TitanCore.Iap;
 using TitanCore.Net.Web;
 using UnityEngine;
-using UnityEngine.Purchasing;
 
 #if UNITY_IOS || UNITY_ANDROID
 
